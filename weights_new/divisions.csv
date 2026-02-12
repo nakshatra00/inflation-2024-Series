@@ -1,0 +1,13 @@
+Division_Code,Division_Name,Weight,Include_in_CPI
+1.0,Food and beverages,36.75310631010086,True
+2.0,"Paan, tobacco and intoxicants",2.989451347448025,True
+3.0,Clothing and footwear,6.383257147762339,True
+4.0,"Housing, water, electricity, gas and other fuels",17.664572688342968,True
+5.0,"Furnishings, household equipment and routine household maintenance",4.469393206039356,True
+6.0,Health,6.100263352725647,True
+7.0,Transport,8.796113391562445,True
+8.0,Information and communication,3.6094384689580568,True
+9.0,"Recreation, sport and culture",1.5158147751142863,True
+10.0,Education services,3.3333088103870443,True
+11.0,Restaurants and accommodation services,3.3475203529668733,True
+13.0,"Personal care, social protection and miscellaneous goods and services",5.03776014859179,True

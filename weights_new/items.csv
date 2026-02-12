@@ -1,0 +1,359 @@
+Item_Code,Item_Name,Subclass_Code,Weight,Include_in_CPI
+01.1.1.1.1.01,Rice,01.1.1.1,2.013186374446197,True
+01.1.1.1.1.02,Wheat,01.1.1.1,0.7675494178800097,True
+01.1.1.1.1.03,Jowar and its products,01.1.1.1,0.06223313079050647,True
+01.1.1.1.1.04,Ragi and its products,01.1.1.1,0.029888073273070758,True
+01.1.1.1.1.05,Bajra and its products,01.1.1.1,0.04549625610695735,True
+01.1.1.1.1.06,Maize and its products,01.1.1.1,0.03646871708174495,True
+01.1.1.1.1.07,Small millets and its products,01.1.1.1,0.006308371448723077,True
+01.1.1.1.1.08,Barley and its products,01.1.1.1,0.005306349951887014,True
+01.1.1.1.1.09,Other cereals and products,01.1.1.1,0.03031715218771389,True
+01.1.1.1.1.10,Other wheat products,01.1.1.1,0.0065365201754364055,True
+01.1.1.1.1.11,Rice PDS,01.1.1.1,0.020180930825447883,True
+01.1.1.1.1.12,Wheat PDS,01.1.1.1,0.0003589865425434189,True
+01.1.1.2.1.01,Wheat atta,01.1.1.2,0.7665654198469133,True
+01.1.1.2.1.02,Maida,01.1.1.2,0.04346173927891989,True
+01.1.1.2.1.03,Wheat atta PDS,01.1.1.2,0.002125276738076587,True
+01.1.1.3.1.01,Biscuits,01.1.1.3,0.7382312110433218,True
+01.1.1.3.1.02,"Chips , nachos, puffs, wafers, etc.",01.1.1.3,0.32273182154755997,True
+01.1.1.3.1.03,"Cake, pastry",01.1.1.3,0.2116839679668253,True
+01.1.1.3.1.04,Bread (bakery),01.1.1.3,0.207072588795206,True
+01.1.1.4.1.01,Breakfast cereals,01.1.1.4,0.09011848515895318,True
+01.1.1.4.1.02,Muri,01.1.1.4,0.08793012037811493,True
+01.1.1.4.1.03,Other rice products,01.1.1.4,0.016823814964968303,True
+01.1.1.5.1.01,Noodles,01.1.1.5,0.230057772787517,True
+01.1.1.5.1.02,Vermicelli (sewai),01.1.1.5,0.030815022298188385,True
+01.1.1.9.1.01,"Suji, rawa",01.1.1.9,0.08967785159872055,True
+01.1.1.9.1.02,Chidwa,01.1.1.9,0.08450611093697405,True
+01.1.2.2.1.01,Chicken,01.1.2.2,1.5751572862088397,True
+01.1.2.2.1.02,Goat meat/ mutton,01.1.2.2,0.6824698317567738,True
+01.1.2.2.1.03,Beef/ buffalo meat,01.1.2.2,0.18303813147580472,True
+01.1.2.2.1.04,Pork,01.1.2.2,0.0582025995340655,True
+01.1.2.2.1.05,"Others: birds, crab,oyster, etc.",01.1.2.2,0.016683838994943426,True
+01.1.3.1.1.01,Fish and prawn,01.1.3.1,1.0223193227278602,True
+01.1.4.1.1.01,Milk: liquid,01.1.4.1,5.255174458527576,True
+01.1.4.3.1.01,Milk: condensed/ powder,01.1.4.3,0.04757674479898128,True
+01.1.4.5.1.01,Paneer,01.1.4.5,0.2656699010340984,True
+01.1.4.5.1.02,Cheese,01.1.4.5,0.002793595214464097,True
+01.1.4.6.1.01,"Curd, yogurt",01.1.4.6,0.25080951346370584,True
+01.1.4.6.1.02,Butter milk,01.1.4.6,0.04790639352178905,True
+01.1.4.6.1.03,Lassi,01.1.4.6,0.038923905154920085,True
+01.1.4.7.1.01,Tea: cups,01.1.4.7,0.5420545846904576,True
+01.1.4.7.1.02,Prepared sweets- milk based,01.1.4.7,0.2857120165687984,True
+01.1.4.7.1.03,Coffee: cups,01.1.4.7,0.0439338930468911,True
+01.1.4.8.1.01,Eggs,01.1.4.8,0.4938257533090902,True
+01.1.4.9.1.01,Other milk products,01.1.4.9,0.007756386560375696,True
+01.1.5.1.1.01,Refined oil,01.1.5.1,1.0469874787005857,True
+01.1.5.1.1.02,Mustard oil,01.1.5.1,0.9605357722795581,True
+01.1.5.1.1.03,Groundnut oil,01.1.5.1,0.0837833659018066,True
+01.1.5.1.1.04,Coconut oil,01.1.5.1,0.05787921777046586,True
+01.1.5.1.1.05,Edible oil,01.1.5.1,0.013253138987713416,True
+01.1.5.1.1.06,Edible oil PDS,01.1.5.1,0.02229253726843668,True
+01.1.5.2.1.01,Ghee,01.1.5.2,0.5180149914713876,True
+01.1.5.2.1.02,Butter,01.1.5.2,0.03198919915385806,True
+01.1.5.3.1.01,Vanaspati and margarine,01.1.5.3,0.008184838944219296,True
+01.1.6.1.1.01,Banana,01.1.6.1,0.4654180301733227,True
+01.1.6.1.1.02,Mango,01.1.6.1,0.3064552665846312,True
+01.1.6.1.1.03,Green coconut,01.1.6.1,0.13717191908971102,True
+01.1.6.1.1.04,Coconut,01.1.6.1,0.193105926970344,True
+01.1.6.1.1.05,Papaya,01.1.6.1,0.10959736005273332,True
+01.1.6.1.1.06,Guava,01.1.6.1,0.10104480202362884,True
+01.1.6.1.1.07,Pineapple,01.1.6.1,0.014254289586690706,True
+01.1.6.1.1.08,Fig: anjeer,01.1.6.1,0.005072128306980694,True
+01.1.6.2.1.01,Orange and sweet lime (mausami),01.1.6.2,0.1442503578786144,True
+01.1.6.2.1.02,Lemon,01.1.6.2,0.13672186373367257,True
+01.1.6.3.1.01,Apple,01.1.6.3,0.5615285951197465,True
+01.1.6.3.1.02,Litchi,01.1.6.3,0.010169384291430016,True
+01.1.6.3.1.03,Pears/ nashpati,01.1.6.3,0.004851525649141731,True
+01.1.6.3.1.04,Apricot,01.1.6.3,0.0011058842777782324,True
+01.1.6.4.1.01,Berries,01.1.6.4,0.0024909965306104676,True
+01.1.6.5.1.01,Grapes,01.1.6.5,0.15741131756721433,True
+01.1.6.5.1.02,Watermelon,01.1.6.5,0.12953814639983233,True
+01.1.6.5.1.03,Kharbooza,01.1.6.5,0.03257928226895726,True
+01.1.6.5.1.04,Singara,01.1.6.5,0.009095018190818809,True
+01.1.6.5.1.05,Other fresh fruits,01.1.6.5,0.060106855111870514,True
+01.1.6.7.1.01,Dates,01.1.6.7,0.13953829859998507,True
+01.1.6.7.1.02,Raisin (kishmish) and monacca,01.1.6.7,0.16392471043475113,True
+01.1.6.7.1.03,Coconut: copra,01.1.6.7,0.08539296753590112,True
+01.1.6.7.1.04,Other dry fruits,01.1.6.7,0.012768486217432637,True
+01.1.6.8.1.01,Groundnut,01.1.6.8,0.3172451120434216,True
+01.1.6.8.1.02,Cashew nut,01.1.6.8,0.17677236556225284,True
+01.1.6.8.1.03,Other nuts,01.1.6.8,0.22381515219598233,True
+01.1.7.1.1.01,Cauliflower,01.1.7.1,0.23300017764002384,True
+01.1.7.1.1.02,Cabbage,01.1.7.1,0.1518406542554705,True
+01.1.7.1.1.03,Palak and other leafy vegetables,01.1.7.1,0.30822307954851097,True
+01.1.7.2.1.01,Tomato,01.1.7.2,0.4960606349435679,True
+01.1.7.2.1.02,Lady's finger,01.1.7.2,0.24877815402368578,True
+01.1.7.2.1.03,Brinjal,01.1.7.2,0.2912040487534446,True
+01.1.7.2.1.04,Green chillies,01.1.7.2,0.2378889075847694,True
+01.1.7.2.1.05,"Gourd, pumpkin",01.1.7.2,0.2034374738721659,True
+01.1.7.2.1.06,Parwal/patal and Kundru,01.1.7.2,0.12345240204564437,True
+01.1.7.3.1.01,Beans and Barbati,01.1.7.3,0.16338829537388494,True
+01.1.7.3.1.02,Peas,01.1.7.3,0.12543384280966702,True
+01.1.7.4.1.01,Onion,01.1.7.4,0.7005628269610512,True
+01.1.7.4.1.02,Garlic,01.1.7.4,0.37381188602315824,True
+01.1.7.4.1.03,Carrot,01.1.7.4,0.12177295386754283,True
+01.1.7.4.1.04,Radish,01.1.7.4,0.06563874474365444,True
+01.1.7.4.1.05,Jackfruit,01.1.7.4,0.009265881399484232,True
+01.1.7.4.1.06,Other vegetables,01.1.7.4,0.4794149566997913,True
+01.1.7.5.1.01,Potato,01.1.7.5,0.7549405247282766,True
+01.1.7.6.1.01,"Arhar, tur",01.1.7.6,0.5333412978858154,True
+01.1.7.6.1.02,Moong,01.1.7.6,0.23884066350606256,True
+01.1.7.6.1.03,Urd,01.1.7.6,0.1843103579891399,True
+01.1.7.6.1.04,Masur,01.1.7.6,0.20306643792077522,True
+01.1.7.6.1.05,Gram: split,01.1.7.6,0.11506012673605252,True
+01.1.7.6.1.06,Gram: whole,01.1.7.6,0.08854176420726667,True
+01.1.7.6.1.07,"Peas, chickpeas",01.1.7.6,0.051607167294794136,True
+01.1.7.6.1.08,Other pulses,01.1.7.6,0.0473343420206402,True
+01.1.7.6.1.09,Pulses PDS,01.1.7.6,0.012579530769379172,True
+01.1.7.9.1.01,Besan and Gram products,01.1.7.9,0.12386217262447105,True
+01.1.7.9.1.02,Pickles,01.1.7.9,0.08583244780344146,True
+01.1.7.9.1.03,Other pulse products,01.1.7.9,0.04591022128348966,True
+01.1.8.1.1.01,Sugar,01.1.8.1,0.4966060615118601,True
+01.1.8.1.1.02,Jaggery (gur),01.1.8.1,0.0809593032728266,True
+01.1.8.1.1.03,Sugar PDS,01.1.8.1,0.017454903845485658,True
+01.1.8.3.1.01,Jam/ jelly,01.1.8.3,0.011881640831807311,True
+01.1.8.3.1.02,Honey,01.1.8.3,0.012410650951794866,True
+01.1.8.5.1.01,"Chocolates, etc.",01.1.8.5,0.211434200902214,True
+01.1.8.6.1.01,Ice-cream,01.1.8.6,0.2962117918917328,True
+01.1.8.9.1.01,Prepared sweets - non milk based,01.1.8.9,0.28571064000373775,True
+01.1.8.9.1.02,"Candy, misri",01.1.8.9,0.00698400571541235,True
+01.1.9.1.1.01,Other served processed food,01.1.9.1,0.20136253240128785,True
+01.1.9.1.1.02,Other packaged processed food,01.1.9.1,0.12102722992850616,True
+01.1.9.2.1.01,Baby food,01.1.9.2,0.12483378369460024,True
+01.1.9.3.1.01,Salt,01.1.9.3,0.08229885952257847,True
+01.1.9.3.1.02,Sauce and Mayonnaise,01.1.9.3,0.011888219272249827,True
+01.1.9.3.1.03,Salt PDS,01.1.9.3,0.0003617547311919783,True
+01.1.9.4.1.01,Dry chillies,01.1.9.4,0.4049760594093911,True
+01.1.9.4.1.02,Cumin (jeera),01.1.9.4,0.3655075348959454,True
+01.1.9.4.1.03,Coriander (dhania),01.1.9.4,0.2985119810766986,True
+01.1.9.4.1.04,Ginger,01.1.9.4,0.25560287107000396,True
+01.1.9.4.1.05,Turmeric,01.1.9.4,0.2615057838090347,True
+01.1.9.4.1.06,Curry powder,01.1.9.4,0.17078064335611223,True
+01.1.9.4.1.07,Black pepper,01.1.9.4,0.11502684483562238,True
+01.1.9.4.1.08,Tamarind,01.1.9.4,0.06129201319003071,True
+01.1.9.4.1.09,Oilseeds,01.1.9.4,0.06440489236862051,True
+01.1.9.4.1.10,Poppy seeds,01.1.9.4,0.02724938251862813,True
+01.1.9.4.1.11,Other spices,01.1.9.4,0.24946357044110876,True
+01.1.9.9.1.01,"Papad, bhujia, namkeen, mixture and chanachur",01.1.9.9,0.47513914286330095,True
+01.1.9.9.1.02,Health supplements (probiotic tablet and drinks),01.1.9.9,0.03842866455704439,True
+01.2.1.0.1.01,Fruit juice,01.2.1.0,0.5190555538772847,True
+01.2.2.0.1.01,Coffee: powder,01.2.2.0,0.045221332952092415,True
+01.2.3.0.1.01,Tea: leaf,01.2.3.0,0.6741640803524797,True
+01.2.4.0.1.01,Beverages: cocoa and chocolate drink,01.2.4.0,0.10157417143467232,True
+01.2.5.0.1.01,Packaged water,01.2.5.0,0.07882319294011444,True
+01.2.6.0.1.01,Soda drinks,01.2.6.0,0.06631339262829992,True
+01.2.9.0.1.01,Health supplements (protein powder),01.2.9.0,0.03861934601911363,True
+01.2.9.0.1.02,Health drinks,01.2.9.0,0.101838005123117,True
+01.2.9.0.1.03,Other cold beverages,01.2.9.0,0.14682446910581884,True
+01.3.0.0.2.01,Grinding/ husking charges,01.3.0.0,0.20296960396849884,True
+02.1.1.0.1.01,Foreign/refined liquor or wine,02.1.1.0,0.6378075536075851,True
+02.1.1.0.1.02,Country liquor,02.1.1.0,0.39585174601894546,True
+02.1.2.2.1.01,Toddy,02.1.2.2,0.06301067189458731,True
+02.1.3.0.1.01,Beer,02.1.3.0,0.31059360713683437,True
+02.1.9.0.1.01,Other intoxicants,02.1.9.0,0.038579460593739616,True
+02.3.0.1.1.01,Cigarettes,02.3.0.1,0.3104986671397461,True
+02.3.0.2.1.01,Cheroot,02.3.0.2,0.0012155202044346334,True
+02.3.0.9.1.01,"Gutka, zarda, kimam, surti",02.3.0.9,0.43371089566897997,True
+02.3.0.9.1.02,Paan: finished,02.3.0.9,0.218392903025979,True
+02.3.0.9.1.03,Bidi,02.3.0.9,0.20205312562960398,True
+02.3.0.9.1.04,Ingredients for paan,02.3.0.9,0.11094203025047579,True
+02.3.0.9.1.05,Leaf tobacco,02.3.0.9,0.10190974452644078,True
+02.3.0.9.1.06,Paan: leaf,02.3.0.9,0.05467674107435647,True
+02.3.0.9.1.07,Hookah tobacco,02.3.0.9,0.008317398220836146,True
+02.3.0.9.1.08,Snuff,02.3.0.9,0.0016607627444123045,True
+02.3.0.9.1.09,Other tobacco products,02.3.0.9,0.1002305197110682,True
+03.1.1.0.1.01,Clothing materials,03.1.1.0,0.2987175254378822,True
+03.1.2.1.1.01,"Shirts, T-shirts, Kurta (gents)",03.1.2.1,0.6766281997240786,True
+03.1.2.1.1.02,"Trousers, jeans, track pant, shorts (gents)",03.1.2.1,0.49594484386793114,True
+03.1.2.1.1.03,"Coat, jacket, blazer, sweater, sweatshirts and windcheater (gents)",03.1.2.1,0.12526439658927838,True
+03.1.2.1.1.04,Dhoti/ Lungi,03.1.2.1,0.09735582898182624,True
+03.1.2.1.1.05,Other garments for men or boys,03.1.2.1,0.2754277194772591,True
+03.1.2.2.1.01,Saree,03.1.2.2,0.5281286274323936,True
+03.1.2.2.1.02,"Tops, shrugs, kurti (ladies)",03.1.2.2,0.3063370681364616,True
+03.1.2.2.1.03,"Trousers, jeans, slawars, Skirts (ladies)",03.1.2.2,0.5156273345173698,True
+03.1.2.2.1.04,"Coat, jacket, blazer, sweater, sweatshirts and windcheater  (ladies)",03.1.2.2,0.1050061637067362,True
+03.1.2.2.1.05,Other garments for women or girls,03.1.2.2,0.6186451253628855,True
+03.1.2.3.1.01,Garments for infants,03.1.2.3,0.04374498902950328,True
+03.1.2.4.1.01,School uniforms,03.1.2.4,0.19420743794006254,True
+03.1.3.1.1.01,"Gamchha, towel and handkerchief",03.1.3.1,0.11738418805635147,True
+03.1.3.1.1.02,Shawl and chaddar,03.1.3.1,0.0642563667712355,True
+03.1.3.1.1.03,Other articles of clothing (including knitting wool),03.1.3.1,0.09620273222016491,True
+03.1.4.1.2.01,"Washerman, laundry, ironing, dry cleaning and dyeing",03.1.4.1,0.10529484255767511,True
+03.1.4.2.2.01,Tailor,03.1.4.2,0.867427212914543,True
+03.2.1.1.1.01,Footwear for men,03.2.1.1,0.30555024794577157,True
+03.2.1.2.1.01,Footwear for women,03.2.1.2,0.2910150083731805,True
+03.2.1.3.1.01,Footwear for infants and children,03.2.1.3,0.2550912887197487,True
+04.1.1.0.2.01,House Rent,04.1.1.0,10.884970343842962,True
+04.3.1.1.1.01,"Plugs, switches and other electrical fittings",04.3.1.1,0.09476986646986472,True
+04.3.2.0.2.01,Residential building and land (minor repairs),04.3.2.0,0.7796445139273254,True
+04.3.2.0.2.02,"Repair charges for non-durables (electricity charges, plumbing charges etc.)",04.3.2.0,0.1960855857393576,True
+04.3.2.0.2.03,Watchmen/security guard,04.3.2.0,0.014342098021782086,True
+04.3.2.0.2.04,Other consumer rent,04.3.2.0,0.10387991722261182,True
+04.4.1.1.2.01,Water charges,04.4.1.1,0.17551945350377243,True
+04.4.4.9.2.01,Sweeper,04.4.4.9,0.053932278230918305,True
+04.5.1.0.2.01,Electricity charges,04.5.1.0,2.327700493361841,True
+04.5.2.2.1.01,LPG cylinder and piped natural gas,04.5.2.2,1.981365827973307,True
+04.5.3.0.1.01,Kerosene,04.5.3.0,0.005295327792437765,True
+04.5.3.0.1.02,Kerosene PDS,04.5.3.0,0.004418442013421606,True
+04.5.4.1.1.01,Coal,04.5.4.1,0.007427711701236579,True
+04.5.4.2.1.01,Firewood and chips,04.5.4.2,0.8718299098637459,True
+04.5.4.3.1.01,Charcoal,04.5.4.3,0.002804456252872323,True
+04.5.4.9.1.01,Dung cake,04.5.4.9,0.14685928408125354,True
+04.5.4.9.1.02,Fuel (biogas and gobar gas),04.5.4.9,0.013727178344257216,True
+05.1.1.1.1.01,"Chair, stool, bench and table",05.1.1.1,0.1069793300771348,True
+05.1.1.1.1.02,Almirah and dressing table,05.1.1.1,0.05507765731589026,True
+05.1.1.1.1.03,Bedstead,05.1.1.1,0.06526988911521205,True
+05.1.1.1.1.04,Other furniture and fixtures,05.1.1.1,0.04530990847095786,True
+05.1.1.3.1.01,"Lantern, lamp, electric lampshade and emergency light",05.1.1.3,0.021599451079214876,True
+05.1.1.3.1.02,"Other electric bulb, tubelight and decorative lights",05.1.1.3,0.0929351248866882,True
+05.1.1.4.1.01,"Carpet, daree and other floor mattings",05.1.1.4,0.03548072913344765,True
+05.1.1.4.1.02,"Paintings, drawings and engravings",05.1.1.4,0.008377071633018346,True
+05.2.1.1.1.01,"Cloth for upholstery, curtains, tablecloth etc.",05.2.1.1,0.014345879461371653,True
+05.2.1.2.1.01,Bed sheet and bed cover,05.2.1.2,0.14365639813750597,True
+05.2.1.2.1.02,Rug and blanket,05.2.1.2,0.10116352269510512,True
+05.2.1.2.1.03,Pillow and cushion,05.2.1.2,0.02776224253887037,True
+05.2.1.2.1.04,Quilt and mattress,05.2.1.2,0.029046352786702923,True
+05.2.1.2.1.05,Mosquito net,05.2.1.2,0.03196005926103921,True
+05.2.1.2.1.06,Bedding,05.2.1.2,0.008081435995350068,True
+05.3.1.1.1.01,Refrigerator/freezers,05.3.1.1,0.08492364522665397,True
+05.3.1.1.1.02,"stove, gas burner and induction",05.3.1.1,0.046291659156761845,True
+05.3.1.2.1.01,Washing machine,05.3.1.2,0.04992447203287239,True
+05.3.1.3.1.01,Air conditioner,05.3.1.3,0.04460185878057332,True
+05.3.1.3.1.02,Air cooler,05.3.1.3,0.06523039212655755,True
+05.3.1.3.1.03,Geysers and sterilizers,05.3.1.3,0.012868197138108824,True
+05.3.1.3.1.04,Electric air heaters and blowers,05.3.1.3,0.0049547903808214565,True
+05.3.1.3.1.05,"Ventilation system such as exhaust, chimney, etc.",05.3.1.3,0.002423539691395858,True
+05.3.1.9.1.01,Water purifier,05.3.1.9,0.02140455232614533,True
+05.3.1.9.1.02,"Inverter, generators and stabilizers",05.3.1.9,0.020515849532957153,True
+05.3.1.9.1.03,Sewing machine,05.3.1.9,0.012493843155419312,True
+05.3.1.9.1.04,Air purifier,05.3.1.9,0.0015825837733612657,True
+05.3.1.9.1.05,Other machines for household work,05.3.1.9,0.005281641107546715,True
+05.3.1.9.1.06,Other durables,05.3.1.9,0.030050225618882345,True
+05.3.2.1.1.01,"Mixer/grinder, juicer and food processor",05.3.2.1,0.06304080308560128,True
+05.3.2.1.1.02,Other cooking/ household appliances,05.3.2.1,0.023567966617319087,True
+05.3.2.9.1.01,Electric fan,05.3.2.9,0.14947873709168535,True
+05.3.2.9.1.02,Bathroom and sanitary equipment,05.3.2.9,0.06857688183216283,True
+05.3.2.9.1.03,"Electric iron, heater, toaster, micro-oven, electric kettle, vacuum cleaner and other electric heating appliances",05.3.2.9,0.03471434774286433,True
+05.4.0.1.1.01,Glassware,05.4.0.1,0.024633949140719046,True
+05.4.0.3.1.01,Bucket and other plastic goods,05.4.0.3,0.19517515810586575,True
+05.4.0.3.1.02,Stainless steel utensils,05.4.0.3,0.15370400516095908,True
+05.4.0.3.1.03,Water bottle/feeding bottle,05.4.0.3,0.02809640436787468,True
+05.4.0.3.1.04,"Casseroles, thermos, flask and thermoware",05.4.0.3,0.016787431037967114,True
+05.4.0.3.1.05,"Other metal utensils (non-stick cookware, etc.)",05.4.0.3,0.033625854995695474,True
+05.4.0.3.1.06,Other crockery and utensils,05.4.0.3,0.04813550568168668,True
+05.4.0.3.1.07,Pressure cooker/ pressure pan,05.4.0.3,0.05692167166776139,True
+05.5.2.2.1.01,"LED bulb, CFL bulbs",05.5.2.2,0.17386876623819766,True
+05.5.2.2.1.02,Electric batteries,05.5.2.2,0.03286386382179696,True
+05.5.2.2.1.03,Other minor durable-type goods,05.5.2.2,0.031570027611733935,True
+05.6.1.1.1.01,Washing soap/soda/powder/liquid detergent,05.6.1.1,0.5781294975004553,True
+05.6.1.1.1.02,"Floor cleaner, toilet cleaner",05.6.1.1,0.19196042073676597,True
+05.6.1.1.1.03,Other washing requisites,05.6.1.1,0.08273156939673028,True
+05.6.1.9.1.01,Incense (agarbatti) and room freshener,05.6.1.9,0.1663380368015491,True
+05.6.1.9.1.02,"Mosquito repellent, insecticide, anti-rodent, etc.",05.6.1.9,0.13976408594393164,True
+05.6.1.9.1.03,"Earthenware, paperware, thermocol plates, etc.",05.6.1.9,0.04171011265517624,True
+05.6.1.9.1.04,Matchbox,05.6.1.9,0.03380228569697287,True
+05.6.1.9.1.05,Candle,05.6.1.9,0.024199371453296745,True
+05.6.1.9.1.06,Other petty articles,05.6.1.9,0.24033805687455426,True
+05.6.2.1.2.01,Domestic helper/cook,05.6.2.1,0.148382409601883,True
+05.6.2.1.2.02,Driver,05.6.2.1,0.02606198535560726,True
+05.6.2.1.2.03,"Attendant, babysitter",05.6.2.1,0.005194459046498114,True
+05.6.2.9.2.01,Other consumer services excluding conveyance,05.6.2.9,0.46642723814047854,True
+06.1.1.1.1.01,Medicine,06.1.1.1,3.7252233389750784,True
+06.1.1.2.1.01,Health supplements (chawanprash),06.1.1.2,0.03861693736119662,True
+06.1.2.1.1.01,Other medical equipment,06.1.2.1,0.019631029463043365,True
+06.1.2.2.1.01,Family planning devices,06.1.2.2,0.018535905742690654,True
+06.1.2.3.1.01,Nebulizer,06.1.2.3,0.004919502128246085,True
+06.1.3.1.1.01,"Spectacles/goggles, contact lenses",06.1.3.1,0.07999824340934318,True
+06.1.3.2.1.01,Hearing aids and orthopaedic equipment,06.1.3.2,0.0042964063159147406,True
+06.1.3.3.1.01,Massager,06.1.3.3,0.0038912591203742763,True
+06.1.3.3.1.02,Wheelchair,06.1.3.3,0.0016343158886374044,True
+06.2.3.1.2.01,Doctor's/surgeon's fee,06.2.3.1,0.8791572295671318,True
+06.2.3.1.2.02,Other medical expenses,06.2.3.1,0.21985357851541326,True
+06.3.1.0.2.01,Hospital and nursing home charges,06.3.1.0,0.4948025911304185,True
+06.4.1.0.2.01,"X-ray, ECG and pathological test",06.4.1.0,0.6097030151081589,True
+07.1.1.1.1.01,Motor car and jeep,07.1.1.1,0.4664703366302072,True
+07.1.2.0.1.01,Motor cycle and scooter,07.1.2.0,0.6581083215799441,True
+07.1.3.0.1.01,Bicycle,07.1.3.0,0.05987673995579982,True
+07.2.1.1.1.01,Tyres and tubes,07.2.1.1,0.1536739867896328,True
+07.2.1.2.1.01,Other transport equipment,07.2.1.2,0.004711830705331685,True
+07.2.1.3.1.01,Helmet,07.2.1.3,0.03311603867065261,True
+07.2.2.1.1.01,Diesel,07.2.2.1,0.31671216953441056,True
+07.2.2.2.1.01,Petrol,07.2.2.2,4.4887708583164585,True
+07.2.2.3.1.01,Other natural gas (CNG),07.2.2.3,0.0399981163146089,True
+07.3.1.1.2.01,Rail fare,07.3.1.1,0.18580334091352002,True
+07.3.1.2.2.01,Bus/tram fare: occasional,07.3.1.2,0.6837370433608975,True
+07.3.2.1.2.01,Bus/tram fare for commuting to work: daily,07.3.2.1,0.11772313165280249,True
+07.3.2.1.2.02,Bus fare for commuting to work: periodic,07.3.2.1,0.04026636280576213,True
+07.3.2.2.2.01,Taxi fare,07.3.2.2,0.11359694337125617,True
+07.3.2.2.2.02,"Car/bus hired for ceremonial occasion, picnic, etc",07.3.2.2,0.07421369895258292,True
+07.3.2.3.2.01,"Bus fare for school, college: periodic",07.3.2.3,0.38161550219102786,True
+07.3.2.3.2.02,"Bus /tram fare for school, college: daily",07.3.2.3,0.14825924987229996,True
+07.3.2.9.2.01,Auto-rickshaw/e-rickshaw fare,07.3.2.9,0.7007706091067121,True
+07.3.2.9.2.02,Rickshaw fare,07.3.2.9,0.01111461738579118,True
+07.3.2.9.2.03,Other conveyance expenses,07.3.2.9,0.07885528059057574,True
+07.3.3.1.2.01,Airfare,07.3.3.1,0.029509720681613706,True
+07.3.4.0.2.01,"Steamer, boat fare",07.3.4.0,0.001550094677821013,True
+07.4.1.2.2.01,"Postage, couriers and money order",07.4.1.2,0.007659397502735931,True
+08.1.1.0.1.01,Telephone instrument (landline),08.1.1.0,0.0010219924863503413,True
+08.1.2.0.1.01,Mobile handset,08.1.2.0,0.5609780123402586,True
+08.1.3.1.1.01,PC/ Laptop/ tablet and other peripherals incl. software,08.1.3.1,0.03538281051017576,True
+08.1.4.0.1.01,Television,08.1.4.0,0.11133776062290378,True
+08.1.4.0.1.02,"Headphone, earphone, ear pod, airpod and bluetooth devices",08.1.4.0,0.07129675403607706,True
+08.1.5.0.1.01,Pen-drive and external hard disk,08.1.5.0,0.010560191318006116,True
+08.3.3.0.2.01,Internet expenses,08.3.3.0,0.20441479858532777,True
+08.3.4.0.2.01,Telephone charges: mobile,08.3.4.0,1.9203878624504553,True
+08.3.4.0.2.02,Telephone charges: landline,08.3.4.0,0.004300983174131123,True
+08.3.9.2.1.01,Cable TV/DTH/set top box,08.3.9.2,0.6462786456466392,True
+08.3.9.2.2.02,Online media service provider/streaming services,08.3.9.2,0.04347865778773159,True
+09.1.1.1.1.01,Camera and photographic equipment,09.1.1.1,0.002767387158137239,True
+09.2.1.1.1.01,Other goods for recreation,09.2.1.1,0.02349132757685085,True
+09.2.2.1.1.01,Sports goods,09.2.2.1,0.07852859494124417,True
+09.2.2.1.1.02,Exercise equipment,09.2.2.1,0.004626022627032564,True
+09.2.2.1.1.03,Other sports goods,09.2.2.1,0.018250967580122974,True
+09.3.1.2.1.01,Flower (fresh),09.3.1.2,0.1139283882142708,True
+09.3.2.1.1.01,Pet animals,09.3.2.1,0.043431697599777074,True
+09.4.6.1.2.01,"Other entertainment (mela, fair, picnic, etc.)",09.4.6.1,0.17966693002276066,True
+09.4.6.2.2.01,"Club, gym, swimming fees and other subscriptions",09.4.6.2,0.11024087931493712,True
+09.5.1.0.1.01,Musical instruments,09.5.1.0,0.008808450537993041,True
+09.6.1.0.2.01,"Cinema, theatre",09.6.1.0,0.12822458306281861,True
+09.6.3.0.1.01,Photography,09.6.3.0,0.04194934393423203,True
+09.7.1.1.1.01,Books/ journals,09.7.1.1,0.45858264457679154,True
+09.7.2.1.1.01,Newspapers and periodicals,09.7.2.1,0.09011663732812034,True
+09.7.4.0.1.01,Stationery,09.7.4.0,0.21320092063919724,True
+10.1.0.2.2.01,Tuition fees (Primary/Upper Primary class),10.1.0.2,1.5842797679392802,True
+10.2.0.0.2.01,Tuition fees (Secondary/Upper Secondary class),10.2.0.0,0.6047826843893389,True
+10.4.0.0.2.01,Tuition fees (Higher education),10.4.0.0,0.5075262173157677,True
+10.5.0.1.2.01,Private tutor/ coaching centre,10.5.0.1,0.5366792167953076,True
+10.5.0.1.2.02,Other educational expenses,10.5.0.1,0.10004092394734991,True
+11.1.1.1.1.01,Cooked meals,11.1.1.1,1.2018477294424208,True
+11.1.1.2.1.01,Cooked snacks,11.1.1.2,2.127814084795226,True
+11.2.0.1.2.01,Hotel lodging charges,11.2.0.1,0.017858538729226464,True
+13.1.1.1.1.01,Other personal goods,13.1.1.1,0.021001388260229896,True
+13.1.2.0.1.01,"Toilet soap, body-wash, hand-wash, shower gel and face-wash",13.1.2.0,0.5016457007943309,True
+13.1.2.0.1.02,"Perfume, body spray, deodorant and roll-ons",13.1.2.0,0.22698128729989234,True
+13.1.2.0.1.03,"Powder, cream, body lotion and moisturizers",13.1.2.0,0.2870124547140799,True
+13.1.2.0.1.04,"Toothpaste, mouthwash and toothbrush",13.1.2.0,0.2833640325687514,True
+13.1.2.0.1.05,Hair oil and hair colour,13.1.2.0,0.2781931194707007,True
+13.1.2.0.1.06,"Shampoo, conditioner, hair serum/gel and hair cream",13.1.2.0,0.21008890011306092,True
+13.1.2.0.1.07,Sanitary napkins,13.1.2.0,0.19717201767289097,True
+13.1.2.0.1.08,Baby products,13.1.2.0,0.0703205794317156,True
+13.1.2.0.1.09,"Shaving blades, shaving stick and razor",13.1.2.0,0.06981004153375496,True
+13.1.2.0.1.10,"Shaving cream, shaving foam, aftershave lotion and aftershave balm",13.1.2.0,0.058322035565772784,True
+13.1.2.0.1.11,Sanitizer,13.1.2.0,0.008499704214092548,True
+13.1.2.0.1.12,Weighing machine,13.1.2.0,0.002014652520941751,True
+13.1.2.0.1.13,Other beauty products,13.1.2.0,0.39083770157855435,True
+13.1.2.0.1.14,Other toilet articles,13.1.2.0,0.07559815796557123,True
+13.1.2.0.1.15,Other hair products,13.1.2.0,0.06408279177811395,True
+13.1.3.2.2.01,"Barber, beautician and spas",13.1.3.2,0.7153897414465031,True
+13.2.1.1.1.01,Gold /diamond /platinum jewellery,13.2.1.1,0.6229745483415509,True
+13.2.1.1.1.02,Silver jewellery,13.2.1.1,0.3126529484061393,True
+13.2.1.1.1.03,"Clock, watch, smartwatch and fitness tracker",13.2.1.1,0.0713247431624059,True
+13.2.1.1.1.04,"Jewels, pearls, precious stones",13.2.1.1,0.0125396991151659,True
+13.2.1.1.1.05,Other jewellery and ornaments,13.2.1.1,0.1822134411948546,True
+13.2.9.1.1.01,"Back-pack, handbags, vanity bags, purse and clutch",13.2.9.1,0.09360421972524785,True
+13.2.9.1.1.02,"Suitcase, trolley bag, duffle bag and trunk",13.2.9.1,0.06548272578856709,True
+13.2.9.1.1.03,Umbrella and Raincoat,13.2.9.1,0.03312148159975889,True
+13.9.0.2.2.01,Priest,13.9.0.2,0.09681872877081014,True
+13.9.0.9.2.01,Photocopying charges,13.9.0.9,0.054003607165655027,True
+13.9.0.9.2.02,Legal expenses,13.9.0.9,0.03268969839267696,True

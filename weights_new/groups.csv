@@ -1,0 +1,44 @@
+Group_Code,Group_Name,Division_Code,Weight,Include_in_CPI
+1.1,Food,1.0,34.77770316169937,True
+1.2,Beverages,1.0,1.772433544432993,True
+1.3,Services for processing primary goods for food,1.0,0.20296960396849884,True
+2.1,Alcoholic beverages,2.0,1.4458430392516919,True
+2.3,Paan and tobacco,2.0,1.5436083081963332,True
+3.1,Clothing,3.0,5.531600602723638,True
+3.2,Footwear,3.0,0.8516565450387008,True
+4.1,Actual rental payments made for housing,4.0,10.884970343842962,True
+4.3,"Maintenance, repair and security of the dwelling",4.0,1.1887219813809415,True
+4.4,Water supply and miscellaneous services relating to the dwelling,4.0,0.22945173173469074,True
+4.5,"Electricity, gas and other fuels",4.0,5.361428631384372,True
+5.1,"Furniture, furnishings, and loose carpets",5.0,0.431029161711564,True
+5.2,Household textiles,5.0,0.3560158908759453,True
+5.3,Household appliances,5.0,0.7419259864176903,True
+5.4,"Glassware, tableware and household utensils",5.0,0.5570799801585292,True
+5.5,Tools and equipment for house and garden,5.0,0.23830265767172856,True
+5.6,Goods and services for routine household maintenance,5.0,2.145039529203899,True
+6.1,Medicines and health products,6.0,3.8967469384045246,True
+6.2,Outpatient care services,6.0,1.0990108080825451,True
+6.3,Inpatient care services,6.0,0.4948025911304185,True
+6.4,Other health services,6.0,0.6097030151081589,True
+7.1,Purchase of vehicles,7.0,1.1844553981659511,True
+7.2,Operation of personal transport equipment,7.0,5.036983000331095,True
+7.3,Passenger transport services,7.0,2.5670155955626623,True
+7.4,Transport services for goods,7.0,0.007659397502735931,True
+8.1,Information and communication equipment,8.0,0.7905775213137717,True
+8.3,Information and communication services,8.0,2.818860947644285,True
+9.1,Recreational durables,9.0,0.002767387158137239,True
+9.2,Other recreational goods,9.0,0.12489691272525057,True
+9.3,Garden products and pets,9.0,0.15736008581404787,True
+9.4,Recreational services,9.0,0.2899078093376978,True
+9.5,Cultural goods,9.0,0.008808450537993041,True
+9.6,Cultural services,9.0,0.17017392699705064,True
+9.7,"Newspapers, books and stationery",9.0,0.7619002025441091,True
+10.1,Early childhood and primary education,10.0,1.5842797679392802,True
+10.2,Secondary education,10.0,0.6047826843893389,True
+10.4,Higher education,10.0,0.5075262173157677,True
+10.5,Education not defined by level,10.0,0.6367201407426575,True
+11.1,Food and beverage serving services,11.0,3.329661814237647,True
+11.2,Accommodation services,11.0,0.017858538729226464,True
+13.1,Personal care,13.0,3.4603343069289574,True
+13.2,Other personal effects,13.0,1.3939138073336903,True
+13.9,Other services,13.0,0.18351203432914215,True

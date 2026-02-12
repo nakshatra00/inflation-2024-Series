@@ -1,0 +1,4622 @@
+[
+  {
+    "Division_Code": "1.0",
+    "Division_Name": "Food and beverages",
+    "Weight": 36.75310631010086,
+    "Include_in_CPI": true,
+    "Groups": [
+      {
+        "Group_Code": "1.1",
+        "Group_Name": "Food",
+        "Weight": 34.77770316169937,
+        "Include_in_CPI": true,
+        "Classes": [
+          {
+            "Class_Code": "01.1.1",
+            "Class_Name": "Cereals and cereal products (ND)",
+            "Weight": 5.945631484050497,
+            "Include_in_CPI": true,
+            "Subclasses": [
+              {
+                "Subclass_Code": "01.1.1.1",
+                "Subclass_Name": "Cereals (ND)",
+                "Weight": 3.023830280710238,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "01.1.1.1.1.01",
+                    "Item_Name": "Rice",
+                    "Weight": 2.013186374446197,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "01.1.1.1.1.02",
+                    "Item_Name": "Wheat",
+                    "Weight": 0.7675494178800097,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "01.1.1.1.1.03",
+                    "Item_Name": "Jowar and its products",
+                    "Weight": 0.06223313079050647,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "01.1.1.1.1.04",
+                    "Item_Name": "Ragi and its products",
+                    "Weight": 0.029888073273070758,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "01.1.1.1.1.05",
+                    "Item_Name": "Bajra and its products",
+                    "Weight": 0.04549625610695735,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "01.1.1.1.1.06",
+                    "Item_Name": "Maize and its products",
+                    "Weight": 0.03646871708174495,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "01.1.1.1.1.07",
+                    "Item_Name": "Small millets and its products",
+                    "Weight": 0.006308371448723077,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "01.1.1.1.1.08",
+                    "Item_Name": "Barley and its products",
+                    "Weight": 0.005306349951887014,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "01.1.1.1.1.09",
+                    "Item_Name": "Other cereals and products",
+                    "Weight": 0.03031715218771389,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "01.1.1.1.1.10",
+                    "Item_Name": "Other wheat products",
+                    "Weight": 0.0065365201754364055,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "01.1.1.1.1.11",
+                    "Item_Name": "Rice PDS",
+                    "Weight": 0.020180930825447883,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "01.1.1.1.1.12",
+                    "Item_Name": "Wheat PDS",
+                    "Weight": 0.0003589865425434189,
+                    "Include_in_CPI": true
+                  }
+                ]
+              },
+              {
+                "Subclass_Code": "01.1.1.2",
+                "Subclass_Name": "Flour of cereals (ND)",
+                "Weight": 0.8121524358639097,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "01.1.1.2.1.01",
+                    "Item_Name": "Wheat atta",
+                    "Weight": 0.7665654198469133,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "01.1.1.2.1.02",
+                    "Item_Name": "Maida",
+                    "Weight": 0.04346173927891989,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "01.1.1.2.1.03",
+                    "Item_Name": "Wheat atta PDS",
+                    "Weight": 0.002125276738076587,
+                    "Include_in_CPI": true
+                  }
+                ]
+              },
+              {
+                "Subclass_Code": "01.1.1.3",
+                "Subclass_Name": "Bread and bakery products (ND)",
+                "Weight": 1.479719589352913,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "01.1.1.3.1.01",
+                    "Item_Name": "Biscuits",
+                    "Weight": 0.7382312110433218,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "01.1.1.3.1.02",
+                    "Item_Name": "Chips , nachos, puffs, wafers, etc.",
+                    "Weight": 0.32273182154755997,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "01.1.1.3.1.03",
+                    "Item_Name": "Cake, pastry",
+                    "Weight": 0.2116839679668253,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "01.1.1.3.1.04",
+                    "Item_Name": "Bread (bakery)",
+                    "Weight": 0.207072588795206,
+                    "Include_in_CPI": true
+                  }
+                ]
+              },
+              {
+                "Subclass_Code": "01.1.1.4",
+                "Subclass_Name": "Breakfast cereals (ND)",
+                "Weight": 0.1948724205020364,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "01.1.1.4.1.01",
+                    "Item_Name": "Breakfast cereals",
+                    "Weight": 0.09011848515895318,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "01.1.1.4.1.02",
+                    "Item_Name": "Muri",
+                    "Weight": 0.08793012037811493,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "01.1.1.4.1.03",
+                    "Item_Name": "Other rice products",
+                    "Weight": 0.016823814964968303,
+                    "Include_in_CPI": true
+                  }
+                ]
+              },
+              {
+                "Subclass_Code": "01.1.1.5",
+                "Subclass_Name": "Macaroni, noodles, couscous and similar pasta products (ND)",
+                "Weight": 0.2608727950857054,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "01.1.1.5.1.01",
+                    "Item_Name": "Noodles",
+                    "Weight": 0.230057772787517,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "01.1.1.5.1.02",
+                    "Item_Name": "Vermicelli (sewai)",
+                    "Weight": 0.030815022298188385,
+                    "Include_in_CPI": true
+                  }
+                ]
+              },
+              {
+                "Subclass_Code": "01.1.1.9",
+                "Subclass_Name": "Other milled cereal and grain products (ND)",
+                "Weight": 0.1741839625356946,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "01.1.1.9.1.01",
+                    "Item_Name": "Suji, rawa",
+                    "Weight": 0.08967785159872055,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "01.1.1.9.1.02",
+                    "Item_Name": "Chidwa",
+                    "Weight": 0.08450611093697405,
+                    "Include_in_CPI": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Class_Code": "01.1.2",
+            "Class_Name": "Meat, fresh, chilled or frozen (ND)",
+            "Weight": 2.515551687970427,
+            "Include_in_CPI": true,
+            "Subclasses": [
+              {
+                "Subclass_Code": "01.1.2.2",
+                "Subclass_Name": "Meat, fresh, chilled or frozen (ND)",
+                "Weight": 2.515551687970427,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "01.1.2.2.1.01",
+                    "Item_Name": "Chicken",
+                    "Weight": 1.5751572862088397,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "01.1.2.2.1.02",
+                    "Item_Name": "Goat meat/ mutton",
+                    "Weight": 0.6824698317567738,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "01.1.2.2.1.03",
+                    "Item_Name": "Beef/ buffalo meat",
+                    "Weight": 0.18303813147580472,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "01.1.2.2.1.04",
+                    "Item_Name": "Pork",
+                    "Weight": 0.0582025995340655,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "01.1.2.2.1.05",
+                    "Item_Name": "Others: birds, crab,oyster, etc.",
+                    "Weight": 0.016683838994943426,
+                    "Include_in_CPI": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Class_Code": "01.1.3",
+            "Class_Name": "Fish and other seafood (ND)",
+            "Weight": 1.0223193227278602,
+            "Include_in_CPI": true,
+            "Subclasses": [
+              {
+                "Subclass_Code": "01.1.3.1",
+                "Subclass_Name": "Fish and prawn",
+                "Weight": 1.0223193227278602,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "01.1.3.1.1.01",
+                    "Item_Name": "Fish and prawn",
+                    "Weight": 1.0223193227278602,
+                    "Include_in_CPI": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Class_Code": "01.1.4",
+            "Class_Name": "Milk, other dairy products and eggs (ND)",
+            "Weight": 7.282137145891148,
+            "Include_in_CPI": true,
+            "Subclasses": [
+              {
+                "Subclass_Code": "01.1.4.1",
+                "Subclass_Name": "Milk: liquid",
+                "Weight": 5.255174458527576,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "01.1.4.1.1.01",
+                    "Item_Name": "Milk: liquid",
+                    "Weight": 5.255174458527576,
+                    "Include_in_CPI": true
+                  }
+                ]
+              },
+              {
+                "Subclass_Code": "01.1.4.3",
+                "Subclass_Name": "Milk: condensed/ powder",
+                "Weight": 0.04757674479898128,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "01.1.4.3.1.01",
+                    "Item_Name": "Milk: condensed/ powder",
+                    "Weight": 0.04757674479898128,
+                    "Include_in_CPI": true
+                  }
+                ]
+              },
+              {
+                "Subclass_Code": "01.1.4.5",
+                "Subclass_Name": "Cheese (ND)",
+                "Weight": 0.26846349624856247,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "01.1.4.5.1.01",
+                    "Item_Name": "Paneer",
+                    "Weight": 0.2656699010340984,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "01.1.4.5.1.02",
+                    "Item_Name": "Cheese",
+                    "Weight": 0.002793595214464097,
+                    "Include_in_CPI": true
+                  }
+                ]
+              },
+              {
+                "Subclass_Code": "01.1.4.6",
+                "Subclass_Name": "Curd, Yoghurt and similar products",
+                "Weight": 0.33763981214041494,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "01.1.4.6.1.01",
+                    "Item_Name": "Curd, yogurt",
+                    "Weight": 0.25080951346370584,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "01.1.4.6.1.02",
+                    "Item_Name": "Butter milk",
+                    "Weight": 0.04790639352178905,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "01.1.4.6.1.03",
+                    "Item_Name": "Lassi",
+                    "Weight": 0.038923905154920085,
+                    "Include_in_CPI": true
+                  }
+                ]
+              },
+              {
+                "Subclass_Code": "01.1.4.7",
+                "Subclass_Name": "Milk-based dessert and beverages (ND)",
+                "Weight": 0.8717004943061472,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "01.1.4.7.1.01",
+                    "Item_Name": "Tea: cups",
+                    "Weight": 0.5420545846904576,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "01.1.4.7.1.02",
+                    "Item_Name": "Prepared sweets- milk based",
+                    "Weight": 0.2857120165687984,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "01.1.4.7.1.03",
+                    "Item_Name": "Coffee: cups",
+                    "Weight": 0.0439338930468911,
+                    "Include_in_CPI": true
+                  }
+                ]
+              },
+              {
+                "Subclass_Code": "01.1.4.8",
+                "Subclass_Name": "Eggs (ND)",
+                "Weight": 0.4938257533090902,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "01.1.4.8.1.01",
+                    "Item_Name": "Eggs",
+                    "Weight": 0.4938257533090902,
+                    "Include_in_CPI": true
+                  }
+                ]
+              },
+              {
+                "Subclass_Code": "01.1.4.9",
+                "Subclass_Name": "Other dairy products (ND)",
+                "Weight": 0.007756386560375696,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "01.1.4.9.1.01",
+                    "Item_Name": "Other milk products",
+                    "Weight": 0.007756386560375696,
+                    "Include_in_CPI": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Class_Code": "01.1.5",
+            "Class_Name": "Oils and fats (ND)",
+            "Weight": 2.7429205404780315,
+            "Include_in_CPI": true,
+            "Subclasses": [
+              {
+                "Subclass_Code": "01.1.5.1",
+                "Subclass_Name": "Vegetable oils (ND)",
+                "Weight": 2.1847315109085663,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "01.1.5.1.1.01",
+                    "Item_Name": "Refined oil",
+                    "Weight": 1.0469874787005857,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "01.1.5.1.1.02",
+                    "Item_Name": "Mustard oil",
+                    "Weight": 0.9605357722795581,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "01.1.5.1.1.03",
+                    "Item_Name": "Groundnut oil",
+                    "Weight": 0.0837833659018066,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "01.1.5.1.1.04",
+                    "Item_Name": "Coconut oil",
+                    "Weight": 0.05787921777046586,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "01.1.5.1.1.05",
+                    "Item_Name": "Edible oil",
+                    "Weight": 0.013253138987713416,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "01.1.5.1.1.06",
+                    "Item_Name": "Edible oil PDS",
+                    "Weight": 0.02229253726843668,
+                    "Include_in_CPI": true
+                  }
+                ]
+              },
+              {
+                "Subclass_Code": "01.1.5.2",
+                "Subclass_Name": "Butter and other oils and fats derived from milk (ND)",
+                "Weight": 0.5500041906252457,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "01.1.5.2.1.01",
+                    "Item_Name": "Ghee",
+                    "Weight": 0.5180149914713876,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "01.1.5.2.1.02",
+                    "Item_Name": "Butter",
+                    "Weight": 0.03198919915385806,
+                    "Include_in_CPI": true
+                  }
+                ]
+              },
+              {
+                "Subclass_Code": "01.1.5.3",
+                "Subclass_Name": "Margarine and similar preparations (ND)",
+                "Weight": 0.008184838944219296,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "01.1.5.3.1.01",
+                    "Item_Name": "Vanaspati and margarine",
+                    "Weight": 0.008184838944219296,
+                    "Include_in_CPI": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Class_Code": "01.1.6",
+            "Class_Name": "Fruits and nuts (ND)",
+            "Weight": 3.7014260423974563,
+            "Include_in_CPI": true,
+            "Subclasses": [
+              {
+                "Subclass_Code": "01.1.6.1",
+                "Subclass_Name": "Dates, figs and tropical fruits, fresh (ND)",
+                "Weight": 1.3321197227880426,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "01.1.6.1.1.01",
+                    "Item_Name": "Banana",
+                    "Weight": 0.4654180301733227,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "01.1.6.1.1.02",
+                    "Item_Name": "Mango",
+                    "Weight": 0.3064552665846312,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "01.1.6.1.1.03",
+                    "Item_Name": "Green coconut",
+                    "Weight": 0.13717191908971102,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "01.1.6.1.1.04",
+                    "Item_Name": "Coconut",
+                    "Weight": 0.193105926970344,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "01.1.6.1.1.05",
+                    "Item_Name": "Papaya",
+                    "Weight": 0.10959736005273332,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "01.1.6.1.1.06",
+                    "Item_Name": "Guava",
+                    "Weight": 0.10104480202362884,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "01.1.6.1.1.07",
+                    "Item_Name": "Pineapple",
+                    "Weight": 0.014254289586690706,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "01.1.6.1.1.08",
+                    "Item_Name": "Fig: anjeer",
+                    "Weight": 0.005072128306980694,
+                    "Include_in_CPI": true
+                  }
+                ]
+              },
+              {
+                "Subclass_Code": "01.1.6.2",
+                "Subclass_Name": "Citrus fruits, fresh (ND)",
+                "Weight": 0.28097222161228697,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "01.1.6.2.1.01",
+                    "Item_Name": "Orange and sweet lime (mausami)",
+                    "Weight": 0.1442503578786144,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "01.1.6.2.1.02",
+                    "Item_Name": "Lemon",
+                    "Weight": 0.13672186373367257,
+                    "Include_in_CPI": true
+                  }
+                ]
+              },
+              {
+                "Subclass_Code": "01.1.6.3",
+                "Subclass_Name": "Stone fruits and pome fruits, fresh (ND)",
+                "Weight": 0.5776553893380965,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "01.1.6.3.1.01",
+                    "Item_Name": "Apple",
+                    "Weight": 0.5615285951197465,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "01.1.6.3.1.02",
+                    "Item_Name": "Litchi",
+                    "Weight": 0.010169384291430016,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "01.1.6.3.1.03",
+                    "Item_Name": "Pears/ nashpati",
+                    "Weight": 0.004851525649141731,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "01.1.6.3.1.04",
+                    "Item_Name": "Apricot",
+                    "Weight": 0.0011058842777782324,
+                    "Include_in_CPI": true
+                  }
+                ]
+              },
+              {
+                "Subclass_Code": "01.1.6.4",
+                "Subclass_Name": "Berries, fresh (ND)",
+                "Weight": 0.0024909965306104676,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "01.1.6.4.1.01",
+                    "Item_Name": "Berries",
+                    "Weight": 0.0024909965306104676,
+                    "Include_in_CPI": true
+                  }
+                ]
+              },
+              {
+                "Subclass_Code": "01.1.6.5",
+                "Subclass_Name": "Other fruits, fresh (ND)",
+                "Weight": 0.38873061953869326,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "01.1.6.5.1.01",
+                    "Item_Name": "Grapes",
+                    "Weight": 0.15741131756721433,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "01.1.6.5.1.02",
+                    "Item_Name": "Watermelon",
+                    "Weight": 0.12953814639983233,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "01.1.6.5.1.03",
+                    "Item_Name": "Kharbooza",
+                    "Weight": 0.03257928226895726,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "01.1.6.5.1.04",
+                    "Item_Name": "Singara",
+                    "Weight": 0.009095018190818809,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "01.1.6.5.1.05",
+                    "Item_Name": "Other fresh fruits",
+                    "Weight": 0.060106855111870514,
+                    "Include_in_CPI": true
+                  }
+                ]
+              },
+              {
+                "Subclass_Code": "01.1.6.7",
+                "Subclass_Name": "Fruits, dried and dehydrated (ND)",
+                "Weight": 0.40162446278806996,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "01.1.6.7.1.01",
+                    "Item_Name": "Dates",
+                    "Weight": 0.13953829859998507,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "01.1.6.7.1.02",
+                    "Item_Name": "Raisin (kishmish) and monacca",
+                    "Weight": 0.16392471043475113,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "01.1.6.7.1.03",
+                    "Item_Name": "Coconut: copra",
+                    "Weight": 0.08539296753590112,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "01.1.6.7.1.04",
+                    "Item_Name": "Other dry fruits",
+                    "Weight": 0.012768486217432637,
+                    "Include_in_CPI": true
+                  }
+                ]
+              },
+              {
+                "Subclass_Code": "01.1.6.8",
+                "Subclass_Name": "Nuts, in shell or shelled (ND)",
+                "Weight": 0.7178326298016567,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "01.1.6.8.1.01",
+                    "Item_Name": "Groundnut",
+                    "Weight": 0.3172451120434216,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "01.1.6.8.1.02",
+                    "Item_Name": "Cashew nut",
+                    "Weight": 0.17677236556225284,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "01.1.6.8.1.03",
+                    "Item_Name": "Other nuts",
+                    "Weight": 0.22381515219598233,
+                    "Include_in_CPI": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Class_Code": "01.1.7",
+            "Class_Name": "Vegetables, tubers, plantains, cooking bananas and pulses (ND)",
+            "Weight": 6.818401975315123,
+            "Include_in_CPI": true,
+            "Subclasses": [
+              {
+                "Subclass_Code": "01.1.7.1",
+                "Subclass_Name": "Leafy or stem vegetables, fresh or chilled (ND)",
+                "Weight": 0.6930639114440054,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "01.1.7.1.1.01",
+                    "Item_Name": "Cauliflower",
+                    "Weight": 0.23300017764002384,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "01.1.7.1.1.02",
+                    "Item_Name": "Cabbage",
+                    "Weight": 0.1518406542554705,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "01.1.7.1.1.03",
+                    "Item_Name": "Palak and other leafy vegetables",
+                    "Weight": 0.30822307954851097,
+                    "Include_in_CPI": true
+                  }
+                ]
+              },
+              {
+                "Subclass_Code": "01.1.7.2",
+                "Subclass_Name": "Fruit-bearing vegetables, fresh or chilled (ND)",
+                "Weight": 1.600821621223278,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "01.1.7.2.1.01",
+                    "Item_Name": "Tomato",
+                    "Weight": 0.4960606349435679,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "01.1.7.2.1.02",
+                    "Item_Name": "Lady's finger",
+                    "Weight": 0.24877815402368578,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "01.1.7.2.1.03",
+                    "Item_Name": "Brinjal",
+                    "Weight": 0.2912040487534446,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "01.1.7.2.1.04",
+                    "Item_Name": "Green chillies",
+                    "Weight": 0.2378889075847694,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "01.1.7.2.1.05",
+                    "Item_Name": "Gourd, pumpkin",
+                    "Weight": 0.2034374738721659,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "01.1.7.2.1.06",
+                    "Item_Name": "Parwal/patal and Kundru",
+                    "Weight": 0.12345240204564437,
+                    "Include_in_CPI": true
+                  }
+                ]
+              },
+              {
+                "Subclass_Code": "01.1.7.3",
+                "Subclass_Name": "Green leguminous vegetables, fresh or chilled (ND)",
+                "Weight": 0.28882213818355196,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "01.1.7.3.1.01",
+                    "Item_Name": "Beans and Barbati",
+                    "Weight": 0.16338829537388494,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "01.1.7.3.1.02",
+                    "Item_Name": "Peas",
+                    "Weight": 0.12543384280966702,
+                    "Include_in_CPI": true
+                  }
+                ]
+              },
+              {
+                "Subclass_Code": "01.1.7.4",
+                "Subclass_Name": "Other vegetables, fresh or chilled (ND)",
+                "Weight": 1.7504672496946823,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "01.1.7.4.1.01",
+                    "Item_Name": "Onion",
+                    "Weight": 0.7005628269610512,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "01.1.7.4.1.02",
+                    "Item_Name": "Garlic",
+                    "Weight": 0.37381188602315824,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "01.1.7.4.1.03",
+                    "Item_Name": "Carrot",
+                    "Weight": 0.12177295386754283,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "01.1.7.4.1.04",
+                    "Item_Name": "Radish",
+                    "Weight": 0.06563874474365444,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "01.1.7.4.1.05",
+                    "Item_Name": "Jackfruit",
+                    "Weight": 0.009265881399484232,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "01.1.7.4.1.06",
+                    "Item_Name": "Other vegetables",
+                    "Weight": 0.4794149566997913,
+                    "Include_in_CPI": true
+                  }
+                ]
+              },
+              {
+                "Subclass_Code": "01.1.7.5",
+                "Subclass_Name": "Tubers, plantains and cooking bananas, fresh or chilled (ND)",
+                "Weight": 0.7549405247282766,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "01.1.7.5.1.01",
+                    "Item_Name": "Potato",
+                    "Weight": 0.7549405247282766,
+                    "Include_in_CPI": true
+                  }
+                ]
+              },
+              {
+                "Subclass_Code": "01.1.7.6",
+                "Subclass_Name": "Pulses (ND)",
+                "Weight": 1.4746816883299259,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "01.1.7.6.1.01",
+                    "Item_Name": "Arhar, tur",
+                    "Weight": 0.5333412978858154,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "01.1.7.6.1.02",
+                    "Item_Name": "Moong",
+                    "Weight": 0.23884066350606256,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "01.1.7.6.1.03",
+                    "Item_Name": "Urd",
+                    "Weight": 0.1843103579891399,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "01.1.7.6.1.04",
+                    "Item_Name": "Masur",
+                    "Weight": 0.20306643792077522,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "01.1.7.6.1.05",
+                    "Item_Name": "Gram: split",
+                    "Weight": 0.11506012673605252,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "01.1.7.6.1.06",
+                    "Item_Name": "Gram: whole",
+                    "Weight": 0.08854176420726667,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "01.1.7.6.1.07",
+                    "Item_Name": "Peas, chickpeas",
+                    "Weight": 0.051607167294794136,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "01.1.7.6.1.08",
+                    "Item_Name": "Other pulses",
+                    "Weight": 0.0473343420206402,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "01.1.7.6.1.09",
+                    "Item_Name": "Pulses PDS",
+                    "Weight": 0.012579530769379172,
+                    "Include_in_CPI": true
+                  }
+                ]
+              },
+              {
+                "Subclass_Code": "01.1.7.9",
+                "Subclass_Name": "Vegetables, tubers, plantains, cooking bananas and pulses ground, and in other preparations (ND)",
+                "Weight": 0.2556048417114022,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "01.1.7.9.1.01",
+                    "Item_Name": "Besan and Gram products",
+                    "Weight": 0.12386217262447105,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "01.1.7.9.1.02",
+                    "Item_Name": "Pickles",
+                    "Weight": 0.08583244780344146,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "01.1.7.9.1.03",
+                    "Item_Name": "Other pulse products",
+                    "Weight": 0.04591022128348966,
+                    "Include_in_CPI": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Class_Code": "01.1.8",
+            "Class_Name": "Sugar, confectionery and desserts (ND)",
+            "Weight": 1.4196531989268715,
+            "Include_in_CPI": true,
+            "Subclasses": [
+              {
+                "Subclass_Code": "01.1.8.1",
+                "Subclass_Name": "Cane sugar and beet sugar (ND)",
+                "Weight": 0.5950202686301723,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "01.1.8.1.1.01",
+                    "Item_Name": "Sugar",
+                    "Weight": 0.4966060615118601,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "01.1.8.1.1.02",
+                    "Item_Name": "Jaggery (gur)",
+                    "Weight": 0.0809593032728266,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "01.1.8.1.1.03",
+                    "Item_Name": "Sugar PDS",
+                    "Weight": 0.017454903845485658,
+                    "Include_in_CPI": true
+                  }
+                ]
+              },
+              {
+                "Subclass_Code": "01.1.8.3",
+                "Subclass_Name": "Jams, marmalades, fruit jellies, pur\u00e9es and pastes, and honey (ND)",
+                "Weight": 0.024292291783602177,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "01.1.8.3.1.01",
+                    "Item_Name": "Jam/ jelly",
+                    "Weight": 0.011881640831807311,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "01.1.8.3.1.02",
+                    "Item_Name": "Honey",
+                    "Weight": 0.012410650951794866,
+                    "Include_in_CPI": true
+                  }
+                ]
+              },
+              {
+                "Subclass_Code": "01.1.8.5",
+                "Subclass_Name": "Chocolate, cocoa and cocoa-based food products (ND)",
+                "Weight": 0.211434200902214,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "01.1.8.5.1.01",
+                    "Item_Name": "Chocolates, etc.",
+                    "Weight": 0.211434200902214,
+                    "Include_in_CPI": true
+                  }
+                ]
+              },
+              {
+                "Subclass_Code": "01.1.8.6",
+                "Subclass_Name": "Ice, ice cream and sorbets (ND)",
+                "Weight": 0.2962117918917328,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "01.1.8.6.1.01",
+                    "Item_Name": "Ice-cream",
+                    "Weight": 0.2962117918917328,
+                    "Include_in_CPI": true
+                  }
+                ]
+              },
+              {
+                "Subclass_Code": "01.1.8.9",
+                "Subclass_Name": "Other sugar confectionery and desserts",
+                "Weight": 0.2926946457191501,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "01.1.8.9.1.01",
+                    "Item_Name": "Prepared sweets - non milk based",
+                    "Weight": 0.28571064000373775,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "01.1.8.9.1.02",
+                    "Item_Name": "Candy, misri",
+                    "Weight": 0.00698400571541235,
+                    "Include_in_CPI": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Class_Code": "01.1.9",
+            "Class_Name": "Ready-made food and other food products (ND)",
+            "Weight": 3.3296617639419566,
+            "Include_in_CPI": true,
+            "Subclasses": [
+              {
+                "Subclass_Code": "01.1.9.1",
+                "Subclass_Name": "Ready-made food (ND)",
+                "Weight": 0.322389762329794,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "01.1.9.1.1.01",
+                    "Item_Name": "Other served processed food",
+                    "Weight": 0.20136253240128785,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "01.1.9.1.1.02",
+                    "Item_Name": "Other packaged processed food",
+                    "Weight": 0.12102722992850616,
+                    "Include_in_CPI": true
+                  }
+                ]
+              },
+              {
+                "Subclass_Code": "01.1.9.2",
+                "Subclass_Name": "Baby food (ND)",
+                "Weight": 0.12483378369460024,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "01.1.9.2.1.01",
+                    "Item_Name": "Baby food",
+                    "Weight": 0.12483378369460024,
+                    "Include_in_CPI": true
+                  }
+                ]
+              },
+              {
+                "Subclass_Code": "01.1.9.3",
+                "Subclass_Name": "Salt, condiments and sauces (ND)",
+                "Weight": 0.09454883352602027,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "01.1.9.3.1.01",
+                    "Item_Name": "Salt",
+                    "Weight": 0.08229885952257847,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "01.1.9.3.1.02",
+                    "Item_Name": "Sauce and Mayonnaise",
+                    "Weight": 0.011888219272249827,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "01.1.9.3.1.03",
+                    "Item_Name": "Salt PDS",
+                    "Weight": 0.0003617547311919783,
+                    "Include_in_CPI": true
+                  }
+                ]
+              },
+              {
+                "Subclass_Code": "01.1.9.4",
+                "Subclass_Name": "Spices, culinary herbs and seeds (ND)",
+                "Weight": 2.2743215769711966,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "01.1.9.4.1.01",
+                    "Item_Name": "Dry chillies",
+                    "Weight": 0.4049760594093911,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "01.1.9.4.1.02",
+                    "Item_Name": "Cumin (jeera)",
+                    "Weight": 0.3655075348959454,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "01.1.9.4.1.03",
+                    "Item_Name": "Coriander (dhania)",
+                    "Weight": 0.2985119810766986,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "01.1.9.4.1.04",
+                    "Item_Name": "Ginger",
+                    "Weight": 0.25560287107000396,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "01.1.9.4.1.05",
+                    "Item_Name": "Turmeric",
+                    "Weight": 0.2615057838090347,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "01.1.9.4.1.06",
+                    "Item_Name": "Curry powder",
+                    "Weight": 0.17078064335611223,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "01.1.9.4.1.07",
+                    "Item_Name": "Black pepper",
+                    "Weight": 0.11502684483562238,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "01.1.9.4.1.08",
+                    "Item_Name": "Tamarind",
+                    "Weight": 0.06129201319003071,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "01.1.9.4.1.09",
+                    "Item_Name": "Oilseeds",
+                    "Weight": 0.06440489236862051,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "01.1.9.4.1.10",
+                    "Item_Name": "Poppy seeds",
+                    "Weight": 0.02724938251862813,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "01.1.9.4.1.11",
+                    "Item_Name": "Other spices",
+                    "Weight": 0.24946357044110876,
+                    "Include_in_CPI": true
+                  }
+                ]
+              },
+              {
+                "Subclass_Code": "01.1.9.9",
+                "Subclass_Name": "Other food products n.e.c. (ND)",
+                "Weight": 0.5135678074203454,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "01.1.9.9.1.01",
+                    "Item_Name": "Papad, bhujia, namkeen, mixture and chanachur",
+                    "Weight": 0.47513914286330095,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "01.1.9.9.1.02",
+                    "Item_Name": "Health supplements (probiotic tablet and drinks)",
+                    "Weight": 0.03842866455704439,
+                    "Include_in_CPI": true
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Group_Code": "1.2",
+        "Group_Name": "Beverages",
+        "Weight": 1.772433544432993,
+        "Include_in_CPI": true,
+        "Classes": [
+          {
+            "Class_Code": "01.2.1",
+            "Class_Name": "Fruit and vegetable juices (ND)",
+            "Weight": 0.5190555538772847,
+            "Include_in_CPI": true,
+            "Subclasses": [
+              {
+                "Subclass_Code": "01.2.1.0",
+                "Subclass_Name": "Fruit and vegetable juices (ND)",
+                "Weight": 0.5190555538772847,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "01.2.1.0.1.01",
+                    "Item_Name": "Fruit juice",
+                    "Weight": 0.5190555538772847,
+                    "Include_in_CPI": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Class_Code": "01.2.2",
+            "Class_Name": "Coffee and coffee substitutes (ND)",
+            "Weight": 0.045221332952092415,
+            "Include_in_CPI": true,
+            "Subclasses": [
+              {
+                "Subclass_Code": "01.2.2.0",
+                "Subclass_Name": "Coffee: powder",
+                "Weight": 0.045221332952092415,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "01.2.2.0.1.01",
+                    "Item_Name": "Coffee: powder",
+                    "Weight": 0.045221332952092415,
+                    "Include_in_CPI": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Class_Code": "01.2.3",
+            "Class_Name": "Tea, mat\u00e9 and other plant-derived products for infusion (ND)",
+            "Weight": 0.6741640803524797,
+            "Include_in_CPI": true,
+            "Subclasses": [
+              {
+                "Subclass_Code": "01.2.3.0",
+                "Subclass_Name": "Tea: leaf",
+                "Weight": 0.6741640803524797,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "01.2.3.0.1.01",
+                    "Item_Name": "Tea: leaf",
+                    "Weight": 0.6741640803524797,
+                    "Include_in_CPI": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Class_Code": "01.2.4",
+            "Class_Name": "Cocoa drinks (ND)",
+            "Weight": 0.10157417143467232,
+            "Include_in_CPI": true,
+            "Subclasses": [
+              {
+                "Subclass_Code": "01.2.4.0",
+                "Subclass_Name": "Cocoa drinks (ND)",
+                "Weight": 0.10157417143467232,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "01.2.4.0.1.01",
+                    "Item_Name": "Beverages: cocoa and chocolate drink",
+                    "Weight": 0.10157417143467232,
+                    "Include_in_CPI": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Class_Code": "01.2.5",
+            "Class_Name": "Water (ND)",
+            "Weight": 0.07882319294011444,
+            "Include_in_CPI": true,
+            "Subclasses": [
+              {
+                "Subclass_Code": "01.2.5.0",
+                "Subclass_Name": "Packaged water",
+                "Weight": 0.07882319294011444,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "01.2.5.0.1.01",
+                    "Item_Name": "Packaged water",
+                    "Weight": 0.07882319294011444,
+                    "Include_in_CPI": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Class_Code": "01.2.6",
+            "Class_Name": "Soft drinks (ND)",
+            "Weight": 0.06631339262829992,
+            "Include_in_CPI": true,
+            "Subclasses": [
+              {
+                "Subclass_Code": "01.2.6.0",
+                "Subclass_Name": "Soda drinks",
+                "Weight": 0.06631339262829992,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "01.2.6.0.1.01",
+                    "Item_Name": "Soda drinks",
+                    "Weight": 0.06631339262829992,
+                    "Include_in_CPI": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Class_Code": "01.2.9",
+            "Class_Name": "Other beverages",
+            "Weight": 0.2872818202480495,
+            "Include_in_CPI": true,
+            "Subclasses": [
+              {
+                "Subclass_Code": "01.2.9.0",
+                "Subclass_Name": "Other beverages",
+                "Weight": 0.2872818202480495,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "01.2.9.0.1.01",
+                    "Item_Name": "Health supplements (protein powder)",
+                    "Weight": 0.03861934601911363,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "01.2.9.0.1.02",
+                    "Item_Name": "Health drinks",
+                    "Weight": 0.101838005123117,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "01.2.9.0.1.03",
+                    "Item_Name": "Other cold beverages",
+                    "Weight": 0.14682446910581884,
+                    "Include_in_CPI": true
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Group_Code": "1.3",
+        "Group_Name": "Services for processing primary goods for food",
+        "Weight": 0.20296960396849884,
+        "Include_in_CPI": true,
+        "Classes": [
+          {
+            "Class_Code": "01.3.0",
+            "Class_Name": "Services for processing primary goods for food",
+            "Weight": 0.20296960396849884,
+            "Include_in_CPI": true,
+            "Subclasses": [
+              {
+                "Subclass_Code": "01.3.0.0",
+                "Subclass_Name": "Services for processing primary goods for food",
+                "Weight": 0.20296960396849884,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "01.3.0.0.2.01",
+                    "Item_Name": "Grinding/ husking charges",
+                    "Weight": 0.20296960396849884,
+                    "Include_in_CPI": true
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Division_Code": "2.0",
+    "Division_Name": "Paan, tobacco and intoxicants",
+    "Weight": 2.989451347448025,
+    "Include_in_CPI": true,
+    "Groups": [
+      {
+        "Group_Code": "2.1",
+        "Group_Name": "Alcoholic beverages",
+        "Weight": 1.4458430392516919,
+        "Include_in_CPI": true,
+        "Classes": [
+          {
+            "Class_Code": "02.1.1",
+            "Class_Name": "Spirits and liquors (ND)",
+            "Weight": 1.0336592996265306,
+            "Include_in_CPI": true,
+            "Subclasses": [
+              {
+                "Subclass_Code": "02.1.1.0",
+                "Subclass_Name": "Spirits and liquors (ND)",
+                "Weight": 1.0336592996265306,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "02.1.1.0.1.01",
+                    "Item_Name": "Foreign/refined liquor or wine",
+                    "Weight": 0.6378075536075851,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "02.1.1.0.1.02",
+                    "Item_Name": "Country liquor",
+                    "Weight": 0.39585174601894546,
+                    "Include_in_CPI": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Class_Code": "02.1.2",
+            "Class_Name": "Wine (ND)",
+            "Weight": 0.06301067189458731,
+            "Include_in_CPI": true,
+            "Subclasses": [
+              {
+                "Subclass_Code": "02.1.2.2",
+                "Subclass_Name": "Wine from other sources (ND)",
+                "Weight": 0.06301067189458731,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "02.1.2.2.1.01",
+                    "Item_Name": "Toddy",
+                    "Weight": 0.06301067189458731,
+                    "Include_in_CPI": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Class_Code": "02.1.3",
+            "Class_Name": "Beer (ND)",
+            "Weight": 0.31059360713683437,
+            "Include_in_CPI": true,
+            "Subclasses": [
+              {
+                "Subclass_Code": "02.1.3.0",
+                "Subclass_Name": "Beer (ND)",
+                "Weight": 0.31059360713683437,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "02.1.3.0.1.01",
+                    "Item_Name": "Beer",
+                    "Weight": 0.31059360713683437,
+                    "Include_in_CPI": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Class_Code": "02.1.9",
+            "Class_Name": "Other alcoholic beverages (ND)",
+            "Weight": 0.038579460593739616,
+            "Include_in_CPI": true,
+            "Subclasses": [
+              {
+                "Subclass_Code": "02.1.9.0",
+                "Subclass_Name": "Other alcoholic beverages (ND)",
+                "Weight": 0.038579460593739616,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "02.1.9.0.1.01",
+                    "Item_Name": "Other intoxicants",
+                    "Weight": 0.038579460593739616,
+                    "Include_in_CPI": true
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Group_Code": "2.3",
+        "Group_Name": "Paan and tobacco",
+        "Weight": 1.5436083081963332,
+        "Include_in_CPI": true,
+        "Classes": [
+          {
+            "Class_Code": "02.3.0",
+            "Class_Name": "Paan and other tobacco products",
+            "Weight": 1.5436083081963332,
+            "Include_in_CPI": true,
+            "Subclasses": [
+              {
+                "Subclass_Code": "02.3.0.1",
+                "Subclass_Name": "Cigarettes (ND)",
+                "Weight": 0.3104986671397461,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "02.3.0.1.1.01",
+                    "Item_Name": "Cigarettes",
+                    "Weight": 0.3104986671397461,
+                    "Include_in_CPI": true
+                  }
+                ]
+              },
+              {
+                "Subclass_Code": "02.3.0.2",
+                "Subclass_Name": "Cigars (ND)",
+                "Weight": 0.0012155202044346334,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "02.3.0.2.1.01",
+                    "Item_Name": "Cheroot",
+                    "Weight": 0.0012155202044346334,
+                    "Include_in_CPI": true
+                  }
+                ]
+              },
+              {
+                "Subclass_Code": "02.3.0.9",
+                "Subclass_Name": "Paan and other tobacco products",
+                "Weight": 1.2318941208521526,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "02.3.0.9.1.01",
+                    "Item_Name": "Gutka, zarda, kimam, surti",
+                    "Weight": 0.43371089566897997,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "02.3.0.9.1.02",
+                    "Item_Name": "Paan: finished",
+                    "Weight": 0.218392903025979,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "02.3.0.9.1.03",
+                    "Item_Name": "Bidi",
+                    "Weight": 0.20205312562960398,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "02.3.0.9.1.04",
+                    "Item_Name": "Ingredients for paan",
+                    "Weight": 0.11094203025047579,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "02.3.0.9.1.05",
+                    "Item_Name": "Leaf tobacco",
+                    "Weight": 0.10190974452644078,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "02.3.0.9.1.06",
+                    "Item_Name": "Paan: leaf",
+                    "Weight": 0.05467674107435647,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "02.3.0.9.1.07",
+                    "Item_Name": "Hookah tobacco",
+                    "Weight": 0.008317398220836146,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "02.3.0.9.1.08",
+                    "Item_Name": "Snuff",
+                    "Weight": 0.0016607627444123045,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "02.3.0.9.1.09",
+                    "Item_Name": "Other tobacco products",
+                    "Weight": 0.1002305197110682,
+                    "Include_in_CPI": true
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Division_Code": "3.0",
+    "Division_Name": "Clothing and footwear",
+    "Weight": 6.383257147762339,
+    "Include_in_CPI": true,
+    "Groups": [
+      {
+        "Group_Code": "3.1",
+        "Group_Name": "Clothing",
+        "Weight": 5.531600602723638,
+        "Include_in_CPI": true,
+        "Classes": [
+          {
+            "Class_Code": "03.1.1",
+            "Class_Name": "Clothing materials (SD)",
+            "Weight": 0.2987175254378822,
+            "Include_in_CPI": true,
+            "Subclasses": [
+              {
+                "Subclass_Code": "03.1.1.0",
+                "Subclass_Name": "Clothing materials (SD)",
+                "Weight": 0.2987175254378822,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "03.1.1.0.1.01",
+                    "Item_Name": "Clothing materials",
+                    "Weight": 0.2987175254378822,
+                    "Include_in_CPI": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Class_Code": "03.1.2",
+            "Class_Name": "Garments (SD)",
+            "Weight": 3.982317734765786,
+            "Include_in_CPI": true,
+            "Subclasses": [
+              {
+                "Subclass_Code": "03.1.2.1",
+                "Subclass_Name": "Garments for men or boys (SD)",
+                "Weight": 1.6706209886403736,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "03.1.2.1.1.01",
+                    "Item_Name": "Shirts, T-shirts, Kurta (gents)",
+                    "Weight": 0.6766281997240786,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "03.1.2.1.1.02",
+                    "Item_Name": "Trousers, jeans, track pant, shorts (gents)",
+                    "Weight": 0.49594484386793114,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "03.1.2.1.1.03",
+                    "Item_Name": "Coat, jacket, blazer, sweater, sweatshirts and windcheater (gents)",
+                    "Weight": 0.12526439658927838,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "03.1.2.1.1.04",
+                    "Item_Name": "Dhoti/ Lungi",
+                    "Weight": 0.09735582898182624,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "03.1.2.1.1.05",
+                    "Item_Name": "Other garments for men or boys",
+                    "Weight": 0.2754277194772591,
+                    "Include_in_CPI": true
+                  }
+                ]
+              },
+              {
+                "Subclass_Code": "03.1.2.2",
+                "Subclass_Name": "Garments for women or girls (SD)",
+                "Weight": 2.0737443191558467,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "03.1.2.2.1.01",
+                    "Item_Name": "Saree",
+                    "Weight": 0.5281286274323936,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "03.1.2.2.1.02",
+                    "Item_Name": "Tops, shrugs, kurti (ladies)",
+                    "Weight": 0.3063370681364616,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "03.1.2.2.1.03",
+                    "Item_Name": "Trousers, jeans, slawars, Skirts (ladies)",
+                    "Weight": 0.5156273345173698,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "03.1.2.2.1.04",
+                    "Item_Name": "Coat, jacket, blazer, sweater, sweatshirts and windcheater  (ladies)",
+                    "Weight": 0.1050061637067362,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "03.1.2.2.1.05",
+                    "Item_Name": "Other garments for women or girls",
+                    "Weight": 0.6186451253628855,
+                    "Include_in_CPI": true
+                  }
+                ]
+              },
+              {
+                "Subclass_Code": "03.1.2.3",
+                "Subclass_Name": "Garments for infants (under 2 years of age) (SD)",
+                "Weight": 0.04374498902950328,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "03.1.2.3.1.01",
+                    "Item_Name": "Garments for infants",
+                    "Weight": 0.04374498902950328,
+                    "Include_in_CPI": true
+                  }
+                ]
+              },
+              {
+                "Subclass_Code": "03.1.2.4",
+                "Subclass_Name": "School uniforms (SD)",
+                "Weight": 0.19420743794006254,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "03.1.2.4.1.01",
+                    "Item_Name": "School uniforms",
+                    "Weight": 0.19420743794006254,
+                    "Include_in_CPI": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Class_Code": "03.1.3",
+            "Class_Name": "Other articles of clothing and clothing accessories (SD)",
+            "Weight": 0.27784328704775185,
+            "Include_in_CPI": true,
+            "Subclasses": [
+              {
+                "Subclass_Code": "03.1.3.1",
+                "Subclass_Name": "Other articles of clothing (SD)",
+                "Weight": 0.27784328704775185,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "03.1.3.1.1.01",
+                    "Item_Name": "Gamchha, towel and handkerchief",
+                    "Weight": 0.11738418805635147,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "03.1.3.1.1.02",
+                    "Item_Name": "Shawl and chaddar",
+                    "Weight": 0.0642563667712355,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "03.1.3.1.1.03",
+                    "Item_Name": "Other articles of clothing (including knitting wool)",
+                    "Weight": 0.09620273222016491,
+                    "Include_in_CPI": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Class_Code": "03.1.4",
+            "Class_Name": "Cleaning, ironing, dry cleaning, dyeing, repair, tailoring and hire of clothing",
+            "Weight": 0.9727220554722181,
+            "Include_in_CPI": true,
+            "Subclasses": [
+              {
+                "Subclass_Code": "03.1.4.1",
+                "Subclass_Name": "Cleaning, ironing, dry cleaning and dyeing of clothing",
+                "Weight": 0.10529484255767511,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "03.1.4.1.2.01",
+                    "Item_Name": "Washerman, laundry, ironing, dry cleaning and dyeing",
+                    "Weight": 0.10529484255767511,
+                    "Include_in_CPI": true
+                  }
+                ]
+              },
+              {
+                "Subclass_Code": "03.1.4.2",
+                "Subclass_Name": "Repair, tailoring and hire of clothing (S)",
+                "Weight": 0.867427212914543,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "03.1.4.2.2.01",
+                    "Item_Name": "Tailor",
+                    "Weight": 0.867427212914543,
+                    "Include_in_CPI": true
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Group_Code": "3.2",
+        "Group_Name": "Footwear",
+        "Weight": 0.8516565450387008,
+        "Include_in_CPI": true,
+        "Classes": [
+          {
+            "Class_Code": "03.2.1",
+            "Class_Name": "Shoes and other footwear (SD)",
+            "Weight": 0.8516565450387008,
+            "Include_in_CPI": true,
+            "Subclasses": [
+              {
+                "Subclass_Code": "03.2.1.1",
+                "Subclass_Name": "Footwear for men (SD)",
+                "Weight": 0.30555024794577157,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "03.2.1.1.1.01",
+                    "Item_Name": "Footwear for men",
+                    "Weight": 0.30555024794577157,
+                    "Include_in_CPI": true
+                  }
+                ]
+              },
+              {
+                "Subclass_Code": "03.2.1.2",
+                "Subclass_Name": "Footwear for women (SD)",
+                "Weight": 0.2910150083731805,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "03.2.1.2.1.01",
+                    "Item_Name": "Footwear for women",
+                    "Weight": 0.2910150083731805,
+                    "Include_in_CPI": true
+                  }
+                ]
+              },
+              {
+                "Subclass_Code": "03.2.1.3",
+                "Subclass_Name": "Footwear for infants and children (SD)",
+                "Weight": 0.2550912887197487,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "03.2.1.3.1.01",
+                    "Item_Name": "Footwear for infants and children",
+                    "Weight": 0.2550912887197487,
+                    "Include_in_CPI": true
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Division_Code": "4.0",
+    "Division_Name": "Housing, water, electricity, gas and other fuels",
+    "Weight": 17.664572688342968,
+    "Include_in_CPI": true,
+    "Groups": [
+      {
+        "Group_Code": "4.1",
+        "Group_Name": "Actual rental payments made for housing",
+        "Weight": 10.884970343842962,
+        "Include_in_CPI": true,
+        "Classes": [
+          {
+            "Class_Code": "04.1.1",
+            "Class_Name": "Actual rental payments made by tenants for main residence (S)",
+            "Weight": 10.884970343842962,
+            "Include_in_CPI": true,
+            "Subclasses": [
+              {
+                "Subclass_Code": "04.1.1.0",
+                "Subclass_Name": "Actual rental payments made by tenants for main residence (S)",
+                "Weight": 10.884970343842962,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "04.1.1.0.2.01",
+                    "Item_Name": "House Rent",
+                    "Weight": 10.884970343842962,
+                    "Include_in_CPI": true
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Group_Code": "4.3",
+        "Group_Name": "Maintenance, repair and security of the dwelling",
+        "Weight": 1.1887219813809415,
+        "Include_in_CPI": true,
+        "Classes": [
+          {
+            "Class_Code": "04.3.1",
+            "Class_Name": "Security equipment and materials for dwelling maintenance and repair",
+            "Weight": 0.09476986646986472,
+            "Include_in_CPI": true,
+            "Subclasses": [
+              {
+                "Subclass_Code": "04.3.1.1",
+                "Subclass_Name": "Materials for the maintenance and repair of the dwelling (ND)",
+                "Weight": 0.09476986646986472,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "04.3.1.1.1.01",
+                    "Item_Name": "Plugs, switches and other electrical fittings",
+                    "Weight": 0.09476986646986472,
+                    "Include_in_CPI": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Class_Code": "04.3.2",
+            "Class_Name": "Services for the maintenance, repair and security of the dwelling (S)",
+            "Weight": 1.093952114911077,
+            "Include_in_CPI": true,
+            "Subclasses": [
+              {
+                "Subclass_Code": "04.3.2.0",
+                "Subclass_Name": "Services for the maintenance, repair and security of the dwelling (S)",
+                "Weight": 1.093952114911077,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "04.3.2.0.2.01",
+                    "Item_Name": "Residential building and land (minor repairs)",
+                    "Weight": 0.7796445139273254,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "04.3.2.0.2.02",
+                    "Item_Name": "Repair charges for non-durables (electricity charges, plumbing charges etc.)",
+                    "Weight": 0.1960855857393576,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "04.3.2.0.2.03",
+                    "Item_Name": "Watchmen/security guard",
+                    "Weight": 0.014342098021782086,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "04.3.2.0.2.04",
+                    "Item_Name": "Other consumer rent",
+                    "Weight": 0.10387991722261182,
+                    "Include_in_CPI": true
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Group_Code": "4.4",
+        "Group_Name": "Water supply and miscellaneous services relating to the dwelling",
+        "Weight": 0.22945173173469074,
+        "Include_in_CPI": true,
+        "Classes": [
+          {
+            "Class_Code": "04.4.1",
+            "Class_Name": "Water supply (ND)",
+            "Weight": 0.17551945350377243,
+            "Include_in_CPI": true,
+            "Subclasses": [
+              {
+                "Subclass_Code": "04.4.1.1",
+                "Subclass_Name": "Water charges",
+                "Weight": 0.17551945350377243,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "04.4.1.1.2.01",
+                    "Item_Name": "Water charges",
+                    "Weight": 0.17551945350377243,
+                    "Include_in_CPI": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Class_Code": "04.4.4",
+            "Class_Name": "Other services related to the dwelling (S)",
+            "Weight": 0.053932278230918305,
+            "Include_in_CPI": true,
+            "Subclasses": [
+              {
+                "Subclass_Code": "04.4.4.9",
+                "Subclass_Name": "Other services related to the dwelling n.e.c. (S)",
+                "Weight": 0.053932278230918305,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "04.4.4.9.2.01",
+                    "Item_Name": "Sweeper",
+                    "Weight": 0.053932278230918305,
+                    "Include_in_CPI": true
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Group_Code": "4.5",
+        "Group_Name": "Electricity, gas and other fuels",
+        "Weight": 5.361428631384372,
+        "Include_in_CPI": true,
+        "Classes": [
+          {
+            "Class_Code": "04.5.1",
+            "Class_Name": "Electricity (ND)",
+            "Weight": 2.327700493361841,
+            "Include_in_CPI": true,
+            "Subclasses": [
+              {
+                "Subclass_Code": "04.5.1.0",
+                "Subclass_Name": "Electricity (ND)",
+                "Weight": 2.327700493361841,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "04.5.1.0.2.01",
+                    "Item_Name": "Electricity charges",
+                    "Weight": 2.327700493361841,
+                    "Include_in_CPI": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Class_Code": "04.5.2",
+            "Class_Name": "Gas (ND)",
+            "Weight": 1.981365827973307,
+            "Include_in_CPI": true,
+            "Subclasses": [
+              {
+                "Subclass_Code": "04.5.2.2",
+                "Subclass_Name": "LPG Cylinders and Piped natural gas",
+                "Weight": 1.981365827973307,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "04.5.2.2.1.01",
+                    "Item_Name": "LPG cylinder and piped natural gas",
+                    "Weight": 1.981365827973307,
+                    "Include_in_CPI": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Class_Code": "04.5.3",
+            "Class_Name": "Liquid fuels (ND)",
+            "Weight": 0.009713769805859371,
+            "Include_in_CPI": true,
+            "Subclasses": [
+              {
+                "Subclass_Code": "04.5.3.0",
+                "Subclass_Name": "Liquid fuels (ND)",
+                "Weight": 0.009713769805859371,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "04.5.3.0.1.01",
+                    "Item_Name": "Kerosene",
+                    "Weight": 0.005295327792437765,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "04.5.3.0.1.02",
+                    "Item_Name": "Kerosene PDS",
+                    "Weight": 0.004418442013421606,
+                    "Include_in_CPI": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Class_Code": "04.5.4",
+            "Class_Name": "Solid fuels (ND)",
+            "Weight": 1.0426485402433654,
+            "Include_in_CPI": true,
+            "Subclasses": [
+              {
+                "Subclass_Code": "04.5.4.1",
+                "Subclass_Name": "Coal",
+                "Weight": 0.007427711701236579,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "04.5.4.1.1.01",
+                    "Item_Name": "Coal",
+                    "Weight": 0.007427711701236579,
+                    "Include_in_CPI": true
+                  }
+                ]
+              },
+              {
+                "Subclass_Code": "04.5.4.2",
+                "Subclass_Name": "Firewood and chips",
+                "Weight": 0.8718299098637459,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "04.5.4.2.1.01",
+                    "Item_Name": "Firewood and chips",
+                    "Weight": 0.8718299098637459,
+                    "Include_in_CPI": true
+                  }
+                ]
+              },
+              {
+                "Subclass_Code": "04.5.4.3",
+                "Subclass_Name": "Charcoal (ND)",
+                "Weight": 0.002804456252872323,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "04.5.4.3.1.01",
+                    "Item_Name": "Charcoal",
+                    "Weight": 0.002804456252872323,
+                    "Include_in_CPI": true
+                  }
+                ]
+              },
+              {
+                "Subclass_Code": "04.5.4.9",
+                "Subclass_Name": "Other solid fuels (ND)",
+                "Weight": 0.16058646242551075,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "04.5.4.9.1.01",
+                    "Item_Name": "Dung cake",
+                    "Weight": 0.14685928408125354,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "04.5.4.9.1.02",
+                    "Item_Name": "Fuel (biogas and gobar gas)",
+                    "Weight": 0.013727178344257216,
+                    "Include_in_CPI": true
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Division_Code": "5.0",
+    "Division_Name": "Furnishings, household equipment and routine household maintenance",
+    "Weight": 4.469393206039356,
+    "Include_in_CPI": true,
+    "Groups": [
+      {
+        "Group_Code": "5.1",
+        "Group_Name": "Furniture, furnishings, and loose carpets",
+        "Weight": 0.431029161711564,
+        "Include_in_CPI": true,
+        "Classes": [
+          {
+            "Class_Code": "05.1.1",
+            "Class_Name": "Furniture, furnishings and loose carpets (D)",
+            "Weight": 0.431029161711564,
+            "Include_in_CPI": true,
+            "Subclasses": [
+              {
+                "Subclass_Code": "05.1.1.1",
+                "Subclass_Name": "Household furniture (D)",
+                "Weight": 0.27263678497919497,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "05.1.1.1.1.01",
+                    "Item_Name": "Chair, stool, bench and table",
+                    "Weight": 0.1069793300771348,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "05.1.1.1.1.02",
+                    "Item_Name": "Almirah and dressing table",
+                    "Weight": 0.05507765731589026,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "05.1.1.1.1.03",
+                    "Item_Name": "Bedstead",
+                    "Weight": 0.06526988911521205,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "05.1.1.1.1.04",
+                    "Item_Name": "Other furniture and fixtures",
+                    "Weight": 0.04530990847095786,
+                    "Include_in_CPI": true
+                  }
+                ]
+              },
+              {
+                "Subclass_Code": "05.1.1.3",
+                "Subclass_Name": "Lighting equipment (D)",
+                "Weight": 0.11453457596590308,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "05.1.1.3.1.01",
+                    "Item_Name": "Lantern, lamp, electric lampshade and emergency light",
+                    "Weight": 0.021599451079214876,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "05.1.1.3.1.02",
+                    "Item_Name": "Other electric bulb, tubelight and decorative lights",
+                    "Weight": 0.0929351248866882,
+                    "Include_in_CPI": true
+                  }
+                ]
+              },
+              {
+                "Subclass_Code": "05.1.1.4",
+                "Subclass_Name": "Furnishings, loose carpets and rugs (D)",
+                "Weight": 0.043857800766466,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "05.1.1.4.1.01",
+                    "Item_Name": "Carpet, daree and other floor mattings",
+                    "Weight": 0.03548072913344765,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "05.1.1.4.1.02",
+                    "Item_Name": "Paintings, drawings and engravings",
+                    "Weight": 0.008377071633018346,
+                    "Include_in_CPI": true
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Group_Code": "5.2",
+        "Group_Name": "Household textiles",
+        "Weight": 0.3560158908759453,
+        "Include_in_CPI": true,
+        "Classes": [
+          {
+            "Class_Code": "05.2.1",
+            "Class_Name": "Household textiles (SD)",
+            "Weight": 0.3560158908759453,
+            "Include_in_CPI": true,
+            "Subclasses": [
+              {
+                "Subclass_Code": "05.2.1.1",
+                "Subclass_Name": "Furnishing fabrics and curtains (SD)",
+                "Weight": 0.014345879461371653,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "05.2.1.1.1.01",
+                    "Item_Name": "Cloth for upholstery, curtains, tablecloth etc.",
+                    "Weight": 0.014345879461371653,
+                    "Include_in_CPI": true
+                  }
+                ]
+              },
+              {
+                "Subclass_Code": "05.2.1.2",
+                "Subclass_Name": "Bed linen and bedding (SD)",
+                "Weight": 0.34167001141457365,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "05.2.1.2.1.01",
+                    "Item_Name": "Bed sheet and bed cover",
+                    "Weight": 0.14365639813750597,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "05.2.1.2.1.02",
+                    "Item_Name": "Rug and blanket",
+                    "Weight": 0.10116352269510512,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "05.2.1.2.1.03",
+                    "Item_Name": "Pillow and cushion",
+                    "Weight": 0.02776224253887037,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "05.2.1.2.1.04",
+                    "Item_Name": "Quilt and mattress",
+                    "Weight": 0.029046352786702923,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "05.2.1.2.1.05",
+                    "Item_Name": "Mosquito net",
+                    "Weight": 0.03196005926103921,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "05.2.1.2.1.06",
+                    "Item_Name": "Bedding",
+                    "Weight": 0.008081435995350068,
+                    "Include_in_CPI": true
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Group_Code": "5.3",
+        "Group_Name": "Household appliances",
+        "Weight": 0.7419259864176903,
+        "Include_in_CPI": true,
+        "Classes": [
+          {
+            "Class_Code": "05.3.1",
+            "Class_Name": "Major electric and other household appliances (D)",
+            "Weight": 0.40254725004805736,
+            "Include_in_CPI": true,
+            "Subclasses": [
+              {
+                "Subclass_Code": "05.3.1.1",
+                "Subclass_Name": "Major kitchen appliances (D)",
+                "Weight": 0.1312153043834158,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "05.3.1.1.1.01",
+                    "Item_Name": "Refrigerator/freezers",
+                    "Weight": 0.08492364522665397,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "05.3.1.1.1.02",
+                    "Item_Name": "stove, gas burner and induction",
+                    "Weight": 0.046291659156761845,
+                    "Include_in_CPI": true
+                  }
+                ]
+              },
+              {
+                "Subclass_Code": "05.3.1.2",
+                "Subclass_Name": "Major laundry appliances (D)",
+                "Weight": 0.04992447203287239,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "05.3.1.2.1.01",
+                    "Item_Name": "Washing machine",
+                    "Weight": 0.04992447203287239,
+                    "Include_in_CPI": true
+                  }
+                ]
+              },
+              {
+                "Subclass_Code": "05.3.1.3",
+                "Subclass_Name": "Heaters and air conditioners (D)",
+                "Weight": 0.13007877811745702,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "05.3.1.3.1.01",
+                    "Item_Name": "Air conditioner",
+                    "Weight": 0.04460185878057332,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "05.3.1.3.1.02",
+                    "Item_Name": "Air cooler",
+                    "Weight": 0.06523039212655755,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "05.3.1.3.1.03",
+                    "Item_Name": "Geysers and sterilizers",
+                    "Weight": 0.012868197138108824,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "05.3.1.3.1.04",
+                    "Item_Name": "Electric air heaters and blowers",
+                    "Weight": 0.0049547903808214565,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "05.3.1.3.1.05",
+                    "Item_Name": "Ventilation system such as exhaust, chimney, etc.",
+                    "Weight": 0.002423539691395858,
+                    "Include_in_CPI": true
+                  }
+                ]
+              },
+              {
+                "Subclass_Code": "05.3.1.9",
+                "Subclass_Name": "Other major household appliances (D)",
+                "Weight": 0.09132869551431212,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "05.3.1.9.1.01",
+                    "Item_Name": "Water purifier",
+                    "Weight": 0.02140455232614533,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "05.3.1.9.1.02",
+                    "Item_Name": "Inverter, generators and stabilizers",
+                    "Weight": 0.020515849532957153,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "05.3.1.9.1.03",
+                    "Item_Name": "Sewing machine",
+                    "Weight": 0.012493843155419312,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "05.3.1.9.1.04",
+                    "Item_Name": "Air purifier",
+                    "Weight": 0.0015825837733612657,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "05.3.1.9.1.05",
+                    "Item_Name": "Other machines for household work",
+                    "Weight": 0.005281641107546715,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "05.3.1.9.1.06",
+                    "Item_Name": "Other durables",
+                    "Weight": 0.030050225618882345,
+                    "Include_in_CPI": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Class_Code": "05.3.2",
+            "Class_Name": "Small household appliances (SD)",
+            "Weight": 0.3393787363696329,
+            "Include_in_CPI": true,
+            "Subclasses": [
+              {
+                "Subclass_Code": "05.3.2.1",
+                "Subclass_Name": "Small appliances for the cooking and processing of food (SD)",
+                "Weight": 0.08660876970292036,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "05.3.2.1.1.01",
+                    "Item_Name": "Mixer/grinder, juicer and food processor",
+                    "Weight": 0.06304080308560128,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "05.3.2.1.1.02",
+                    "Item_Name": "Other cooking/ household appliances",
+                    "Weight": 0.023567966617319087,
+                    "Include_in_CPI": true
+                  }
+                ]
+              },
+              {
+                "Subclass_Code": "05.3.2.9",
+                "Subclass_Name": "Other small household appliances (SD)",
+                "Weight": 0.25276996666671253,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "05.3.2.9.1.01",
+                    "Item_Name": "Electric fan",
+                    "Weight": 0.14947873709168535,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "05.3.2.9.1.02",
+                    "Item_Name": "Bathroom and sanitary equipment",
+                    "Weight": 0.06857688183216283,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "05.3.2.9.1.03",
+                    "Item_Name": "Electric iron, heater, toaster, micro-oven, electric kettle, vacuum cleaner and other electric heating appliances",
+                    "Weight": 0.03471434774286433,
+                    "Include_in_CPI": true
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Group_Code": "5.4",
+        "Group_Name": "Glassware, tableware and household utensils",
+        "Weight": 0.5570799801585292,
+        "Include_in_CPI": true,
+        "Classes": [
+          {
+            "Class_Code": "05.4.0",
+            "Class_Name": "Glassware, tableware and household utensils (SD)",
+            "Weight": 0.5570799801585292,
+            "Include_in_CPI": true,
+            "Subclasses": [
+              {
+                "Subclass_Code": "05.4.0.1",
+                "Subclass_Name": "Glassware, crystal ware, ceramic ware and china ware (SD)",
+                "Weight": 0.024633949140719046,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "05.4.0.1.1.01",
+                    "Item_Name": "Glassware",
+                    "Weight": 0.024633949140719046,
+                    "Include_in_CPI": true
+                  }
+                ]
+              },
+              {
+                "Subclass_Code": "05.4.0.3",
+                "Subclass_Name": "Kitchen utensils and articles (SD)",
+                "Weight": 0.5324460310178102,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "05.4.0.3.1.01",
+                    "Item_Name": "Bucket and other plastic goods",
+                    "Weight": 0.19517515810586575,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "05.4.0.3.1.02",
+                    "Item_Name": "Stainless steel utensils",
+                    "Weight": 0.15370400516095908,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "05.4.0.3.1.03",
+                    "Item_Name": "Water bottle/feeding bottle",
+                    "Weight": 0.02809640436787468,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "05.4.0.3.1.04",
+                    "Item_Name": "Casseroles, thermos, flask and thermoware",
+                    "Weight": 0.016787431037967114,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "05.4.0.3.1.05",
+                    "Item_Name": "Other metal utensils (non-stick cookware, etc.)",
+                    "Weight": 0.033625854995695474,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "05.4.0.3.1.06",
+                    "Item_Name": "Other crockery and utensils",
+                    "Weight": 0.04813550568168668,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "05.4.0.3.1.07",
+                    "Item_Name": "Pressure cooker/ pressure pan",
+                    "Weight": 0.05692167166776139,
+                    "Include_in_CPI": true
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Group_Code": "5.5",
+        "Group_Name": "Tools and equipment for house and garden",
+        "Weight": 0.23830265767172856,
+        "Include_in_CPI": true,
+        "Classes": [
+          {
+            "Class_Code": "05.5.2",
+            "Class_Name": "Non-motorized tools and miscellaneous accessories (SD)",
+            "Weight": 0.23830265767172856,
+            "Include_in_CPI": true,
+            "Subclasses": [
+              {
+                "Subclass_Code": "05.5.2.2",
+                "Subclass_Name": "Miscellaneous accessories (SD)",
+                "Weight": 0.23830265767172856,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "05.5.2.2.1.01",
+                    "Item_Name": "LED bulb, CFL bulbs",
+                    "Weight": 0.17386876623819766,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "05.5.2.2.1.02",
+                    "Item_Name": "Electric batteries",
+                    "Weight": 0.03286386382179696,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "05.5.2.2.1.03",
+                    "Item_Name": "Other minor durable-type goods",
+                    "Weight": 0.031570027611733935,
+                    "Include_in_CPI": true
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Group_Code": "5.6",
+        "Group_Name": "Goods and services for routine household maintenance",
+        "Weight": 2.145039529203899,
+        "Include_in_CPI": true,
+        "Classes": [
+          {
+            "Class_Code": "05.6.1",
+            "Class_Name": "Non-durable household goods (ND)",
+            "Weight": 1.4989734370594323,
+            "Include_in_CPI": true,
+            "Subclasses": [
+              {
+                "Subclass_Code": "05.6.1.1",
+                "Subclass_Name": "Household cleaning and maintenance products (ND)",
+                "Weight": 0.8528214876339515,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "05.6.1.1.1.01",
+                    "Item_Name": "Washing soap/soda/powder/liquid detergent",
+                    "Weight": 0.5781294975004553,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "05.6.1.1.1.02",
+                    "Item_Name": "Floor cleaner, toilet cleaner",
+                    "Weight": 0.19196042073676597,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "05.6.1.1.1.03",
+                    "Item_Name": "Other washing requisites",
+                    "Weight": 0.08273156939673028,
+                    "Include_in_CPI": true
+                  }
+                ]
+              },
+              {
+                "Subclass_Code": "05.6.1.9",
+                "Subclass_Name": "Other non-durable household goods (ND)",
+                "Weight": 0.6461519494254808,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "05.6.1.9.1.01",
+                    "Item_Name": "Incense (agarbatti) and room freshener",
+                    "Weight": 0.1663380368015491,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "05.6.1.9.1.02",
+                    "Item_Name": "Mosquito repellent, insecticide, anti-rodent, etc.",
+                    "Weight": 0.13976408594393164,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "05.6.1.9.1.03",
+                    "Item_Name": "Earthenware, paperware, thermocol plates, etc.",
+                    "Weight": 0.04171011265517624,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "05.6.1.9.1.04",
+                    "Item_Name": "Matchbox",
+                    "Weight": 0.03380228569697287,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "05.6.1.9.1.05",
+                    "Item_Name": "Candle",
+                    "Weight": 0.024199371453296745,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "05.6.1.9.1.06",
+                    "Item_Name": "Other petty articles",
+                    "Weight": 0.24033805687455426,
+                    "Include_in_CPI": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Class_Code": "05.6.2",
+            "Class_Name": "Domestic services and household services (S)",
+            "Weight": 0.646066092144467,
+            "Include_in_CPI": true,
+            "Subclasses": [
+              {
+                "Subclass_Code": "05.6.2.1",
+                "Subclass_Name": "Domestic services provided by paid staff (S)",
+                "Weight": 0.17963885400398838,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "05.6.2.1.2.01",
+                    "Item_Name": "Domestic helper/cook",
+                    "Weight": 0.148382409601883,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "05.6.2.1.2.02",
+                    "Item_Name": "Driver",
+                    "Weight": 0.02606198535560726,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "05.6.2.1.2.03",
+                    "Item_Name": "Attendant, babysitter",
+                    "Weight": 0.005194459046498114,
+                    "Include_in_CPI": true
+                  }
+                ]
+              },
+              {
+                "Subclass_Code": "05.6.2.9",
+                "Subclass_Name": "Other consumer services excluding conveyance",
+                "Weight": 0.46642723814047854,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "05.6.2.9.2.01",
+                    "Item_Name": "Other consumer services excluding conveyance",
+                    "Weight": 0.46642723814047854,
+                    "Include_in_CPI": true
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Division_Code": "6.0",
+    "Division_Name": "Health",
+    "Weight": 6.100263352725647,
+    "Include_in_CPI": true,
+    "Groups": [
+      {
+        "Group_Code": "6.1",
+        "Group_Name": "Medicines and health products",
+        "Weight": 3.8967469384045246,
+        "Include_in_CPI": true,
+        "Classes": [
+          {
+            "Class_Code": "06.1.1",
+            "Class_Name": "Medicines (ND)",
+            "Weight": 3.763840276336275,
+            "Include_in_CPI": true,
+            "Subclasses": [
+              {
+                "Subclass_Code": "06.1.1.1",
+                "Subclass_Name": "Medicines and vaccines",
+                "Weight": 3.7252233389750784,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "06.1.1.1.1.01",
+                    "Item_Name": "Medicine",
+                    "Weight": 3.7252233389750784,
+                    "Include_in_CPI": true
+                  }
+                ]
+              },
+              {
+                "Subclass_Code": "06.1.1.2",
+                "Subclass_Name": "Health supplements",
+                "Weight": 0.03861693736119662,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "06.1.1.2.1.01",
+                    "Item_Name": "Health supplements (chawanprash)",
+                    "Weight": 0.03861693736119662,
+                    "Include_in_CPI": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Class_Code": "06.1.2",
+            "Class_Name": "Medical products (ND)",
+            "Weight": 0.043086437333980106,
+            "Include_in_CPI": true,
+            "Subclasses": [
+              {
+                "Subclass_Code": "06.1.2.1",
+                "Subclass_Name": "Medical diagnostic products (ND)",
+                "Weight": 0.019631029463043365,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "06.1.2.1.1.01",
+                    "Item_Name": "Other medical equipment",
+                    "Weight": 0.019631029463043365,
+                    "Include_in_CPI": true
+                  }
+                ]
+              },
+              {
+                "Subclass_Code": "06.1.2.2",
+                "Subclass_Name": "Family planning devices",
+                "Weight": 0.018535905742690654,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "06.1.2.2.1.01",
+                    "Item_Name": "Family planning devices",
+                    "Weight": 0.018535905742690654,
+                    "Include_in_CPI": true
+                  }
+                ]
+              },
+              {
+                "Subclass_Code": "06.1.2.3",
+                "Subclass_Name": "Treatment devices for personal use (ND)",
+                "Weight": 0.004919502128246085,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "06.1.2.3.1.01",
+                    "Item_Name": "Nebulizer",
+                    "Weight": 0.004919502128246085,
+                    "Include_in_CPI": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Class_Code": "06.1.3",
+            "Class_Name": "Assistive products (D)",
+            "Weight": 0.08982022473426961,
+            "Include_in_CPI": true,
+            "Subclasses": [
+              {
+                "Subclass_Code": "06.1.3.1",
+                "Subclass_Name": "Assistive products for vision (D)",
+                "Weight": 0.07999824340934318,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "06.1.3.1.1.01",
+                    "Item_Name": "Spectacles/goggles, contact lenses",
+                    "Weight": 0.07999824340934318,
+                    "Include_in_CPI": true
+                  }
+                ]
+              },
+              {
+                "Subclass_Code": "06.1.3.2",
+                "Subclass_Name": "Assistive products for hearing and communication (D)",
+                "Weight": 0.0042964063159147406,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "06.1.3.2.1.01",
+                    "Item_Name": "Hearing aids and orthopaedic equipment",
+                    "Weight": 0.0042964063159147406,
+                    "Include_in_CPI": true
+                  }
+                ]
+              },
+              {
+                "Subclass_Code": "06.1.3.3",
+                "Subclass_Name": "Assistive products for mobility and daily living (D)",
+                "Weight": 0.005525575009011681,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "06.1.3.3.1.01",
+                    "Item_Name": "Massager",
+                    "Weight": 0.0038912591203742763,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "06.1.3.3.1.02",
+                    "Item_Name": "Wheelchair",
+                    "Weight": 0.0016343158886374044,
+                    "Include_in_CPI": true
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Group_Code": "6.2",
+        "Group_Name": "Outpatient care services",
+        "Weight": 1.0990108080825451,
+        "Include_in_CPI": true,
+        "Classes": [
+          {
+            "Class_Code": "06.2.3",
+            "Class_Name": "Other outpatient care services (S)",
+            "Weight": 1.0990108080825451,
+            "Include_in_CPI": true,
+            "Subclasses": [
+              {
+                "Subclass_Code": "06.2.3.1",
+                "Subclass_Name": "Outpatient curative and rehabilitative services (S)",
+                "Weight": 1.0990108080825451,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "06.2.3.1.2.01",
+                    "Item_Name": "Doctor's/surgeon's fee",
+                    "Weight": 0.8791572295671318,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "06.2.3.1.2.02",
+                    "Item_Name": "Other medical expenses",
+                    "Weight": 0.21985357851541326,
+                    "Include_in_CPI": true
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Group_Code": "6.3",
+        "Group_Name": "Inpatient care services",
+        "Weight": 0.4948025911304185,
+        "Include_in_CPI": true,
+        "Classes": [
+          {
+            "Class_Code": "06.3.1",
+            "Class_Name": "Inpatient curative and rehabilitative services (S)",
+            "Weight": 0.4948025911304185,
+            "Include_in_CPI": true,
+            "Subclasses": [
+              {
+                "Subclass_Code": "06.3.1.0",
+                "Subclass_Name": "Inpatient curative and rehabilitative services (S)",
+                "Weight": 0.4948025911304185,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "06.3.1.0.2.01",
+                    "Item_Name": "Hospital and nursing home charges",
+                    "Weight": 0.4948025911304185,
+                    "Include_in_CPI": true
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Group_Code": "6.4",
+        "Group_Name": "Other health services",
+        "Weight": 0.6097030151081589,
+        "Include_in_CPI": true,
+        "Classes": [
+          {
+            "Class_Code": "06.4.1",
+            "Class_Name": "Diagnostic imaging services and medical laboratory services (S)",
+            "Weight": 0.6097030151081589,
+            "Include_in_CPI": true,
+            "Subclasses": [
+              {
+                "Subclass_Code": "06.4.1.0",
+                "Subclass_Name": "Diagnostic imaging services and medical laboratory services (S)",
+                "Weight": 0.6097030151081589,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "06.4.1.0.2.01",
+                    "Item_Name": "X-ray, ECG and pathological test",
+                    "Weight": 0.6097030151081589,
+                    "Include_in_CPI": true
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Division_Code": "7.0",
+    "Division_Name": "Transport",
+    "Weight": 8.796113391562445,
+    "Include_in_CPI": true,
+    "Groups": [
+      {
+        "Group_Code": "7.1",
+        "Group_Name": "Purchase of vehicles",
+        "Weight": 1.1844553981659511,
+        "Include_in_CPI": true,
+        "Classes": [
+          {
+            "Class_Code": "07.1.1",
+            "Class_Name": "Motor cars (D)",
+            "Weight": 0.4664703366302072,
+            "Include_in_CPI": true,
+            "Subclasses": [
+              {
+                "Subclass_Code": "07.1.1.1",
+                "Subclass_Name": "Motor car and jeep",
+                "Weight": 0.4664703366302072,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "07.1.1.1.1.01",
+                    "Item_Name": "Motor car and jeep",
+                    "Weight": 0.4664703366302072,
+                    "Include_in_CPI": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Class_Code": "07.1.2",
+            "Class_Name": "Motorcycles (D)",
+            "Weight": 0.6581083215799441,
+            "Include_in_CPI": true,
+            "Subclasses": [
+              {
+                "Subclass_Code": "07.1.2.0",
+                "Subclass_Name": "Motor cycle and scooter",
+                "Weight": 0.6581083215799441,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "07.1.2.0.1.01",
+                    "Item_Name": "Motor cycle and scooter",
+                    "Weight": 0.6581083215799441,
+                    "Include_in_CPI": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Class_Code": "07.1.3",
+            "Class_Name": "Bicycles (D)",
+            "Weight": 0.05987673995579982,
+            "Include_in_CPI": true,
+            "Subclasses": [
+              {
+                "Subclass_Code": "07.1.3.0",
+                "Subclass_Name": "Bicycle",
+                "Weight": 0.05987673995579982,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "07.1.3.0.1.01",
+                    "Item_Name": "Bicycle",
+                    "Weight": 0.05987673995579982,
+                    "Include_in_CPI": true
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Group_Code": "7.2",
+        "Group_Name": "Operation of personal transport equipment",
+        "Weight": 5.036983000331095,
+        "Include_in_CPI": true,
+        "Classes": [
+          {
+            "Class_Code": "07.2.1",
+            "Class_Name": "Parts and accessories for personal transport equipment (SD)",
+            "Weight": 0.19150185616561707,
+            "Include_in_CPI": true,
+            "Subclasses": [
+              {
+                "Subclass_Code": "07.2.1.1",
+                "Subclass_Name": "Tyres and tubes",
+                "Weight": 0.1536739867896328,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "07.2.1.1.1.01",
+                    "Item_Name": "Tyres and tubes",
+                    "Weight": 0.1536739867896328,
+                    "Include_in_CPI": true
+                  }
+                ]
+              },
+              {
+                "Subclass_Code": "07.2.1.2",
+                "Subclass_Name": "Parts for personal transport equipment (SD)",
+                "Weight": 0.004711830705331685,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "07.2.1.2.1.01",
+                    "Item_Name": "Other transport equipment",
+                    "Weight": 0.004711830705331685,
+                    "Include_in_CPI": true
+                  }
+                ]
+              },
+              {
+                "Subclass_Code": "07.2.1.3",
+                "Subclass_Name": "Accessories for personal transport equipment (SD)",
+                "Weight": 0.03311603867065261,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "07.2.1.3.1.01",
+                    "Item_Name": "Helmet",
+                    "Weight": 0.03311603867065261,
+                    "Include_in_CPI": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Class_Code": "07.2.2",
+            "Class_Name": "Fuels and lubricants for personal transport equipment (ND)",
+            "Weight": 4.845481144165478,
+            "Include_in_CPI": true,
+            "Subclasses": [
+              {
+                "Subclass_Code": "07.2.2.1",
+                "Subclass_Name": "Diesel (ND)",
+                "Weight": 0.31671216953441056,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "07.2.2.1.1.01",
+                    "Item_Name": "Diesel",
+                    "Weight": 0.31671216953441056,
+                    "Include_in_CPI": true
+                  }
+                ]
+              },
+              {
+                "Subclass_Code": "07.2.2.2",
+                "Subclass_Name": "Petrol (ND)",
+                "Weight": 4.4887708583164585,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "07.2.2.2.1.01",
+                    "Item_Name": "Petrol",
+                    "Weight": 4.4887708583164585,
+                    "Include_in_CPI": true
+                  }
+                ]
+              },
+              {
+                "Subclass_Code": "07.2.2.3",
+                "Subclass_Name": "Other fuels for personal transport equipment (ND)",
+                "Weight": 0.0399981163146089,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "07.2.2.3.1.01",
+                    "Item_Name": "Other natural gas (CNG)",
+                    "Weight": 0.0399981163146089,
+                    "Include_in_CPI": true
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Group_Code": "7.3",
+        "Group_Name": "Passenger transport services",
+        "Weight": 2.5670155955626623,
+        "Include_in_CPI": true,
+        "Classes": [
+          {
+            "Class_Code": "07.3.1",
+            "Class_Name": "Passenger transport by railway (S)",
+            "Weight": 0.8695403842744175,
+            "Include_in_CPI": true,
+            "Subclasses": [
+              {
+                "Subclass_Code": "07.3.1.1",
+                "Subclass_Name": "Passenger transport by train (S)",
+                "Weight": 0.18580334091352002,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "07.3.1.1.2.01",
+                    "Item_Name": "Rail fare",
+                    "Weight": 0.18580334091352002,
+                    "Include_in_CPI": true
+                  }
+                ]
+              },
+              {
+                "Subclass_Code": "07.3.1.2",
+                "Subclass_Name": "Passenger transport by rapid transit and tram (S)",
+                "Weight": 0.6837370433608975,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "07.3.1.2.2.01",
+                    "Item_Name": "Bus/tram fare: occasional",
+                    "Weight": 0.6837370433608975,
+                    "Include_in_CPI": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Class_Code": "07.3.2",
+            "Class_Name": "Passenger transport by road (S)",
+            "Weight": 1.6664153959288104,
+            "Include_in_CPI": true,
+            "Subclasses": [
+              {
+                "Subclass_Code": "07.3.2.1",
+                "Subclass_Name": "Passenger transport by bus and coach (S)",
+                "Weight": 0.1579894944585646,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "07.3.2.1.2.01",
+                    "Item_Name": "Bus/tram fare for commuting to work: daily",
+                    "Weight": 0.11772313165280249,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "07.3.2.1.2.02",
+                    "Item_Name": "Bus fare for commuting to work: periodic",
+                    "Weight": 0.04026636280576213,
+                    "Include_in_CPI": true
+                  }
+                ]
+              },
+              {
+                "Subclass_Code": "07.3.2.2",
+                "Subclass_Name": "Passenger transport by taxi and hired vehicle with driver (S)",
+                "Weight": 0.1878106423238391,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "07.3.2.2.2.01",
+                    "Item_Name": "Taxi fare",
+                    "Weight": 0.11359694337125617,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "07.3.2.2.2.02",
+                    "Item_Name": "Car/bus hired for ceremonial occasion, picnic, etc",
+                    "Weight": 0.07421369895258292,
+                    "Include_in_CPI": true
+                  }
+                ]
+              },
+              {
+                "Subclass_Code": "07.3.2.3",
+                "Subclass_Name": "Passenger transport for students to and from school (S)",
+                "Weight": 0.5298747520633278,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "07.3.2.3.2.01",
+                    "Item_Name": "Bus fare for school, college: periodic",
+                    "Weight": 0.38161550219102786,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "07.3.2.3.2.02",
+                    "Item_Name": "Bus /tram fare for school, college: daily",
+                    "Weight": 0.14825924987229996,
+                    "Include_in_CPI": true
+                  }
+                ]
+              },
+              {
+                "Subclass_Code": "07.3.2.9",
+                "Subclass_Name": "Other passenger transport by road (S)",
+                "Weight": 0.790740507083079,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "07.3.2.9.2.01",
+                    "Item_Name": "Auto-rickshaw/e-rickshaw fare",
+                    "Weight": 0.7007706091067121,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "07.3.2.9.2.02",
+                    "Item_Name": "Rickshaw fare",
+                    "Weight": 0.01111461738579118,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "07.3.2.9.2.03",
+                    "Item_Name": "Other conveyance expenses",
+                    "Weight": 0.07885528059057574,
+                    "Include_in_CPI": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Class_Code": "07.3.3",
+            "Class_Name": "Passenger transport by air (S)",
+            "Weight": 0.029509720681613706,
+            "Include_in_CPI": true,
+            "Subclasses": [
+              {
+                "Subclass_Code": "07.3.3.1",
+                "Subclass_Name": "Passenger transport by air, domestic (S)",
+                "Weight": 0.029509720681613706,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "07.3.3.1.2.01",
+                    "Item_Name": "Airfare",
+                    "Weight": 0.029509720681613706,
+                    "Include_in_CPI": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Class_Code": "07.3.4",
+            "Class_Name": "Passenger transport by sea and inland waterway (S)",
+            "Weight": 0.001550094677821013,
+            "Include_in_CPI": true,
+            "Subclasses": [
+              {
+                "Subclass_Code": "07.3.4.0",
+                "Subclass_Name": "Passenger transport by sea and inland waterway (S)",
+                "Weight": 0.001550094677821013,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "07.3.4.0.2.01",
+                    "Item_Name": "Steamer, boat fare",
+                    "Weight": 0.001550094677821013,
+                    "Include_in_CPI": true
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Group_Code": "7.4",
+        "Group_Name": "Transport services for goods",
+        "Weight": 0.007659397502735931,
+        "Include_in_CPI": true,
+        "Classes": [
+          {
+            "Class_Code": "07.4.1",
+            "Class_Name": "Postal and courier services (S)",
+            "Weight": 0.007659397502735931,
+            "Include_in_CPI": true,
+            "Subclasses": [
+              {
+                "Subclass_Code": "07.4.1.2",
+                "Subclass_Name": "Courier and parcel delivery services (S)",
+                "Weight": 0.007659397502735931,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "07.4.1.2.2.01",
+                    "Item_Name": "Postage, couriers and money order",
+                    "Weight": 0.007659397502735931,
+                    "Include_in_CPI": true
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Division_Code": "8.0",
+    "Division_Name": "Information and communication",
+    "Weight": 3.6094384689580568,
+    "Include_in_CPI": true,
+    "Groups": [
+      {
+        "Group_Code": "8.1",
+        "Group_Name": "Information and communication equipment",
+        "Weight": 0.7905775213137717,
+        "Include_in_CPI": true,
+        "Classes": [
+          {
+            "Class_Code": "08.1.1",
+            "Class_Name": "Telephone instrument (landline)",
+            "Weight": 0.0010219924863503413,
+            "Include_in_CPI": true,
+            "Subclasses": [
+              {
+                "Subclass_Code": "08.1.1.0",
+                "Subclass_Name": "Telephone instrument (landline)",
+                "Weight": 0.0010219924863503413,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "08.1.1.0.1.01",
+                    "Item_Name": "Telephone instrument (landline)",
+                    "Weight": 0.0010219924863503413,
+                    "Include_in_CPI": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Class_Code": "08.1.2",
+            "Class_Name": "Mobile handset",
+            "Weight": 0.5609780123402586,
+            "Include_in_CPI": true,
+            "Subclasses": [
+              {
+                "Subclass_Code": "08.1.2.0",
+                "Subclass_Name": "Mobile handset",
+                "Weight": 0.5609780123402586,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "08.1.2.0.1.01",
+                    "Item_Name": "Mobile handset",
+                    "Weight": 0.5609780123402586,
+                    "Include_in_CPI": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Class_Code": "08.1.3",
+            "Class_Name": "Information processing equipment (D)",
+            "Weight": 0.03538281051017576,
+            "Include_in_CPI": true,
+            "Subclasses": [
+              {
+                "Subclass_Code": "08.1.3.1",
+                "Subclass_Name": "Computers, laptops and tablets including Software",
+                "Weight": 0.03538281051017576,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "08.1.3.1.1.01",
+                    "Item_Name": "PC/ Laptop/ tablet and other peripherals incl. software",
+                    "Weight": 0.03538281051017576,
+                    "Include_in_CPI": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Class_Code": "08.1.4",
+            "Class_Name": "Audio-visual devices",
+            "Weight": 0.18263451465898084,
+            "Include_in_CPI": true,
+            "Subclasses": [
+              {
+                "Subclass_Code": "08.1.4.0",
+                "Subclass_Name": "Audio-visual devices",
+                "Weight": 0.18263451465898084,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "08.1.4.0.1.01",
+                    "Item_Name": "Television",
+                    "Weight": 0.11133776062290378,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "08.1.4.0.1.02",
+                    "Item_Name": "Headphone, earphone, ear pod, airpod and bluetooth devices",
+                    "Weight": 0.07129675403607706,
+                    "Include_in_CPI": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Class_Code": "08.1.5",
+            "Class_Name": "Unrecorded recording media (SD)",
+            "Weight": 0.010560191318006116,
+            "Include_in_CPI": true,
+            "Subclasses": [
+              {
+                "Subclass_Code": "08.1.5.0",
+                "Subclass_Name": "Unrecorded recording media (SD)",
+                "Weight": 0.010560191318006116,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "08.1.5.0.1.01",
+                    "Item_Name": "Pen-drive and external hard disk",
+                    "Weight": 0.010560191318006116,
+                    "Include_in_CPI": true
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Group_Code": "8.3",
+        "Group_Name": "Information and communication services",
+        "Weight": 2.818860947644285,
+        "Include_in_CPI": true,
+        "Classes": [
+          {
+            "Class_Code": "08.3.3",
+            "Class_Name": "Internet access provision services and online storage services (S)",
+            "Weight": 0.20441479858532777,
+            "Include_in_CPI": true,
+            "Subclasses": [
+              {
+                "Subclass_Code": "08.3.3.0",
+                "Subclass_Name": "Internet expenses",
+                "Weight": 0.20441479858532777,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "08.3.3.0.2.01",
+                    "Item_Name": "Internet expenses",
+                    "Weight": 0.20441479858532777,
+                    "Include_in_CPI": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Class_Code": "08.3.4",
+            "Class_Name": "Telephone charges: mobile and landline",
+            "Weight": 1.9246888456245865,
+            "Include_in_CPI": true,
+            "Subclasses": [
+              {
+                "Subclass_Code": "08.3.4.0",
+                "Subclass_Name": "Telephone charges: mobile and landline",
+                "Weight": 1.9246888456245865,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "08.3.4.0.2.01",
+                    "Item_Name": "Telephone charges: mobile",
+                    "Weight": 1.9203878624504553,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "08.3.4.0.2.02",
+                    "Item_Name": "Telephone charges: landline",
+                    "Weight": 0.004300983174131123,
+                    "Include_in_CPI": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Class_Code": "08.3.9",
+            "Class_Name": "Other information and communication services (S)",
+            "Weight": 0.6897573034343708,
+            "Include_in_CPI": true,
+            "Subclasses": [
+              {
+                "Subclass_Code": "08.3.9.2",
+                "Subclass_Name": "Subscriptions to streaming services",
+                "Weight": 0.6897573034343708,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "08.3.9.2.1.01",
+                    "Item_Name": "Cable TV/DTH/set top box",
+                    "Weight": 0.6462786456466392,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "08.3.9.2.2.02",
+                    "Item_Name": "Online media service provider/streaming services",
+                    "Weight": 0.04347865778773159,
+                    "Include_in_CPI": true
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Division_Code": "9.0",
+    "Division_Name": "Recreation, sport and culture",
+    "Weight": 1.5158147751142863,
+    "Include_in_CPI": true,
+    "Groups": [
+      {
+        "Group_Code": "9.1",
+        "Group_Name": "Recreational durables",
+        "Weight": 0.002767387158137239,
+        "Include_in_CPI": true,
+        "Classes": [
+          {
+            "Class_Code": "09.1.1",
+            "Class_Name": "Photographic and cinematographic equipment and optical instruments (D)",
+            "Weight": 0.002767387158137239,
+            "Include_in_CPI": true,
+            "Subclasses": [
+              {
+                "Subclass_Code": "09.1.1.1",
+                "Subclass_Name": "Camera and photographic equipment",
+                "Weight": 0.002767387158137239,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "09.1.1.1.1.01",
+                    "Item_Name": "Camera and photographic equipment",
+                    "Weight": 0.002767387158137239,
+                    "Include_in_CPI": true
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Group_Code": "9.2",
+        "Group_Name": "Other recreational goods",
+        "Weight": 0.12489691272525057,
+        "Include_in_CPI": true,
+        "Classes": [
+          {
+            "Class_Code": "09.2.1",
+            "Class_Name": "Games, toys and hobby-related articles (SD)",
+            "Weight": 0.02349132757685085,
+            "Include_in_CPI": true,
+            "Subclasses": [
+              {
+                "Subclass_Code": "09.2.1.1",
+                "Subclass_Name": "Other goods for recreation",
+                "Weight": 0.02349132757685085,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "09.2.1.1.1.01",
+                    "Item_Name": "Other goods for recreation",
+                    "Weight": 0.02349132757685085,
+                    "Include_in_CPI": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Class_Code": "09.2.2",
+            "Class_Name": "Sporting, camping and open-air recreation equipment (SD)",
+            "Weight": 0.10140558514839972,
+            "Include_in_CPI": true,
+            "Subclasses": [
+              {
+                "Subclass_Code": "09.2.2.1",
+                "Subclass_Name": "Sporting equipment (SD)",
+                "Weight": 0.10140558514839972,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "09.2.2.1.1.01",
+                    "Item_Name": "Sports goods",
+                    "Weight": 0.07852859494124417,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "09.2.2.1.1.02",
+                    "Item_Name": "Exercise equipment",
+                    "Weight": 0.004626022627032564,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "09.2.2.1.1.03",
+                    "Item_Name": "Other sports goods",
+                    "Weight": 0.018250967580122974,
+                    "Include_in_CPI": true
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Group_Code": "9.3",
+        "Group_Name": "Garden products and pets",
+        "Weight": 0.15736008581404787,
+        "Include_in_CPI": true,
+        "Classes": [
+          {
+            "Class_Code": "09.3.1",
+            "Class_Name": "Garden products, plants and flowers (ND)",
+            "Weight": 0.1139283882142708,
+            "Include_in_CPI": true,
+            "Subclasses": [
+              {
+                "Subclass_Code": "09.3.1.2",
+                "Subclass_Name": "Plants, seeds and flowers (ND)",
+                "Weight": 0.1139283882142708,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "09.3.1.2.1.01",
+                    "Item_Name": "Flower (fresh)",
+                    "Weight": 0.1139283882142708,
+                    "Include_in_CPI": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Class_Code": "09.3.2",
+            "Class_Name": "Pets and pet products (D)",
+            "Weight": 0.043431697599777074,
+            "Include_in_CPI": true,
+            "Subclasses": [
+              {
+                "Subclass_Code": "09.3.2.1",
+                "Subclass_Name": "Pets (D)",
+                "Weight": 0.043431697599777074,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "09.3.2.1.1.01",
+                    "Item_Name": "Pet animals",
+                    "Weight": 0.043431697599777074,
+                    "Include_in_CPI": true
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Group_Code": "9.4",
+        "Group_Name": "Recreational services",
+        "Weight": 0.2899078093376978,
+        "Include_in_CPI": true,
+        "Classes": [
+          {
+            "Class_Code": "09.4.6",
+            "Class_Name": "Recreational and sporting services (S)",
+            "Weight": 0.2899078093376978,
+            "Include_in_CPI": true,
+            "Subclasses": [
+              {
+                "Subclass_Code": "09.4.6.1",
+                "Subclass_Name": "Recreational and leisure services (S)",
+                "Weight": 0.17966693002276066,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "09.4.6.1.2.01",
+                    "Item_Name": "Other entertainment (mela, fair, picnic, etc.)",
+                    "Weight": 0.17966693002276066,
+                    "Include_in_CPI": true
+                  }
+                ]
+              },
+              {
+                "Subclass_Code": "09.4.6.2",
+                "Subclass_Name": "Services associated with the practice of sports (S)",
+                "Weight": 0.11024087931493712,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "09.4.6.2.2.01",
+                    "Item_Name": "Club, gym, swimming fees and other subscriptions",
+                    "Weight": 0.11024087931493712,
+                    "Include_in_CPI": true
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Group_Code": "9.5",
+        "Group_Name": "Cultural goods",
+        "Weight": 0.008808450537993041,
+        "Include_in_CPI": true,
+        "Classes": [
+          {
+            "Class_Code": "09.5.1",
+            "Class_Name": "Musical instruments (D)",
+            "Weight": 0.008808450537993041,
+            "Include_in_CPI": true,
+            "Subclasses": [
+              {
+                "Subclass_Code": "09.5.1.0",
+                "Subclass_Name": "Musical instruments (D)",
+                "Weight": 0.008808450537993041,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "09.5.1.0.1.01",
+                    "Item_Name": "Musical instruments",
+                    "Weight": 0.008808450537993041,
+                    "Include_in_CPI": true
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Group_Code": "9.6",
+        "Group_Name": "Cultural services",
+        "Weight": 0.17017392699705064,
+        "Include_in_CPI": true,
+        "Classes": [
+          {
+            "Class_Code": "09.6.1",
+            "Class_Name": "Services provided by cinemas, theatres and concert venues (S)",
+            "Weight": 0.12822458306281861,
+            "Include_in_CPI": true,
+            "Subclasses": [
+              {
+                "Subclass_Code": "09.6.1.0",
+                "Subclass_Name": "Cinema, theatre",
+                "Weight": 0.12822458306281861,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "09.6.1.0.2.01",
+                    "Item_Name": "Cinema, theatre",
+                    "Weight": 0.12822458306281861,
+                    "Include_in_CPI": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Class_Code": "09.6.3",
+            "Class_Name": "Photographic services (S)",
+            "Weight": 0.04194934393423203,
+            "Include_in_CPI": true,
+            "Subclasses": [
+              {
+                "Subclass_Code": "09.6.3.0",
+                "Subclass_Name": "Photography",
+                "Weight": 0.04194934393423203,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "09.6.3.0.1.01",
+                    "Item_Name": "Photography",
+                    "Weight": 0.04194934393423203,
+                    "Include_in_CPI": true
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Group_Code": "9.7",
+        "Group_Name": "Newspapers, books and stationery",
+        "Weight": 0.7619002025441091,
+        "Include_in_CPI": true,
+        "Classes": [
+          {
+            "Class_Code": "09.7.1",
+            "Class_Name": "Books (SD)",
+            "Weight": 0.45858264457679154,
+            "Include_in_CPI": true,
+            "Subclasses": [
+              {
+                "Subclass_Code": "09.7.1.1",
+                "Subclass_Name": "Educational books and textbooks (SD)",
+                "Weight": 0.45858264457679154,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "09.7.1.1.1.01",
+                    "Item_Name": "Books/ journals",
+                    "Weight": 0.45858264457679154,
+                    "Include_in_CPI": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Class_Code": "09.7.2",
+            "Class_Name": "Newspapers and periodicals (ND)",
+            "Weight": 0.09011663732812034,
+            "Include_in_CPI": true,
+            "Subclasses": [
+              {
+                "Subclass_Code": "09.7.2.1",
+                "Subclass_Name": "Newspapers and periodicals",
+                "Weight": 0.09011663732812034,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "09.7.2.1.1.01",
+                    "Item_Name": "Newspapers and periodicals",
+                    "Weight": 0.09011663732812034,
+                    "Include_in_CPI": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Class_Code": "09.7.4",
+            "Class_Name": "Stationery and drawing materials (ND)",
+            "Weight": 0.21320092063919724,
+            "Include_in_CPI": true,
+            "Subclasses": [
+              {
+                "Subclass_Code": "09.7.4.0",
+                "Subclass_Name": "Stationery and drawing materials (ND)",
+                "Weight": 0.21320092063919724,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "09.7.4.0.1.01",
+                    "Item_Name": "Stationery",
+                    "Weight": 0.21320092063919724,
+                    "Include_in_CPI": true
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Division_Code": "10.0",
+    "Division_Name": "Education services",
+    "Weight": 3.3333088103870443,
+    "Include_in_CPI": true,
+    "Groups": [
+      {
+        "Group_Code": "10.1",
+        "Group_Name": "Early childhood and primary education",
+        "Weight": 1.5842797679392802,
+        "Include_in_CPI": true,
+        "Classes": [
+          {
+            "Class_Code": "10.1.0",
+            "Class_Name": "Early childhood and primary education (S)",
+            "Weight": 1.5842797679392802,
+            "Include_in_CPI": true,
+            "Subclasses": [
+              {
+                "Subclass_Code": "10.1.0.2",
+                "Subclass_Name": "Primary education (S)",
+                "Weight": 1.5842797679392802,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "10.1.0.2.2.01",
+                    "Item_Name": "Tuition fees (Primary/Upper Primary class)",
+                    "Weight": 1.5842797679392802,
+                    "Include_in_CPI": true
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Group_Code": "10.2",
+        "Group_Name": "Secondary education",
+        "Weight": 0.6047826843893389,
+        "Include_in_CPI": true,
+        "Classes": [
+          {
+            "Class_Code": "10.2.0",
+            "Class_Name": "Secondary education (S)",
+            "Weight": 0.6047826843893389,
+            "Include_in_CPI": true,
+            "Subclasses": [
+              {
+                "Subclass_Code": "10.2.0.0",
+                "Subclass_Name": "Secondary education (S)",
+                "Weight": 0.6047826843893389,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "10.2.0.0.2.01",
+                    "Item_Name": "Tuition fees (Secondary/Upper Secondary class)",
+                    "Weight": 0.6047826843893389,
+                    "Include_in_CPI": true
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Group_Code": "10.4",
+        "Group_Name": "Higher education",
+        "Weight": 0.5075262173157677,
+        "Include_in_CPI": true,
+        "Classes": [
+          {
+            "Class_Code": "10.4.0",
+            "Class_Name": "Higher education",
+            "Weight": 0.5075262173157677,
+            "Include_in_CPI": true,
+            "Subclasses": [
+              {
+                "Subclass_Code": "10.4.0.0",
+                "Subclass_Name": "Higher education",
+                "Weight": 0.5075262173157677,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "10.4.0.0.2.01",
+                    "Item_Name": "Tuition fees (Higher education)",
+                    "Weight": 0.5075262173157677,
+                    "Include_in_CPI": true
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Group_Code": "10.5",
+        "Group_Name": "Education not defined by level",
+        "Weight": 0.6367201407426575,
+        "Include_in_CPI": true,
+        "Classes": [
+          {
+            "Class_Code": "10.5.0",
+            "Class_Name": "Education not defined by level (S)",
+            "Weight": 0.6367201407426575,
+            "Include_in_CPI": true,
+            "Subclasses": [
+              {
+                "Subclass_Code": "10.5.0.1",
+                "Subclass_Name": "Private tutor/ coaching centre and other educational expenses",
+                "Weight": 0.6367201407426575,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "10.5.0.1.2.01",
+                    "Item_Name": "Private tutor/ coaching centre",
+                    "Weight": 0.5366792167953076,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "10.5.0.1.2.02",
+                    "Item_Name": "Other educational expenses",
+                    "Weight": 0.10004092394734991,
+                    "Include_in_CPI": true
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Division_Code": "11.0",
+    "Division_Name": "Restaurants and accommodation services",
+    "Weight": 3.3475203529668733,
+    "Include_in_CPI": true,
+    "Groups": [
+      {
+        "Group_Code": "11.1",
+        "Group_Name": "Food and beverage serving services",
+        "Weight": 3.329661814237647,
+        "Include_in_CPI": true,
+        "Classes": [
+          {
+            "Class_Code": "11.1.1",
+            "Class_Name": "Restaurants, caf\u00e9s and the like (S)",
+            "Weight": 3.329661814237647,
+            "Include_in_CPI": true,
+            "Subclasses": [
+              {
+                "Subclass_Code": "11.1.1.1",
+                "Subclass_Name": "Restaurants, caf\u00e9s and the like \u2013 with full service (S)",
+                "Weight": 1.2018477294424208,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "11.1.1.1.1.01",
+                    "Item_Name": "Cooked meals",
+                    "Weight": 1.2018477294424208,
+                    "Include_in_CPI": true
+                  }
+                ]
+              },
+              {
+                "Subclass_Code": "11.1.1.2",
+                "Subclass_Name": "Restaurants, caf\u00e9s and the like \u2013 with limited service (S)",
+                "Weight": 2.127814084795226,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "11.1.1.2.1.01",
+                    "Item_Name": "Cooked snacks",
+                    "Weight": 2.127814084795226,
+                    "Include_in_CPI": true
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Group_Code": "11.2",
+        "Group_Name": "Accommodation services",
+        "Weight": 0.017858538729226464,
+        "Include_in_CPI": true,
+        "Classes": [
+          {
+            "Class_Code": "11.2.0",
+            "Class_Name": "Accommodation services (S)",
+            "Weight": 0.017858538729226464,
+            "Include_in_CPI": true,
+            "Subclasses": [
+              {
+                "Subclass_Code": "11.2.0.1",
+                "Subclass_Name": "Hotels, motels, inns and similar accommodation services (S)",
+                "Weight": 0.017858538729226464,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "11.2.0.1.2.01",
+                    "Item_Name": "Hotel lodging charges",
+                    "Weight": 0.017858538729226464,
+                    "Include_in_CPI": true
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Division_Code": "13.0",
+    "Division_Name": "Personal care, social protection and miscellaneous goods and services",
+    "Weight": 5.03776014859179,
+    "Include_in_CPI": true,
+    "Groups": [
+      {
+        "Group_Code": "13.1",
+        "Group_Name": "Personal care",
+        "Weight": 3.4603343069289574,
+        "Include_in_CPI": true,
+        "Classes": [
+          {
+            "Class_Code": "13.1.1",
+            "Class_Name": "Appliances for personal care",
+            "Weight": 0.021001388260229896,
+            "Include_in_CPI": true,
+            "Subclasses": [
+              {
+                "Subclass_Code": "13.1.1.1",
+                "Subclass_Name": "Purchase of appliances for personal care",
+                "Weight": 0.021001388260229896,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "13.1.1.1.1.01",
+                    "Item_Name": "Other personal goods",
+                    "Weight": 0.021001388260229896,
+                    "Include_in_CPI": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Class_Code": "13.1.2",
+            "Class_Name": "Other appliances, articles and products for personal care (ND)",
+            "Weight": 2.7239431772222242,
+            "Include_in_CPI": true,
+            "Subclasses": [
+              {
+                "Subclass_Code": "13.1.2.0",
+                "Subclass_Name": "Other appliances, articles and products for personal care (ND)",
+                "Weight": 2.7239431772222242,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "13.1.2.0.1.01",
+                    "Item_Name": "Toilet soap, body-wash, hand-wash, shower gel and face-wash",
+                    "Weight": 0.5016457007943309,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "13.1.2.0.1.02",
+                    "Item_Name": "Perfume, body spray, deodorant and roll-ons",
+                    "Weight": 0.22698128729989234,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "13.1.2.0.1.03",
+                    "Item_Name": "Powder, cream, body lotion and moisturizers",
+                    "Weight": 0.2870124547140799,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "13.1.2.0.1.04",
+                    "Item_Name": "Toothpaste, mouthwash and toothbrush",
+                    "Weight": 0.2833640325687514,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "13.1.2.0.1.05",
+                    "Item_Name": "Hair oil and hair colour",
+                    "Weight": 0.2781931194707007,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "13.1.2.0.1.06",
+                    "Item_Name": "Shampoo, conditioner, hair serum/gel and hair cream",
+                    "Weight": 0.21008890011306092,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "13.1.2.0.1.07",
+                    "Item_Name": "Sanitary napkins",
+                    "Weight": 0.19717201767289097,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "13.1.2.0.1.08",
+                    "Item_Name": "Baby products",
+                    "Weight": 0.0703205794317156,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "13.1.2.0.1.09",
+                    "Item_Name": "Shaving blades, shaving stick and razor",
+                    "Weight": 0.06981004153375496,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "13.1.2.0.1.10",
+                    "Item_Name": "Shaving cream, shaving foam, aftershave lotion and aftershave balm",
+                    "Weight": 0.058322035565772784,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "13.1.2.0.1.11",
+                    "Item_Name": "Sanitizer",
+                    "Weight": 0.008499704214092548,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "13.1.2.0.1.12",
+                    "Item_Name": "Weighing machine",
+                    "Weight": 0.002014652520941751,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "13.1.2.0.1.13",
+                    "Item_Name": "Other beauty products",
+                    "Weight": 0.39083770157855435,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "13.1.2.0.1.14",
+                    "Item_Name": "Other toilet articles",
+                    "Weight": 0.07559815796557123,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "13.1.2.0.1.15",
+                    "Item_Name": "Other hair products",
+                    "Weight": 0.06408279177811395,
+                    "Include_in_CPI": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Class_Code": "13.1.3",
+            "Class_Name": "Hairdressing salons and personal grooming establishments (S)",
+            "Weight": 0.7153897414465031,
+            "Include_in_CPI": true,
+            "Subclasses": [
+              {
+                "Subclass_Code": "13.1.3.2",
+                "Subclass_Name": "Personal grooming treatments (S)",
+                "Weight": 0.7153897414465031,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "13.1.3.2.2.01",
+                    "Item_Name": "Barber, beautician and spas",
+                    "Weight": 0.7153897414465031,
+                    "Include_in_CPI": true
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Group_Code": "13.2",
+        "Group_Name": "Other personal effects",
+        "Weight": 1.3939138073336903,
+        "Include_in_CPI": true,
+        "Classes": [
+          {
+            "Class_Code": "13.2.1",
+            "Class_Name": "Jewellery and watches (D)",
+            "Weight": 1.2017053802201165,
+            "Include_in_CPI": true,
+            "Subclasses": [
+              {
+                "Subclass_Code": "13.2.1.1",
+                "Subclass_Name": "Purchase of jewellery and watches (D)",
+                "Weight": 1.2017053802201165,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "13.2.1.1.1.01",
+                    "Item_Name": "Gold /diamond /platinum jewellery",
+                    "Weight": 0.6229745483415509,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "13.2.1.1.1.02",
+                    "Item_Name": "Silver jewellery",
+                    "Weight": 0.3126529484061393,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "13.2.1.1.1.03",
+                    "Item_Name": "Clock, watch, smartwatch and fitness tracker",
+                    "Weight": 0.0713247431624059,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "13.2.1.1.1.04",
+                    "Item_Name": "Jewels, pearls, precious stones",
+                    "Weight": 0.0125396991151659,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "13.2.1.1.1.05",
+                    "Item_Name": "Other jewellery and ornaments",
+                    "Weight": 0.1822134411948546,
+                    "Include_in_CPI": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Class_Code": "13.2.9",
+            "Class_Name": "Other personal effects n.e.c. (SD)",
+            "Weight": 0.19220842711357383,
+            "Include_in_CPI": true,
+            "Subclasses": [
+              {
+                "Subclass_Code": "13.2.9.1",
+                "Subclass_Name": "Travel goods, baby articles and other personal effects n.e.c. (SD)",
+                "Weight": 0.19220842711357383,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "13.2.9.1.1.01",
+                    "Item_Name": "Back-pack, handbags, vanity bags, purse and clutch",
+                    "Weight": 0.09360421972524785,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "13.2.9.1.1.02",
+                    "Item_Name": "Suitcase, trolley bag, duffle bag and trunk",
+                    "Weight": 0.06548272578856709,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "13.2.9.1.1.03",
+                    "Item_Name": "Umbrella and Raincoat",
+                    "Weight": 0.03312148159975889,
+                    "Include_in_CPI": true
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Group_Code": "13.9",
+        "Group_Name": "Other services",
+        "Weight": 0.18351203432914215,
+        "Include_in_CPI": true,
+        "Classes": [
+          {
+            "Class_Code": "13.9.0",
+            "Class_Name": "Other services (S)",
+            "Weight": 0.18351203432914215,
+            "Include_in_CPI": true,
+            "Subclasses": [
+              {
+                "Subclass_Code": "13.9.0.2",
+                "Subclass_Name": "Religious services (S)",
+                "Weight": 0.09681872877081014,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "13.9.0.2.2.01",
+                    "Item_Name": "Priest",
+                    "Weight": 0.09681872877081014,
+                    "Include_in_CPI": true
+                  }
+                ]
+              },
+              {
+                "Subclass_Code": "13.9.0.9",
+                "Subclass_Name": "Other services n.e.c. (S)",
+                "Weight": 0.08669330555833199,
+                "Include_in_CPI": true,
+                "Items": [
+                  {
+                    "Item_Code": "13.9.0.9.2.01",
+                    "Item_Name": "Photocopying charges",
+                    "Weight": 0.054003607165655027,
+                    "Include_in_CPI": true
+                  },
+                  {
+                    "Item_Code": "13.9.0.9.2.02",
+                    "Item_Name": "Legal expenses",
+                    "Weight": 0.03268969839267696,
+                    "Include_in_CPI": true
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

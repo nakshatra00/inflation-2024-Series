@@ -1,0 +1,163 @@
+Subclass_Code,Subclass_Name,Class_Code,Weight,Include_in_CPI
+01.1.1.1,Cereals (ND),01.1.1,3.023830280710238,True
+01.1.1.2,Flour of cereals (ND),01.1.1,0.8121524358639097,True
+01.1.1.3,Bread and bakery products (ND),01.1.1,1.479719589352913,True
+01.1.1.4,Breakfast cereals (ND),01.1.1,0.1948724205020364,True
+01.1.1.5,"Macaroni, noodles, couscous and similar pasta products (ND)",01.1.1,0.2608727950857054,True
+01.1.1.9,Other milled cereal and grain products (ND),01.1.1,0.1741839625356946,True
+01.1.2.2,"Meat, fresh, chilled or frozen (ND)",01.1.2,2.515551687970427,True
+01.1.3.1,Fish and prawn,01.1.3,1.0223193227278602,True
+01.1.4.1,Milk: liquid,01.1.4,5.255174458527576,True
+01.1.4.3,Milk: condensed/ powder,01.1.4,0.04757674479898128,True
+01.1.4.5,Cheese (ND),01.1.4,0.26846349624856247,True
+01.1.4.6,"Curd, Yoghurt and similar products",01.1.4,0.33763981214041494,True
+01.1.4.7,Milk-based dessert and beverages (ND),01.1.4,0.8717004943061472,True
+01.1.4.8,Eggs (ND),01.1.4,0.4938257533090902,True
+01.1.4.9,Other dairy products (ND),01.1.4,0.007756386560375696,True
+01.1.5.1,Vegetable oils (ND),01.1.5,2.1847315109085663,True
+01.1.5.2,Butter and other oils and fats derived from milk (ND),01.1.5,0.5500041906252457,True
+01.1.5.3,Margarine and similar preparations (ND),01.1.5,0.008184838944219296,True
+01.1.6.1,"Dates, figs and tropical fruits, fresh (ND)",01.1.6,1.3321197227880426,True
+01.1.6.2,"Citrus fruits, fresh (ND)",01.1.6,0.28097222161228697,True
+01.1.6.3,"Stone fruits and pome fruits, fresh (ND)",01.1.6,0.5776553893380965,True
+01.1.6.4,"Berries, fresh (ND)",01.1.6,0.0024909965306104676,True
+01.1.6.5,"Other fruits, fresh (ND)",01.1.6,0.38873061953869326,True
+01.1.6.7,"Fruits, dried and dehydrated (ND)",01.1.6,0.40162446278806996,True
+01.1.6.8,"Nuts, in shell or shelled (ND)",01.1.6,0.7178326298016567,True
+01.1.7.1,"Leafy or stem vegetables, fresh or chilled (ND)",01.1.7,0.6930639114440054,True
+01.1.7.2,"Fruit-bearing vegetables, fresh or chilled (ND)",01.1.7,1.600821621223278,True
+01.1.7.3,"Green leguminous vegetables, fresh or chilled (ND)",01.1.7,0.28882213818355196,True
+01.1.7.4,"Other vegetables, fresh or chilled (ND)",01.1.7,1.7504672496946823,True
+01.1.7.5,"Tubers, plantains and cooking bananas, fresh or chilled (ND)",01.1.7,0.7549405247282766,True
+01.1.7.6,Pulses (ND),01.1.7,1.4746816883299259,True
+01.1.7.9,"Vegetables, tubers, plantains, cooking bananas and pulses ground, and in other preparations (ND)",01.1.7,0.2556048417114022,True
+01.1.8.1,Cane sugar and beet sugar (ND),01.1.8,0.5950202686301723,True
+01.1.8.3,"Jams, marmalades, fruit jellies, purées and pastes, and honey (ND)",01.1.8,0.024292291783602177,True
+01.1.8.5,"Chocolate, cocoa and cocoa-based food products (ND)",01.1.8,0.211434200902214,True
+01.1.8.6,"Ice, ice cream and sorbets (ND)",01.1.8,0.2962117918917328,True
+01.1.8.9,Other sugar confectionery and desserts,01.1.8,0.2926946457191501,True
+01.1.9.1,Ready-made food (ND),01.1.9,0.322389762329794,True
+01.1.9.2,Baby food (ND),01.1.9,0.12483378369460024,True
+01.1.9.3,"Salt, condiments and sauces (ND)",01.1.9,0.09454883352602027,True
+01.1.9.4,"Spices, culinary herbs and seeds (ND)",01.1.9,2.2743215769711966,True
+01.1.9.9,Other food products n.e.c. (ND),01.1.9,0.5135678074203454,True
+01.2.1.0,Fruit and vegetable juices (ND),01.2.1,0.5190555538772847,True
+01.2.2.0,Coffee: powder,01.2.2,0.045221332952092415,True
+01.2.3.0,Tea: leaf,01.2.3,0.6741640803524797,True
+01.2.4.0,Cocoa drinks (ND),01.2.4,0.10157417143467232,True
+01.2.5.0,Packaged water,01.2.5,0.07882319294011444,True
+01.2.6.0,Soda drinks,01.2.6,0.06631339262829992,True
+01.2.9.0,Other beverages,01.2.9,0.2872818202480495,True
+01.3.0.0,Services for processing primary goods for food,01.3.0,0.20296960396849884,True
+02.1.1.0,Spirits and liquors (ND),02.1.1,1.0336592996265306,True
+02.1.2.2,Wine from other sources (ND),02.1.2,0.06301067189458731,True
+02.1.3.0,Beer (ND),02.1.3,0.31059360713683437,True
+02.1.9.0,Other alcoholic beverages (ND),02.1.9,0.038579460593739616,True
+02.3.0.1,Cigarettes (ND),02.3.0,0.3104986671397461,True
+02.3.0.2,Cigars (ND),02.3.0,0.0012155202044346334,True
+02.3.0.9,Paan and other tobacco products,02.3.0,1.2318941208521526,True
+03.1.1.0,Clothing materials (SD),03.1.1,0.2987175254378822,True
+03.1.2.1,Garments for men or boys (SD),03.1.2,1.6706209886403736,True
+03.1.2.2,Garments for women or girls (SD),03.1.2,2.0737443191558467,True
+03.1.2.3,Garments for infants (under 2 years of age) (SD),03.1.2,0.04374498902950328,True
+03.1.2.4,School uniforms (SD),03.1.2,0.19420743794006254,True
+03.1.3.1,Other articles of clothing (SD),03.1.3,0.27784328704775185,True
+03.1.4.1,"Cleaning, ironing, dry cleaning and dyeing of clothing",03.1.4,0.10529484255767511,True
+03.1.4.2,"Repair, tailoring and hire of clothing (S)",03.1.4,0.867427212914543,True
+03.2.1.1,Footwear for men (SD),03.2.1,0.30555024794577157,True
+03.2.1.2,Footwear for women (SD),03.2.1,0.2910150083731805,True
+03.2.1.3,Footwear for infants and children (SD),03.2.1,0.2550912887197487,True
+04.1.1.0,Actual rental payments made by tenants for main residence (S),04.1.1,10.884970343842962,True
+04.3.1.1,Materials for the maintenance and repair of the dwelling (ND),04.3.1,0.09476986646986472,True
+04.3.2.0,"Services for the maintenance, repair and security of the dwelling (S)",04.3.2,1.093952114911077,True
+04.4.1.1,Water charges,04.4.1,0.17551945350377243,True
+04.4.4.9,Other services related to the dwelling n.e.c. (S),04.4.4,0.053932278230918305,True
+04.5.1.0,Electricity (ND),04.5.1,2.327700493361841,True
+04.5.2.2,LPG Cylinders and Piped natural gas,04.5.2,1.981365827973307,True
+04.5.3.0,Liquid fuels (ND),04.5.3,0.009713769805859371,True
+04.5.4.1,Coal,04.5.4,0.007427711701236579,True
+04.5.4.2,Firewood and chips,04.5.4,0.8718299098637459,True
+04.5.4.3,Charcoal (ND),04.5.4,0.002804456252872323,True
+04.5.4.9,Other solid fuels (ND),04.5.4,0.16058646242551075,True
+05.1.1.1,Household furniture (D),05.1.1,0.27263678497919497,True
+05.1.1.3,Lighting equipment (D),05.1.1,0.11453457596590308,True
+05.1.1.4,"Furnishings, loose carpets and rugs (D)",05.1.1,0.043857800766466,True
+05.2.1.1,Furnishing fabrics and curtains (SD),05.2.1,0.014345879461371653,True
+05.2.1.2,Bed linen and bedding (SD),05.2.1,0.34167001141457365,True
+05.3.1.1,Major kitchen appliances (D),05.3.1,0.1312153043834158,True
+05.3.1.2,Major laundry appliances (D),05.3.1,0.04992447203287239,True
+05.3.1.3,Heaters and air conditioners (D),05.3.1,0.13007877811745702,True
+05.3.1.9,Other major household appliances (D),05.3.1,0.09132869551431212,True
+05.3.2.1,Small appliances for the cooking and processing of food (SD),05.3.2,0.08660876970292036,True
+05.3.2.9,Other small household appliances (SD),05.3.2,0.25276996666671253,True
+05.4.0.1,"Glassware, crystal ware, ceramic ware and china ware (SD)",05.4.0,0.024633949140719046,True
+05.4.0.3,Kitchen utensils and articles (SD),05.4.0,0.5324460310178102,True
+05.5.2.2,Miscellaneous accessories (SD),05.5.2,0.23830265767172856,True
+05.6.1.1,Household cleaning and maintenance products (ND),05.6.1,0.8528214876339515,True
+05.6.1.9,Other non-durable household goods (ND),05.6.1,0.6461519494254808,True
+05.6.2.1,Domestic services provided by paid staff (S),05.6.2,0.17963885400398838,True
+05.6.2.9,Other consumer services excluding conveyance,05.6.2,0.46642723814047854,True
+06.1.1.1,Medicines and vaccines,06.1.1,3.7252233389750784,True
+06.1.1.2,Health supplements,06.1.1,0.03861693736119662,True
+06.1.2.1,Medical diagnostic products (ND),06.1.2,0.019631029463043365,True
+06.1.2.2,Family planning devices,06.1.2,0.018535905742690654,True
+06.1.2.3,Treatment devices for personal use (ND),06.1.2,0.004919502128246085,True
+06.1.3.1,Assistive products for vision (D),06.1.3,0.07999824340934318,True
+06.1.3.2,Assistive products for hearing and communication (D),06.1.3,0.0042964063159147406,True
+06.1.3.3,Assistive products for mobility and daily living (D),06.1.3,0.005525575009011681,True
+06.2.3.1,Outpatient curative and rehabilitative services (S),06.2.3,1.0990108080825451,True
+06.3.1.0,Inpatient curative and rehabilitative services (S),06.3.1,0.4948025911304185,True
+06.4.1.0,Diagnostic imaging services and medical laboratory services (S),06.4.1,0.6097030151081589,True
+07.1.1.1,Motor car and jeep,07.1.1,0.4664703366302072,True
+07.1.2.0,Motor cycle and scooter,07.1.2,0.6581083215799441,True
+07.1.3.0,Bicycle,07.1.3,0.05987673995579982,True
+07.2.1.1,Tyres and tubes,07.2.1,0.1536739867896328,True
+07.2.1.2,Parts for personal transport equipment (SD),07.2.1,0.004711830705331685,True
+07.2.1.3,Accessories for personal transport equipment (SD),07.2.1,0.03311603867065261,True
+07.2.2.1,Diesel (ND),07.2.2,0.31671216953441056,True
+07.2.2.2,Petrol (ND),07.2.2,4.4887708583164585,True
+07.2.2.3,Other fuels for personal transport equipment (ND),07.2.2,0.0399981163146089,True
+07.3.1.1,Passenger transport by train (S),07.3.1,0.18580334091352002,True
+07.3.1.2,Passenger transport by rapid transit and tram (S),07.3.1,0.6837370433608975,True
+07.3.2.1,Passenger transport by bus and coach (S),07.3.2,0.1579894944585646,True
+07.3.2.2,Passenger transport by taxi and hired vehicle with driver (S),07.3.2,0.1878106423238391,True
+07.3.2.3,Passenger transport for students to and from school (S),07.3.2,0.5298747520633278,True
+07.3.2.9,Other passenger transport by road (S),07.3.2,0.790740507083079,True
+07.3.3.1,"Passenger transport by air, domestic (S)",07.3.3,0.029509720681613706,True
+07.3.4.0,Passenger transport by sea and inland waterway (S),07.3.4,0.001550094677821013,True
+07.4.1.2,Courier and parcel delivery services (S),07.4.1,0.007659397502735931,True
+08.1.1.0,Telephone instrument (landline),08.1.1,0.0010219924863503413,True
+08.1.2.0,Mobile handset,08.1.2,0.5609780123402586,True
+08.1.3.1,"Computers, laptops and tablets including Software",08.1.3,0.03538281051017576,True
+08.1.4.0,Audio-visual devices,08.1.4,0.18263451465898084,True
+08.1.5.0,Unrecorded recording media (SD),08.1.5,0.010560191318006116,True
+08.3.3.0,Internet expenses,08.3.3,0.20441479858532777,True
+08.3.4.0,Telephone charges: mobile and landline,08.3.4,1.9246888456245865,True
+08.3.9.2,Subscriptions to streaming services,08.3.9,0.6897573034343708,True
+09.1.1.1,Camera and photographic equipment,09.1.1,0.002767387158137239,True
+09.2.1.1,Other goods for recreation,09.2.1,0.02349132757685085,True
+09.2.2.1,Sporting equipment (SD),09.2.2,0.10140558514839972,True
+09.3.1.2,"Plants, seeds and flowers (ND)",09.3.1,0.1139283882142708,True
+09.3.2.1,Pets (D),09.3.2,0.043431697599777074,True
+09.4.6.1,Recreational and leisure services (S),09.4.6,0.17966693002276066,True
+09.4.6.2,Services associated with the practice of sports (S),09.4.6,0.11024087931493712,True
+09.5.1.0,Musical instruments (D),09.5.1,0.008808450537993041,True
+09.6.1.0,"Cinema, theatre",09.6.1,0.12822458306281861,True
+09.6.3.0,Photography,09.6.3,0.04194934393423203,True
+09.7.1.1,Educational books and textbooks (SD),09.7.1,0.45858264457679154,True
+09.7.2.1,Newspapers and periodicals,09.7.2,0.09011663732812034,True
+09.7.4.0,Stationery and drawing materials (ND),09.7.4,0.21320092063919724,True
+10.1.0.2,Primary education (S),10.1.0,1.5842797679392802,True
+10.2.0.0,Secondary education (S),10.2.0,0.6047826843893389,True
+10.4.0.0,Higher education,10.4.0,0.5075262173157677,True
+10.5.0.1,Private tutor/ coaching centre and other educational expenses,10.5.0,0.6367201407426575,True
+11.1.1.1,"Restaurants, cafés and the like – with full service (S)",11.1.1,1.2018477294424208,True
+11.1.1.2,"Restaurants, cafés and the like – with limited service (S)",11.1.1,2.127814084795226,True
+11.2.0.1,"Hotels, motels, inns and similar accommodation services (S)",11.2.0,0.017858538729226464,True
+13.1.1.1,Purchase of appliances for personal care,13.1.1,0.021001388260229896,True
+13.1.2.0,"Other appliances, articles and products for personal care (ND)",13.1.2,2.7239431772222242,True
+13.1.3.2,Personal grooming treatments (S),13.1.3,0.7153897414465031,True
+13.2.1.1,Purchase of jewellery and watches (D),13.2.1,1.2017053802201165,True
+13.2.9.1,"Travel goods, baby articles and other personal effects n.e.c. (SD)",13.2.9,0.19220842711357383,True
+13.9.0.2,Religious services (S),13.9.0,0.09681872877081014,True
+13.9.0.9,Other services n.e.c. (S),13.9.0,0.08669330555833199,True
