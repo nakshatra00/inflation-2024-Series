@@ -1,0 +1,21 @@
+base_year,series,year,month,state,sector,division,group,class,sub_class,item,code,index,inflation,imputation
+2024,Current,2026,January,All India,Rural,CPI (General),*,*,*,*,*,104.59,2.73,*
+2024,Current,2026,January,All India,Urban,CPI (General),*,*,*,*,*,104.30,2.77,*
+2024,Current,2026,January,All India,Combined,CPI (General),*,*,*,*,*,104.46,2.75,*
+2024,Current,2026,January,All India,Rural,Food and beverages,*,*,*,*,01,103.89,1.96,*
+2024,Current,2026,January,All India,Urban,Food and beverages,*,*,*,*,01,104.25,2.38,*
+2024,Current,2026,January,All India,Combined,Food and beverages,*,*,*,*,01,104.03,2.11,*
+2024,Current,2026,January,All India,Rural,"Paan, tobacco and intoxicants",*,*,*,*,02,104.41,2.73,*
+2024,Current,2026,January,All India,Urban,"Paan, tobacco and intoxicants",*,*,*,*,02,104.42,3.15,*
+2024,Current,2026,January,All India,Combined,"Paan, tobacco and intoxicants",*,*,*,*,02,104.42,2.86,*
+2024,Current,2026,January,All India,Rural,Clothing and footwear,*,*,*,*,03,106.61,3.40,*
+2024,Current,2026,January,All India,Urban,Clothing and footwear,*,*,*,*,03,104.80,2.29,*
+2024,Current,2026,January,All India,Combined,Clothing and footwear,*,*,*,*,03,105.92,2.98,*
+2024,Current,2026,January,All India,Rural,"Housing, water, electricity, gas and other fuels",*,*,*,*,04,102.11,1.33,*
+2024,Current,2026,January,All India,Urban,"Housing, water, electricity, gas and other fuels",*,*,*,*,04,101.96,1.65,*
+2024,Current,2026,January,All India,Combined,"Housing, water, electricity, gas and other fuels",*,*,*,*,04,102.02,1.53,*
+2024,Current,2026,January,All India,Rural,"Furnishings, household equipment and routine household maintenance",*,*,*,*,05,103.12,1.55,*
+2024,Current,2026,January,All India,Urban,"Furnishings, household equipment and routine household maintenance",*,*,*,*,05,102.78,1.31,*
+2024,Current,2026,January,All India,Combined,"Furnishings, household equipment and routine household maintenance",*,*,*,*,05,102.97,1.45,*
+2024,Current,2026,January,All India,Rural,Health,*,*,*,*,06,103.72,2.12,*
+2024,Current,2026,January,All India,Urban,Health,*,*,*,*,06,104.22,2.30,*

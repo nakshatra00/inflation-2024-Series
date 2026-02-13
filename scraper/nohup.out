@@ -1,0 +1,89 @@
+2026-02-12 22:13:05,756 - INFO - 
+================================================================================
+2026-02-12 22:13:05,756 - INFO - CPI DATA SCRAPER - STATE FILTER VERSION (DESKTOP SIDEBAR FIX)
+2026-02-12 22:13:05,757 - INFO - ================================================================================
+2026-02-12 22:13:05,757 - INFO - ====== WebDriver manager ======
+2026-02-12 22:13:05,928 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-12 22:13:06,107 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-12 22:13:06,268 - INFO - Driver [/Users/nakshatragupta/.wdm/drivers/chromedriver/mac64/144.0.7559.133/chromedriver-mac-arm64/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2026-02-12 22:13:06,268 - INFO - Using actual executable: /Users/nakshatragupta/.wdm/drivers/chromedriver/mac64/144.0.7559.133/chromedriver-mac-arm64/chromedriver
+2026-02-12 22:13:07,796 - INFO - ✓ WebDriver initialized
+2026-02-12 22:13:07,796 - INFO - Navigating to https://esankhyiki.mospi.gov.in/macroindicators?product=cpi...
+2026-02-12 22:13:16,619 - INFO - Waiting for table to load...
+2026-02-12 22:13:21,725 - INFO - Table loaded!
+2026-02-12 22:13:24,780 - INFO - Page info: 20 of 894452 records
+2026-02-12 22:13:24,780 - INFO - 
+[BEFORE FILTER] Total pages: 44723
+2026-02-12 22:13:24,780 - INFO - 
+--- Applying filters (targeting DESKTOP sidebar) ---
+2026-02-12 22:13:24,780 - INFO - Finding 'State' dropdown in desktop sidebar...
+2026-02-12 22:13:24,870 - INFO - Found 'State' combobox at index 3, label='State', aria-controls=:ri:
+2026-02-12 22:13:25,373 - INFO - Dispatching mousedown event on 'State' combobox...
+2026-02-12 22:13:27,435 - INFO - Listboxes found after mousedown: 1
+2026-02-12 22:13:27,473 - INFO - Listbox has 38 items, first few: ['Select All', 'All India', 'Andaman And Nicobar Islan', 'Andhra Pradesh', 'Arunachal Pradesh']
+2026-02-12 22:13:27,484 - INFO - Found 'All India', clicking it...
+2026-02-12 22:13:28,532 - INFO - Combobox text after selection: ''
+2026-02-12 22:13:29,082 - INFO - ✓ Selected 'All India' in 'State' dropdown
+2026-02-12 22:13:29,082 - INFO - Finding 'Sector' dropdown in desktop sidebar...
+2026-02-12 22:13:29,211 - INFO - Found 'Sector' combobox at index 4, label='Sector', aria-controls=:rj:
+2026-02-12 22:13:29,715 - INFO - Dispatching mousedown event on 'Sector' combobox...
+2026-02-12 22:13:31,739 - INFO - Listboxes found after mousedown: 2
+2026-02-12 22:13:31,773 - INFO - Listbox has 38 items, first few: ['Select All', 'All India', 'Andaman And Nicobar Islan', 'Andhra Pradesh', 'Arunachal Pradesh']
+2026-02-12 22:13:32,009 - INFO - Listbox has 4 items, first few: ['Select All', 'Rural', 'Urban', 'Combined']
+2026-02-12 22:13:32,033 - INFO - Found 'Combined', clicking it...
+2026-02-12 22:13:33,080 - INFO - Combobox text after selection: ''
+2026-02-12 22:13:33,613 - INFO - ✓ Selected 'Combined' in 'Sector' dropdown
+2026-02-12 22:13:33,613 - INFO - Filters selected — State: ✓, Sector: ✓
+2026-02-12 22:13:33,613 - INFO - Looking for Apply button in desktop sidebar...
+2026-02-12 22:13:33,626 - INFO - Found 1 Apply button(s) in desktop sidebar
+2026-02-12 22:13:34,131 - INFO - Clicking Apply button with JavaScript...
+2026-02-12 22:13:34,193 - INFO - Waiting for data to reload after Apply...
+2026-02-12 22:13:38,201 - INFO - ✓ Apply button clicked and data reloaded
+2026-02-12 22:13:38,202 - INFO - ✓ Filters applied successfully!
+2026-02-12 22:13:40,210 - ERROR - ✗ Failed to get page info: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x0000000100e7f928 cxxbridge1$str$ptr + 3098388
+1   chromedriver                        0x0000000100e77c04 cxxbridge1$str$ptr + 3066352
+2   chromedriver                        0x000000010095a640 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74500
+3   chromedriver                        0x00000001009973e8 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 323756
+4   chromedriver                        0x00000001009c01cc _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 491152
+5   chromedriver                        0x00000001009bf5b8 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 488060
+6   chromedriver                        0x0000000100927668 chromedriver + 112232
+7   chromedriver                        0x0000000100e3e884 cxxbridge1$str$ptr + 2831984
+8   chromedriver                        0x0000000100e41fcc cxxbridge1$str$ptr + 2846136
+9   chromedriver                        0x0000000100e23578 cxxbridge1$str$ptr + 2720612
+10  chromedriver                        0x0000000100e42850 cxxbridge1$str$ptr + 2848316
+11  chromedriver                        0x0000000100e13640 cxxbridge1$str$ptr + 2655276
+12  chromedriver                        0x00000001009252ac chromedriver + 103084
+13  dyld                                0x000000018e60e0e0 start + 2360
+
+2026-02-12 22:13:40,210 - INFO - 
+[AFTER FILTER] Total pages: 1
+2026-02-12 22:13:40,211 - INFO - ✓✓ FILTER WORKED! Pages reduced from 44723 to 1
+2026-02-12 22:13:40,211 - INFO - 
+Extracting page 1/1...
+2026-02-12 22:13:40,211 - ERROR - ✗ Failed to extract data: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x0000000100e7f928 cxxbridge1$str$ptr + 3098388
+1   chromedriver                        0x0000000100e77c04 cxxbridge1$str$ptr + 3066352
+2   chromedriver                        0x000000010095a640 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74500
+3   chromedriver                        0x00000001009973e8 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 323756
+4   chromedriver                        0x00000001009c01cc _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 491152
+5   chromedriver                        0x00000001009bf5b8 _RNvCs5DBLTqoOdVp_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 488060
+6   chromedriver                        0x0000000100927668 chromedriver + 112232
+7   chromedriver                        0x0000000100e3e884 cxxbridge1$str$ptr + 2831984
+8   chromedriver                        0x0000000100e41fcc cxxbridge1$str$ptr + 2846136
+9   chromedriver                        0x0000000100e23578 cxxbridge1$str$ptr + 2720612
+10  chromedriver                        0x0000000100e42850 cxxbridge1$str$ptr + 2848316
+11  chromedriver                        0x0000000100e13640 cxxbridge1$str$ptr + 2655276
+12  chromedriver                        0x00000001009252ac chromedriver + 103084
+13  dyld                                0x000000018e60e0e0 start + 2360
+
+2026-02-12 22:13:40,211 - INFO - 
+============================================================
+2026-02-12 22:13:40,211 - INFO - Starting full extraction: 1 pages
+2026-02-12 22:13:40,211 - INFO - ============================================================
+2026-02-12 22:13:40,212 - INFO - 
+Closing driver...
+2026-02-12 22:13:40,216 - INFO - ================================================================================
+
