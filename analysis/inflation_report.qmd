@@ -1,0 +1,658 @@
+---
+title: "India CPI Inflation Analysis"
+subtitle: "Monthly Report — January 2026"
+author: "Inflation Analysis Series"
+date: 2026-02-13
+format:
+  pdf:
+    toc: true
+    toc-depth: 3
+    code-fold: true
+    keep-tex: false
+    documentclass: article
+    geometry:
+      - margin=0.75in
+      - landscape
+    include-in-header:
+      text: |
+        \usepackage{float}
+        \floatplacement{figure}{H}
+    fig-pos: 'H'
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+```{python}
+#| label: setup
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import matplotlib.ticker as mticker
+from matplotlib.colors import LinearSegmentedColormap, Normalize
+from matplotlib.cm import ScalarMappable
+import seaborn as sns
+import warnings
+warnings.filterwarnings('ignore')
+
+sns.set_theme(style="whitegrid", font_scale=1.0)
+plt.rcParams.update({
+    'figure.dpi': 150,
+    'savefig.dpi': 150,
+    'font.family': 'sans-serif',
+})
+
+# Page dimensions: landscape letter with 0.75in margins
+PAGE_W = 9.5   # usable width in inches
+PAGE_H = 6.8   # usable height in inches
+
+# Custom diverging colormap: green (deflation) -> white (zero) -> red (inflation)
+INFLATION_CMAP = LinearSegmentedColormap.from_list(
+    'inflation',
+    ['#006400', '#90EE90', '#FFFFFF', '#FFE4B5', '#FF8C00', '#DC143C']
+)
+
+def inflation_color(val):
+    if pd.isna(val): return 'gray'
+    elif val < 0:    return '#006400'
+    elif val < 2:    return '#66BB6A'
+    elif val < 4:    return '#FFE082'
+    elif val < 6:    return '#FF8C00'
+    else:            return '#DC143C'
+
+def render_table(df, title, col_widths=None, fontsize=9, header_color='#2C3E50',
+                 highlight_col=None, highlight_cmap='RdYlGn_r', highlight_vmin=None, highlight_vmax=None):
+    """Render a DataFrame as a matplotlib table figure that fits the page."""
+    nrows, ncols = df.shape
+    row_h = 0.32
+    fig_h = min(PAGE_H, 1.0 + (nrows + 1) * row_h)  # +1 for header
+
+    fig, ax = plt.subplots(figsize=(PAGE_W, fig_h))
+    ax.axis('off')
+    ax.set_title(title, fontsize=12, fontweight='bold', pad=8, loc='left')
+
+    if col_widths is None:
+        col_widths = [1.0 / ncols] * ncols
+
+    table = ax.table(
+        cellText=df.values,
+        colLabels=df.columns,
+        cellLoc='center',
+        loc='upper center',
+        colWidths=col_widths,
+    )
+    table.auto_set_font_size(False)
+    table.set_fontsize(fontsize)
+    table.scale(1, 1.4)
+
+    # Style header
+    for j in range(ncols):
+        cell = table[0, j]
+        cell.set_facecolor(header_color)
+        cell.set_text_props(color='white', fontweight='bold')
+
+    # Highlight column with colour gradient
+    if highlight_col is not None and highlight_col in df.columns:
+        col_idx = list(df.columns).index(highlight_col)
+        vals = pd.to_numeric(df[highlight_col], errors='coerce')
+        vmin = highlight_vmin if highlight_vmin is not None else vals.min()
+        vmax = highlight_vmax if highlight_vmax is not None else vals.max()
+        norm = Normalize(vmin=vmin, vmax=vmax)
+        cmap = plt.get_cmap(highlight_cmap)
+        for i in range(nrows):
+            v = vals.iloc[i]
+            if pd.notna(v):
+                table[i + 1, col_idx].set_facecolor(cmap(norm(v)))
+
+    # Alternate row shading
+    for i in range(nrows):
+        for j in range(ncols):
+            cell = table[i + 1, j]
+            if highlight_col and j == list(df.columns).index(highlight_col):
+                continue
+            if i % 2 == 0:
+                cell.set_facecolor('#F7F9FC')
+            else:
+                cell.set_facecolor('white')
+    # Left-align first column
+    for i in range(nrows + 1):
+        table[i, 0].set_text_props(ha='left')
+
+    plt.tight_layout(pad=0.5)
+    plt.show()
+```
+
+```{python}
+#| label: load-data
+if_df = pd.read_csv('inflation_analysis_results.csv')
+if_df['date'] = pd.to_datetime(if_df['date'])
+latest_date = if_df['date'].max()
+
+items_weights = pd.read_csv('../weights_new/items.csv').rename(
+    columns={'Item_Name': 'item', 'Weight': 'weight'}
+)
+```
+
+## Executive Summary
+
+```{python}
+#| label: executive-summary
+cpi_general = if_df[
+    (if_df['state'] == 'All India') & (if_df['sector'] == 'Combined') &
+    (if_df['division'] == 'CPI (General)') & (if_df['group'] == '*') &
+    (if_df['date'] == latest_date)
+]
+headline_yoy = cpi_general['yoy_change'].values[0]
+headline_mom = cpi_general['mom_change'].values[0]
+headline_index = cpi_general['index'].values[0]
+
+food = if_df[
+    (if_df['state'] == 'All India') & (if_df['sector'] == 'Combined') &
+    (if_df['division'] == 'Food and beverages') & (if_df['group'] == '*') &
+    (if_df['date'] == latest_date)
+]
+food_yoy = food['yoy_change'].values[0]
+
+core = if_df[
+    (if_df['state'] == 'All India') & (if_df['sector'] == 'Combined') &
+    (if_df['division'] == 'Core CPI') & (if_df['group'] == '*') &
+    (if_df['date'] == latest_date)
+]
+core_yoy = core['yoy_change'].values[0]
+
+summary = pd.DataFrame({
+    'Metric': ['Reference Month', 'CPI Index (General)', 'Headline YoY Inflation',
+               'Headline MoM Change', 'Food & Beverages YoY', 'Core CPI YoY'],
+    'Value': [latest_date.strftime('%B %Y'), f'{headline_index:.2f}',
+              f'{headline_yoy:.2f}%', f'{headline_mom:+.2f}%',
+              f'{food_yoy:.2f}%', f'{core_yoy:.2f}%']
+})
+render_table(summary, f'Key Indicators — {latest_date.strftime("%B %Y")}',
+             col_widths=[0.5, 0.5], fontsize=11)
+```
+
+\newpage
+
+## 1 — Division-Level Overview
+
+```{python}
+#| label: division-table
+division_level = if_df[
+    (if_df['state'] == 'All India') & (if_df['sector'] == 'Combined') &
+    (if_df['group'] == '*') & (if_df['class'] == '*') &
+    (if_df['sub_class'] == '*') & (if_df['item'] == '*')
+].copy()
+
+division_latest = division_level[division_level['date'] == latest_date].copy()
+
+tbl = (
+    division_latest[['division', 'index', 'mom_change', 'yoy_change']]
+    .sort_values('yoy_change', ascending=False)
+    .reset_index(drop=True)
+)
+tbl.columns = ['Division', 'Index', 'MoM %', 'YoY %']
+tbl['Index'] = tbl['Index'].apply(lambda x: f'{x:.2f}')
+tbl['MoM %'] = tbl['MoM %'].apply(lambda x: f'{x:+.2f}')
+tbl['YoY %'] = tbl['YoY %'].apply(lambda x: f'{x:+.2f}')
+
+render_table(tbl, f'Division-Level CPI — {latest_date.strftime("%B %Y")}',
+             col_widths=[0.45, 0.15, 0.15, 0.15], fontsize=8,
+             highlight_col='YoY %', highlight_cmap='RdYlGn_r', highlight_vmin=-2, highlight_vmax=10)
+```
+
+### YoY Inflation by Division
+
+```{python}
+#| label: fig-division-yoy-bar
+#| fig-pos: 'H'
+data = division_latest.sort_values('yoy_change', ascending=True).copy()
+colors = [inflation_color(v) for v in data['yoy_change']]
+
+fig, ax = plt.subplots(figsize=(PAGE_W, 5.5))
+bars = ax.barh(data['division'], data['yoy_change'], color=colors, edgecolor='black', linewidth=0.4)
+ax.axvline(0, color='grey', linewidth=0.8, linestyle='--')
+ax.set_xlabel('YoY Change (%)')
+ax.set_title(f'Year-over-Year Inflation by Division — {latest_date.strftime("%B %Y")}',
+             fontsize=13, fontweight='bold')
+for bar, val in zip(bars, data['yoy_change']):
+    offset = 0.3 if val >= 0 else -0.3
+    ha = 'left' if val >= 0 else 'right'
+    ax.text(val + offset, bar.get_y() + bar.get_height()/2,
+            f'{val:.2f}%', va='center', ha=ha, fontsize=8)
+ax.margins(x=0.15)
+ax.tick_params(axis='y', labelsize=7)
+sns.despine(left=True)
+plt.tight_layout()
+plt.show()
+```
+
+### Key CPI Measures
+
+```{python}
+#| label: fig-key-cpi-bar
+#| fig-pos: 'H'
+key_divs = [
+    'CPI (General)', 'CPI (Excluding Food and Beverages)',
+    'Core CPI', 'Core (Ex Gold)', 'Core (Ex Gold and Silver)',
+    'CPI (Ex Veggies and Cereals)',
+]
+key_data = division_latest[division_latest['division'].isin(key_divs)].sort_values('yoy_change', ascending=True)
+colors_key = [inflation_color(v) for v in key_data['yoy_change']]
+
+fig, ax = plt.subplots(figsize=(PAGE_W, 4))
+bars = ax.barh(key_data['division'], key_data['yoy_change'], color=colors_key, edgecolor='black', linewidth=0.4)
+for bar, val in zip(bars, key_data['yoy_change']):
+    ax.text(val + 0.08, bar.get_y() + bar.get_height()/2,
+            f'{val:.2f}%', va='center', ha='left', fontsize=9)
+ax.axvline(0, color='grey', linewidth=0.8, linestyle='--')
+ax.set_xlabel('YoY Change (%)')
+ax.set_title('Key CPI Measures — YoY Comparison', fontsize=13, fontweight='bold')
+ax.margins(x=0.2)
+sns.despine(left=True)
+plt.tight_layout()
+plt.show()
+```
+
+\newpage
+
+## 2 — Month-on-Month Heatmaps
+
+Green cells indicate month-on-month deflation; red cells indicate price acceleration.
+
+```{python}
+#| label: heatmap-helper
+import os
+from matplotlib.colors import Normalize
+
+os.makedirs('_heatmaps', exist_ok=True)
+
+def make_pivot(df, cat_col, label_col=None, max_label=50):
+    recent = sorted(df['date'].unique())[-12:]
+    d = df[df['date'].isin(recent)].copy()
+    if label_col and label_col in d.columns:
+        d['row_label'] = d[label_col].str[:18] + ' — ' + d[cat_col].str[:max_label-21]
+    else:
+        d['row_label'] = d[cat_col].str[:max_label]
+    pivot = d.pivot_table(index='row_label', columns='date', values='mom_change', aggfunc='first')
+    pivot.columns = [c.strftime('%b') for c in pivot.columns]
+    return pivot
+
+div_pivot = make_pivot(division_level, 'division', max_label=55)
+
+group_level = if_df[
+    (if_df['state'] == 'All India') & (if_df['sector'] == 'Combined') &
+    (if_df['group'] != '*') & (if_df['class'] == '*') &
+    (if_df['sub_class'] == '*') & (if_df['item'] == '*')
+].copy()
+group_pivot = make_pivot(group_level, 'group', 'division')
+
+MAX_ROWS = 18
+
+def save_heatmap_page(chunk, title, vmin, vmax, filepath):
+    """Render one heatmap page to a PNG file."""
+    nrows, ncols = chunk.shape
+    h = min(PAGE_H, max(3.5, nrows * 0.34))
+
+    fig, ax = plt.subplots(figsize=(PAGE_W, h))
+    data = chunk.values.copy()
+    masked = np.ma.array(data, mask=np.isnan(data))
+    norm = Normalize(vmin=vmin, vmax=vmax)
+    cmap = INFLATION_CMAP.copy()
+    cmap.set_bad(color='#E0E0E0')
+    im = ax.imshow(masked, cmap=cmap, norm=norm, aspect='auto')
+
+    ax.set_xticks(np.arange(ncols + 1) - 0.5, minor=True)
+    ax.set_yticks(np.arange(nrows + 1) - 0.5, minor=True)
+    ax.grid(which='minor', color='white', linewidth=1.5)
+    ax.tick_params(which='minor', size=0)
+
+    ax.set_xticks(np.arange(ncols))
+    ax.set_xticklabels(chunk.columns, fontsize=8, rotation=45, ha='right')
+    ax.set_yticks(np.arange(nrows))
+    ax.set_yticklabels(chunk.index, fontsize=7.5 if nrows <= 18 else 6)
+
+    annot_fs = 7 if nrows <= 18 else 5.5
+    for i in range(nrows):
+        for j in range(ncols):
+            val = data[i, j]
+            if not np.isnan(val):
+                tc = 'white' if abs(val) > 3 else 'black'
+                ax.text(j, i, f'{val:.2f}%', ha='center', va='center',
+                        fontsize=annot_fs, fontweight='bold', color=tc)
+
+    cbar = fig.colorbar(im, ax=ax, shrink=0.5, aspect=25, pad=0.02)
+    cbar.set_label('MoM Change (%)', fontsize=8)
+    cbar.ax.tick_params(labelsize=7)
+
+    ax.set_title(title, fontsize=11, fontweight='bold', pad=8)
+    fig.tight_layout(pad=0.8)
+    fig.savefig(filepath, dpi=200, bbox_inches='tight')
+    plt.close(fig)
+
+def generate_heatmap_files(pivot, tag, title):
+    """Save all heatmap pages as PNG files. Returns list of file paths."""
+    vmin, vmax = np.nanmin(pivot.values), np.nanmax(pivot.values)
+    nrows = len(pivot)
+    paths = []
+    if nrows <= MAX_ROWS:
+        p = f'_heatmaps/{tag}_1.png'
+        save_heatmap_page(pivot, title, vmin, vmax, p)
+        paths.append(p)
+    else:
+        n_chunks = int(np.ceil(nrows / MAX_ROWS))
+        for i in range(n_chunks):
+            s, e = i * MAX_ROWS, min((i + 1) * MAX_ROWS, nrows)
+            p = f'_heatmaps/{tag}_{i+1}.png'
+            save_heatmap_page(pivot.iloc[s:e],
+                              f'{title}  ({i+1}/{n_chunks})', vmin, vmax, p)
+            paths.append(p)
+    return paths
+
+# Pre-generate all heatmap images
+div_pages = generate_heatmap_files(div_pivot, 'div', 'MoM Inflation — Division Level')
+grp_pages = generate_heatmap_files(group_pivot, 'grp', 'MoM Inflation — Group Level')
+```
+
+```{python}
+#| label: all-heatmaps
+#| output: asis
+all_sections = [
+    ('Division Level', div_pages),
+    ('Group Level', grp_pages),
+]
+for sec_title, pages in all_sections:
+    print(f'### {sec_title}')
+    print()
+    for i, p in enumerate(pages):
+        print(r'\begin{center}')
+        print(f'\\includegraphics[width=\\textwidth,height=0.88\\textheight,keepaspectratio]{{{p}}}')
+        print(r'\end{center}')
+        print(r'\newpage')
+        print()
+```
+
+## 3 — Inflation Dispersion Analysis
+
+```{python}
+#| label: dispersion-setup
+item_level = if_df[
+    (if_df['state'] == 'All India') & (if_df['sector'] == 'Combined') & (if_df['item'] != '*')
+].copy()
+latest_items = item_level[item_level['date'] == latest_date].copy()
+
+dispersion = latest_items.merge(items_weights[['item', 'weight']], on='item', how='left')
+dispersion_clean = dispersion[dispersion['yoy_change'].notna() & dispersion['weight'].notna()].copy()
+
+total_w = dispersion_clean['weight'].sum()
+dispersion_clean['w_norm'] = dispersion_clean['weight'] / total_w
+
+w_mean = (dispersion_clean['yoy_change'] * dispersion_clean['w_norm']).sum()
+ds = dispersion_clean.sort_values('yoy_change')
+ds['cum_w'] = ds['w_norm'].cumsum()
+w_median = ds.loc[(ds['cum_w'] >= 0.5).idxmax(), 'yoy_change']
+w_std = np.sqrt(((dispersion_clean['yoy_change'] - w_mean)**2 * dispersion_clean['w_norm']).sum())
+
+def zone_pct(lo, hi):
+    mask = (dispersion_clean['yoy_change'] >= lo) & (dispersion_clean['yoy_change'] < hi)
+    return dispersion_clean.loc[mask, 'weight'].sum() / total_w * 100
+
+deflation_w = zone_pct(-999, 0)
+low_w = zone_pct(0, 2)
+moderate_w = zone_pct(2, 4)
+high_w = zone_pct(4, 6)
+extreme_w = zone_pct(6, 999)
+```
+
+### Key Dispersion Metrics
+
+```{python}
+#| label: dispersion-metrics
+metrics = pd.DataFrame({
+    'Metric': ['Items analysed', 'Weighted Mean Inflation', 'Weighted Median Inflation',
+               'Weighted Std Deviation', 'Basket in Deflation (<0%)',
+               'Basket in Low (0-2%)', 'Basket in Moderate (2-4%)',
+               'Basket in High (4-6%)', 'Basket in Extreme (>6%)'],
+    'Value': [f'{len(dispersion_clean)}', f'{w_mean:.2f}%', f'{w_median:.2f}%',
+              f'{w_std:.2f}%', f'{deflation_w:.1f}%', f'{low_w:.1f}%',
+              f'{moderate_w:.1f}%', f'{high_w:.1f}%', f'{extreme_w:.1f}%']
+})
+render_table(metrics, 'Inflation Dispersion Metrics', col_widths=[0.55, 0.35], fontsize=10)
+```
+
+### Inflation Distribution — Item Count vs Basket Weight
+
+```{python}
+#| label: fig-distribution-histogram
+#| fig-pos: 'H'
+bins = [-20, -2, 0, 2, 4, 6, 8, 10, 20]
+labels = ['<-2%', '-2 to 0%', '0-2%', '2-4%', '4-6%', '6-8%', '8-10%', '>10%']
+dispersion_clean = dispersion_clean.copy()
+dispersion_clean['bucket'] = pd.cut(dispersion_clean['yoy_change'], bins=bins, labels=labels, include_lowest=True)
+
+bucket_stats = dispersion_clean.groupby('bucket', observed=True).agg(
+    count=('item', 'count'), total_weight=('weight', 'sum')
+).reset_index()
+bucket_stats['weight_pct'] = bucket_stats['total_weight'] / bucket_stats['total_weight'].sum() * 100
+
+fig, ax1 = plt.subplots(figsize=(PAGE_W, 5))
+x = np.arange(len(bucket_stats))
+w = 0.35
+ax1.bar(x - w/2, bucket_stats['count'], w, label='Item Count', color='#64B5F6', edgecolor='black', linewidth=0.4)
+ax1.set_ylabel('Number of Items', color='#1565C0')
+ax1.tick_params(axis='y', labelcolor='#1565C0')
+ax2 = ax1.twinx()
+ax2.bar(x + w/2, bucket_stats['weight_pct'], w, label='Basket Weight %', color='#EF5350', edgecolor='black', linewidth=0.4)
+ax2.set_ylabel('Basket Weight (%)', color='#C62828')
+ax2.tick_params(axis='y', labelcolor='#C62828')
+ax1.set_xticks(x)
+ax1.set_xticklabels(bucket_stats['bucket'], rotation=-30, ha='left')
+ax1.set_xlabel('YoY Inflation Range')
+ax1.set_title(f'Inflation Distribution — {latest_date.strftime("%B %Y")}', fontsize=13, fontweight='bold')
+h1, l1 = ax1.get_legend_handles_labels()
+h2, l2 = ax2.get_legend_handles_labels()
+ax1.legend(h1 + h2, l1 + l2, loc='upper right')
+sns.despine(right=False)
+plt.tight_layout()
+plt.show()
+```
+
+### Bubble Chart — Item-Level Dispersion
+
+```{python}
+#| label: fig-bubble-dispersion
+#| fig-pos: 'H'
+plot_data = dispersion_clean.sort_values(['division', 'yoy_change']).reset_index(drop=True)
+divisions = plot_data['division'].unique()
+palette = sns.color_palette('tab20', n_colors=len(divisions))
+div_colors = {d: palette[i] for i, d in enumerate(divisions)}
+
+fig, ax = plt.subplots(figsize=(PAGE_W, 5.5))
+for div in divisions:
+    sub = plot_data[plot_data['division'] == div]
+    ax.scatter(sub.index, sub['yoy_change'], s=sub['weight'] * 200,
+               c=[div_colors[div]] * len(sub), alpha=0.65,
+               edgecolors='black', linewidths=0.3, label=div)
+
+ax.axhline(0, color='green', ls='--', lw=0.8, alpha=0.7)
+ax.axhline(2, color='orange', ls=':', lw=0.8, alpha=0.7)
+ax.axhline(4, color='red', ls=':', lw=0.8, alpha=0.7)
+ax.axhline(w_median, color='blue', lw=1.5, alpha=0.9, label=f'Weighted Median ({w_median:.2f}%)')
+ax.set_ylabel('YoY Inflation (%)')
+ax.set_xticks([])
+ax.set_title(f'Inflation Dispersion — Item Level — {latest_date.strftime("%B %Y")}\n(bubble size = CPI weight)',
+             fontsize=12, fontweight='bold')
+ax.legend(bbox_to_anchor=(1.01, 1), loc='upper left', fontsize=6, title='Division', title_fontsize=7)
+sns.despine(bottom=True)
+plt.tight_layout()
+plt.show()
+```
+
+\newpage
+
+## 4 — Division Contribution to Headline Inflation
+
+How much does each CPI division contribute to the headline YoY inflation rate?
+Contribution = Division YoY% × Division basket weight / Total basket weight.
+
+```{python}
+#| label: fig-waterfall
+#| fig-pos: 'H'
+
+# Build division weights by aggregating item-level weights
+item_div = if_df[
+    (if_df['state'] == 'All India') & (if_df['sector'] == 'Combined') &
+    (if_df['item'] != '*') & (if_df['date'] == latest_date)
+][['division', 'item']].drop_duplicates()
+item_div_w = item_div.merge(items_weights[['item', 'weight']], on='item', how='left')
+div_weights = item_div_w.groupby('division')['weight'].sum().reset_index()
+
+# Filter to actual consumption divisions (exclude derived aggregates)
+exclude_divs = [
+    'CPI (General)', 'Core CPI', 'Core (Ex Gold)', 'Core (Ex Gold and Silver)',
+    'CPI (Excluding Food and Beverages)', 'CPI (Ex Veggies and Cereals)',
+]
+wf = division_latest[~division_latest['division'].isin(exclude_divs)].copy()
+wf = wf[wf['yoy_change'].notna()]
+wf = wf.merge(div_weights, on='division', how='left')
+total_w = wf['weight'].sum()
+wf['contribution'] = wf['yoy_change'] * wf['weight'] / total_w
+wf = wf.sort_values('contribution', ascending=False).reset_index(drop=True)
+
+# Build waterfall coordinates
+cumulative = 0
+bottoms = []
+for c in wf['contribution']:
+    if c >= 0:
+        bottoms.append(cumulative)
+        cumulative += c
+    else:
+        cumulative += c
+        bottoms.append(cumulative)
+wf['bottom'] = bottoms
+headline_total = wf['contribution'].sum()
+
+# Plot
+fig, ax = plt.subplots(figsize=(PAGE_W, 5.5))
+
+colors = ['#DC143C' if c >= 0 else '#006400' for c in wf['contribution']]
+bars = ax.bar(range(len(wf)), wf['contribution'], bottom=wf['bottom'],
+              color=colors, edgecolor='black', linewidth=0.4, width=0.7)
+
+# Add headline total bar
+ax.bar(len(wf), headline_total, bottom=0, color='#2C3E50', edgecolor='black',
+       linewidth=0.4, width=0.7)
+
+# Connector lines between bars
+for i in range(len(wf) - 1):
+    top_i = wf['bottom'].iloc[i] + wf['contribution'].iloc[i]
+    ax.plot([i + 0.35, i + 0.65], [top_i, top_i], color='gray',
+            linewidth=0.6, ls='--')
+
+# Labels on bars
+for i, (_, row) in enumerate(wf.iterrows()):
+    val = row['contribution']
+    top = row['bottom'] + val
+    y_pos = top + 0.03 if val >= 0 else row['bottom'] - 0.03
+    va = 'bottom' if val >= 0 else 'top'
+    ax.text(i, y_pos, f'{val:+.2f}', ha='center', va=va, fontsize=6.5, fontweight='bold')
+
+# Total label
+ax.text(len(wf), headline_total + 0.05, f'{headline_total:.2f}%',
+        ha='center', va='bottom', fontsize=8, fontweight='bold', color='#2C3E50')
+
+# X-axis labels
+x_labels = list(wf['division'].str[:20]) + ['Headline\nCPI YoY']
+ax.set_xticks(range(len(x_labels)))
+ax.set_xticklabels(x_labels, rotation=45, ha='right', fontsize=7)
+ax.set_ylabel('Contribution to YoY Inflation (pp)')
+ax.set_title(f'Division Contribution to Headline CPI YoY — {latest_date.strftime("%B %Y")}',
+             fontsize=12, fontweight='bold')
+ax.axhline(0, color='grey', linewidth=0.6, ls='-')
+sns.despine()
+plt.tight_layout()
+plt.show()
+```
+
+\newpage
+
+## 5 — Top Contributors
+
+### Top 20 Inflation Drivers
+
+```{python}
+#| label: top-inflation
+dispersion_clean['contrib_score'] = dispersion_clean['yoy_change'] * dispersion_clean['weight']
+
+top20 = (
+    dispersion_clean.nlargest(20, 'contrib_score')
+    [['division', 'item', 'yoy_change', 'weight', 'contrib_score']]
+    .reset_index(drop=True)
+)
+top20.columns = ['Division', 'Item', 'YoY %', 'Weight', 'Score']
+top20['YoY %'] = top20['YoY %'].apply(lambda x: f'{x:.2f}')
+top20['Weight'] = top20['Weight'].apply(lambda x: f'{x:.4f}')
+top20['Score'] = top20['Score'].apply(lambda x: f'{x:.2f}')
+
+render_table(top20, 'Top 20 Inflation Drivers',
+             col_widths=[0.28, 0.30, 0.12, 0.12, 0.12], fontsize=7.5,
+             highlight_col='Score', highlight_cmap='Reds', highlight_vmin=0, highlight_vmax=50)
+```
+
+### Top 20 Deflation Drivers
+
+```{python}
+#| label: top-deflation
+bot20 = (
+    dispersion_clean.nsmallest(20, 'contrib_score')
+    [['division', 'item', 'yoy_change', 'weight', 'contrib_score']]
+    .reset_index(drop=True)
+)
+bot20.columns = ['Division', 'Item', 'YoY %', 'Weight', 'Score']
+bot20['YoY %'] = bot20['YoY %'].apply(lambda x: f'{x:.2f}')
+bot20['Weight'] = bot20['Weight'].apply(lambda x: f'{x:.4f}')
+bot20['Score'] = bot20['Score'].apply(lambda x: f'{x:.2f}')
+
+render_table(bot20, 'Top 20 Deflation Drivers',
+             col_widths=[0.28, 0.30, 0.12, 0.12, 0.12], fontsize=7.5,
+             highlight_col='Score', highlight_cmap='Greens_r', highlight_vmin=-25, highlight_vmax=0)
+```
+
+### Inflation vs Deflation — Top Drivers
+
+```{python}
+#| label: fig-contributors-bar
+#| fig-pos: 'H'
+top15 = dispersion_clean.nlargest(15, 'contrib_score')
+bot15 = dispersion_clean.nsmallest(15, 'contrib_score')
+combined = pd.concat([bot15, top15]).sort_values('contrib_score')
+
+colors_bar = [('#006400' if v < 0 else '#DC143C') for v in combined['contrib_score']]
+
+fig, ax = plt.subplots(figsize=(PAGE_W, PAGE_H))
+bars = ax.barh(combined['item'], combined['contrib_score'], color=colors_bar, edgecolor='black', linewidth=0.3)
+ax.axvline(0, color='grey', linewidth=0.8, linestyle='--')
+ax.set_xlabel('Contribution Score (YoY% x Weight)')
+ax.set_title(f'Top Inflation & Deflation Contributors — {latest_date.strftime("%B %Y")}',
+             fontsize=12, fontweight='bold')
+for bar, val in zip(bars, combined['contrib_score']):
+    offset = 0.3 if val >= 0 else -0.3
+    ha = 'left' if val >= 0 else 'right'
+    ax.text(val + offset, bar.get_y() + bar.get_height()/2,
+            f'{val:.1f}', va='center', ha=ha, fontsize=7)
+ax.margins(x=0.15)
+ax.tick_params(axis='y', labelsize=7)
+sns.despine(left=True)
+plt.tight_layout()
+plt.show()
+```
+
+\newpage
+
+## Methodology
+
+- **Data source:** CPI data from MoSPI, base year 2024.
+- **MoM Change:** Month-on-month percentage change in the CPI index.
+- **YoY Change:** Year-on-year percentage change (Jan 2026 vs Jan 2025).
+- **Contribution Score:** YoY inflation (%) x item weight in the CPI basket.
+- **Weighted Median / Mean:** Inflation statistics weighted by CPI basket shares.
